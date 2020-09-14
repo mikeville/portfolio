@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+
+.About {
+    background-color: black;
+    color: white;
+
+    .About__container {
+        @include contained;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+  }

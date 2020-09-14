@@ -4,3 +4,11 @@ $font-size--large: 48px;
 
 
 $breakpoint--mobile: 600px;
+
+
+@mixin contained {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1280px;
+  }
+  

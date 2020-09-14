@@ -3,11 +3,17 @@
 
 .Home {
 
-    .home__header {
-        font-size: $font-size--large;
+    .home__header-wrapper {
+        background-color: black;
+        color: white;
+        font-size: $font-size--regular;
         line-height: 1.166;
-        padding-top: 6rem;
         padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+
+    .home__header {
+        @include contained;
     }
 
     .home__header__title {

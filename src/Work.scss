@@ -1,0 +1,39 @@
+@import "variables.scss";
+
+
+.Work {
+
+    .cover__header {
+        @include contained;
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        padding: 20px 0;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .cover__header div {
+        flex-basis: 31%;
+    }
+
+    .cover__header__title {
+        font-weight: bold;
+    }
+
+    .cover__header__description {
+        text-align: center;
+    }
+
+    .cover__header__action {
+        text-align: right;
+    }
+
+
+    .cover__body {
+        @include contained;
+    }
+
+
+  }
