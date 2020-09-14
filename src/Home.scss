@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+
+.Home {
+
+    .home__header {
+        font-size: $font-size--large;
+        line-height: 1.166;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .home__header__title {
+        font-weight: 700;
+    }
+
+    .home__header__headline {
+        // font-weight: 500;
+    }
+
+
+  }

@@ -1,17 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link} from "react-router-dom";
-// import Nav from './Nav';
-// import About from './About';
+import ProjectListBig from './ProjectListBig';
+import About from './About';
 // import './Home.scss';
 
 
 function Home() {
   return (
     <div className="Home">
-        Homepage here
-        <div><Link to="/project1">Project 1</Link></div>
-        <div><Link to="/project1">Project 2</Link></div>
-        <div><Link to="/project1">Project 3</Link></div>
+      <div className="home__header contained">
+          <h2 className="home__header__title">Mike Deal</h2>
+          <h3 className="home__header__headline">
+          Design director for products and stories
+          </h3>
+      </div>
+      <ProjectListBig />
+      <About />
     </div>
   );
 }
