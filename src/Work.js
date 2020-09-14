@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
+import CoverCycler from './CoverCycler';
+// import './covercycle.js'
 import './Work.scss';
 
 
@@ -20,7 +22,8 @@ function Work() {
                     </div>
                 </div>
                 <div className="cover__body">
-                    {/* <img id="project-cover--vcb__image" src="images/vcb/cover/vcb-cover-1.png" alt="Verse Chorus Bridge cover"> */}
+                    {/* <img id="project-cover--vcb__image" src="images/vcb/cover/vcb-cover-1.png" alt="Verse Chorus Bridge cover"></img> */}
+                    <CoverCycler />
                 </div>
             </section>
         </div>

@@ -30,10 +30,14 @@
         text-align: right;
     }
 
-
     .cover__body {
         @include contained;
     }
 
+    .cover__body img {
+        object-fit: cover;
+        width: 100%;
+    }
+    
 
   }
