@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import './reset.css';
-import './App.css';
+import './App.scss';
 import Home from './Home';
 import Project1 from './Project1';
 import Project2 from './Project2';
