@@ -8,7 +8,7 @@ import './Work.scss';
 class Work extends React.Component {
 
     state = {
-        imageCycling: true,
+        imageCycling: false,
         vcbImageSources: [
             "images/vcb/cover/vcb-cover-1.png",
             "images/vcb/cover/vcb-cover-2.png",

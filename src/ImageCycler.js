@@ -9,6 +9,8 @@ class ImageCycler extends React.Component {
             imageSources: this.props.images,
             imageIndex: 0
         };
+        
+        this.cycleImages = this.cycleImages.bind(this);
     }
 
     componentDidMount() {
@@ -29,7 +31,7 @@ class ImageCycler extends React.Component {
             this.setState({ imageIndex : 0 })
         }
         this.setState({ imageIndex: this.state.imageIndex++ })
-        setTimeout(this.cycleImages.bind(this), 1000 * this.state.speed )
+        setTimeout(this.cycleImages, 1000 * this.state.speed )
     }
 }
 
