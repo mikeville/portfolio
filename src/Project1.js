@@ -1,10 +1,10 @@
 import React from 'react';
-// import ProjectHeader from './ProjectHeader';
+import ProjectHeader from './ProjectHeader';
 
 function Project1() {
     return (
       <div>
-        {/* <ProjectHeader /> */}
+        <ProjectHeader />
         <h2>You're on Project1</h2>
       </div>
     )

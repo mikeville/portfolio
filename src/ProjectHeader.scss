@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+.ProjectHeader {
+    @include contained;
+    display: grid;
+    grid-template-columns: auto auto; 
+    margin-top: 1rem;
+  
+    .header__home-link {
+  
+    }
+  
+    .header__about-links {
+      text-align: right;
+    }
+  
+  }
+  

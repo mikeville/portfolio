@@ -1,14 +1,14 @@
 import React from 'react';
-// import ProjectHeader from './ProjectHeader';
+import ProjectHeader from './ProjectHeader';
 
-function Project2() {
+function Project1() {
     return (
       <div>
-        {/* <ProjectHeader /> */}
-        <h2>You're on Project2</h2>
+        <ProjectHeader />
+        <h2>You're on Project twwoooo</h2>
       </div>
     )
   }
 
 
-export default Project2;
+export default Project1;
