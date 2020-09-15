@@ -4,21 +4,22 @@ import p5 from 'p5';
 class CoverWhales extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            testNumber: 1234
+        };
         this.myRef = React.createRef();
     }
 
     sketch = function(p) {
 
-        
-
-        const canvas = 540;
+        let canvasWidth = document.getElementById("testID").offsetWidth;
+        let canvas = canvasWidth;
         let eyelid1Pos;
         let eyelid2Pos;
         
         
         p.setup = function() {
-            console.log(p.containerWidth)
+            console.log(canvasWidth)
 
             p.noLoop();
             p.createCanvas(canvas, canvas);
@@ -50,6 +51,11 @@ class CoverWhales extends React.Component {
             p.setEyelidPos();
             p.redraw();
         }
+
+        p.windowResized = function() {
+            canvas = document.getElementById("testID").offsetWidth
+            p.resizeCanvas(canvas, canvas)
+        }
         
         p.draw = function() {
             p.background(80, 50, 80)
@@ -75,9 +81,6 @@ class CoverWhales extends React.Component {
 
     componentDidMount() {
         this.myP5 = new p5(this.sketch, this.myRef.current)
-
-        // console.log(this.myRef.current.offsetWidth)
-        this.myP5.containerWidth = this.myRef.current.offsetWidth;
     }
 
     render() {
