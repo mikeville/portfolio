@@ -76,7 +76,7 @@ class CoverWhales extends React.Component {
         return (
             <div className="CoverWhales">
                 <div className="cover__container">
-                    <div ref="{this.myRef}">
+                    <div id="testID" ref={this.myRef}>
 
                     </div>
                 </div>
