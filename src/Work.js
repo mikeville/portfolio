@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
-import CoverCycler from './ImageCycler';
+import ImageCycler from './ImageCycler';
+import CoverWhales from './CoverWhales';
 import './Work.scss';
 
 
@@ -38,7 +39,23 @@ class Work extends React.Component {
                     </div>
                 </div>
                 <div className="cover__body">
-                    <CoverCycler imageCycling={this.state.imageCycling} images={this.state.vcbImageSources} />
+                    <ImageCycler imageCycling={this.state.imageCycling} images={this.state.vcbImageSources} />
+                </div>
+            </section>
+            <section className="cover">
+                <div className="cover__header">
+                    <div className="cover__header__title">
+                        Whale Song Explained
+                    </div>
+                    <div className="cover__header__description">
+                        Art direction, animation
+                    </div>
+                    <div className="cover__header__action">
+                        See and hear
+                    </div>
+                </div>
+                <div className="cover__body">
+                    <CoverWhales />
                 </div>
             </section>
         </div>

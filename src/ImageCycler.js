@@ -1,3 +1,6 @@
+// To-dos:
+// Stop cycleImages() if component unmounts? Change to cycle via setInterval?
+
 import React from 'react';
 
 class ImageCycler extends React.Component {

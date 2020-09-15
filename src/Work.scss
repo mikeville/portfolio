@@ -2,13 +2,19 @@
 
 
 .Work {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+
+    .cover {
+        margin-bottom: 10rem;
+    }
 
     .cover__header {
         @include contained;
         display: flex;
         background-color: white;
         justify-content: space-between;
-        padding: 20px 0;
+        padding: 2rem 0;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
