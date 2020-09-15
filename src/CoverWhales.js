@@ -9,12 +9,17 @@ class CoverWhales extends React.Component {
     }
 
     sketch = function(p) {
+
+        
+
         const canvas = 540;
         let eyelid1Pos;
         let eyelid2Pos;
         
         
         p.setup = function() {
+            console.log(p.containerWidth)
+
             p.noLoop();
             p.createCanvas(canvas, canvas);
             p.colorMode(p.HSB, 100);
@@ -70,6 +75,9 @@ class CoverWhales extends React.Component {
 
     componentDidMount() {
         this.myP5 = new p5(this.sketch, this.myRef.current)
+
+        // console.log(this.myRef.current.offsetWidth)
+        this.myP5.containerWidth = this.myRef.current.offsetWidth;
     }
 
     render() {
