@@ -9,20 +9,35 @@
         margin-bottom: 10rem;
     }
 
+    .cover a {
+        text-decoration: none;
+        color: $color-text;
+    }
+
+    .cover a .cover__body:hover {
+        text-decoration: underline;
+    }
+
     .cover__header {
+        
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top: -1px;
+        z-index: 1;
+    }
+
+    .cover__header__inner-container {
         @include contained;
         display: flex;
-        background-color: white;
         justify-content: space-between;
         padding-bottom: 2rem;
         padding-top: 2rem;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
+  
     }
 
     .cover__header div {
-        flex-basis: 31%;
+        flex-basis: 50%;
     }
 
     .cover__header__title {
@@ -30,15 +45,11 @@
     }
 
     .cover__header__description {
-        text-align: center;
-    }
-
-    .cover__header__action {
         text-align: right;
     }
 
     .cover__body {
-        @include contained;
+        // @include contained;
     }
 
     .cover__body img {

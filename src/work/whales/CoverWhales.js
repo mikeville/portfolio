@@ -1,5 +1,6 @@
 import React from 'react';
 import p5 from 'p5';
+import './Whales.scss';
 
 class CoverWhales extends React.Component {
     constructor(props) {
@@ -86,10 +87,7 @@ class CoverWhales extends React.Component {
     render() {
         return (
             <div className="CoverWhales">
-                <div className="cover__container">
-                    <div id="testID" ref={this.myRef}>
-
-                    </div>
+                <div className="container-inner" id="testID" ref={this.myRef}>
                 </div>
             </div>
         );

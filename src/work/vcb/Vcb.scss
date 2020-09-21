@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.CoverVcb {
+
+    .container-inner {
+        @include contained;
+
+    }
+}
