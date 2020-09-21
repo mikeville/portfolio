@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectHeader from './ProjectHeader';
+import ProjectHeader from '../../ProjectHeader';
 
 function Project1() {
     return (

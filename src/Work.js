@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import ImageCycler from './ImageCycler';
-import CoverWhales from './CoverWhales';
+import CoverWhales from './work/whales/CoverWhales';
+import CoverPinterest from './work/pinterest/CoverPinterest';
 import './Work.scss';
 
 
@@ -37,7 +38,7 @@ class Work extends React.Component {
         <div className="Work">
             <div  onClick={this.handleTestClick}>tester</div>
             <section className="cover">
-                <Link to="/project1">
+                <Link to="/work/project1">
                     {/* <div className="cover__header cover__header--fixed-top"> */}
                     <div className="cover__header">
                         <div className="cover__header__title">
@@ -56,7 +57,7 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/project2">
+                <Link to="/work/project2">
                     <div className="cover__header">
                         <div className="cover__header__title">
                             Whale Song Explained
@@ -70,6 +71,24 @@ class Work extends React.Component {
                     </div>
                     <div className="cover__body">
                         <CoverWhales />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/project2">
+                    <div className="cover__header">
+                        <div className="cover__header__title">
+                            Pinterest branding
+                        </div>
+                        <div className="cover__header__description">
+                            Identity design
+                        </div>
+                        <div className="cover__header__action">
+                            More
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverPinterest />
                     </div>
                 </Link>
             </section>
