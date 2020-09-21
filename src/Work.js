@@ -25,7 +25,7 @@ class Work extends React.Component {
         <div className="Work">
             <div  onClick={this.handleTestClick}>tester</div>
             <section className="cover">
-                <Link to="/work/project1">
+                <Link to="/work/vcb/vcb">
                     {/* <div className="cover__header cover__header--fixed-top"> */}
                     <div className="cover__header">
                         <div className="cover__header__inner-container"> 
@@ -38,13 +38,12 @@ class Work extends React.Component {
                         </div>
                     </div>
                     <div className="cover__body">
-                        {/* <ImageCycler imageCycling={this.state.imageCycling} images={this.state.vcbImageSources} /> */}
                         <CoverVcb />
                     </div>
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/project2">
+                <Link to="/work/whales/whales">
                     <div className="cover__header">
                         <div className="cover__header__inner-container">
                             <div className="cover__header__title">
@@ -61,7 +60,7 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/project2">
+                <Link to="/work/pinterest/pinterest">
                     <div className="cover__header">
                         <div className="cover__header__inner-container">
                             <div className="cover__header__title">
