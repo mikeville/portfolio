@@ -2,6 +2,8 @@
 
 
 .About {
+
+    // General =================== 
     background-color: black;
     color: white;
 
@@ -21,7 +23,7 @@
     }
 
     .about__section {
-        margin-bottom: 100px;
+        margin-bottom: 4rem;
     }
 
     .about__section__title {
@@ -31,12 +33,31 @@
         border-bottom: 1px solid white;
     }
 
+
+    // Contact ===================
+
+    .contact-icon-container {
+        text-align: right;
+    }
+
+    .contact-icon {
+        display: inline;
+        background-color: white;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+
+    // Bio ===================
+
     .about__section--bio .about__section__content {
         // text-align: justify;
         font-size: $font-size--x-large;
         font-weight: 100;
         line-height: 1.15;
     }
+
+    // Services ===================
     
     .about__section--services .about__section__content {
         font-size: $font-size--large;
@@ -48,15 +69,17 @@
         margin-bottom: 0.66rem;
     }
 
+    // Clients ===================
+
     .about__section--clients .about__section__content {
-        // font-size: $font-size--large;
-        // font-weight: 100;
-        // line-height: 1.15;
+        line-height: 1.15;
     }
   
     .about__section--clients .about__section__content ul li{
         margin-bottom: 0.5rem;
     }
+
+    // Recognition ===================
 
     .about__section--recognition .about__section__content {
         font-size: $font-size--small;
@@ -70,26 +93,5 @@
         margin-bottom: 0.25rem;
     }
 
-    .contact-icon {
-        display: inline;
-        background-color: white;
-        height: 30px;
-        margin-left: 10px;
-    }
-
-
-    .column-container {
-        display: flex;
-    }
-
-    .column2 {
-        flex-basis: 50%;
-    }
-    .column2--right-align {
-        text-align: right;
-    }
-    .column4 {
-        flex-basis: 25%;
-    }
 
   }

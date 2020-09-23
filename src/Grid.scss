@@ -1,5 +1,6 @@
 @import "variables.scss";
 
+$gutter-size: 3%;
 
 // Flex approach ==================
 
@@ -14,35 +15,52 @@
 }
 
 @media only screen and (min-width: $breakpoint--mobile) {
+
     //2 columns
     .columns--2 {
-        margin-left: -1.33%;
+        margin-left: -$gutter-size;
     }
     
-    .columns--2 div {
-        width: 48.66%;
-        margin-left: 1.33%;
+    .columns--2 > div {
+        flex-basis: (100/2) - $gutter-size;
+        margin-left: $gutter-size;
     }
 
 
 
     // 3 columns
     .columns--3 {
-        margin-left: -1.33%;
+        margin-left: -$gutter-size;
     }
     
-    .columns--3 div {
-        width: 32%;
-        margin-left: 1.33%;
+    .columns--3 > div {
+        flex-basis: (100/3) - $gutter-size;
+        margin-left: $gutter-size;
     }
 
-    .columns--3--hero div:nth-child(1) {
-        width: 65.33%;
+        //needs fixing:
+        // .columns--3--hero > div:nth-child(1) {
+        //     flex-basis: 60% - $gutter-size;
+        // }
+        
+        // .columns--3--hero--right > div:nth-child(2) {
+        //     flex-basis: 60% - $gutter-size;
+        // }
+
+
+
+    // 4 columns
+    .columns--4 {
+        margin-left: -$gutter-size;
     }
     
-    .columns--3--hero--right div:nth-child(2) {
-        width: 65.33%;
+    .columns--4 > div {
+        flex-basis:  (100/4) - $gutter-size;
+        margin-left: $gutter-size;
     }
+
+
+    
 }
 
 

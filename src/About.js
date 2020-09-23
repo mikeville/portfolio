@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
+import './Grid.scss';
 import './About.scss';
 
 
@@ -16,11 +17,11 @@ function About() {
                     <div className="about__section__title">
                         Get in touch
                     </div>
-                    <div className="about__section__content column-container">
-                        <div className="column2">
+                    <div className="about__section__content columns columns--2">
+                        <div>
                             thedeal@gmail.com
                         </div>
-                        <div className="column2 column2--right-align">
+                        <div className="contact-icon-container">
                             <div className="contact-icon">
                                 x
                             </div>
@@ -45,8 +46,8 @@ function About() {
                     <div className="about__section__title">
                         Services
                     </div>
-                    <div className="about__section__content column-container">
-                        <div className="column2">
+                    <div className="about__section__content columns columns--2">
+                        <div>
                             <ul>
                                 <li>Creative direction</li>
                                 <li>UX and product design</li>
@@ -54,7 +55,7 @@ function About() {
                                 <li>Design systems</li>
                             </ul>
                         </div>
-                        <div className="column2">
+                        <div>
                             <ul>
                                 <li>Explainer videos</li>
                                 <li>Data visualization</li>
@@ -68,21 +69,33 @@ function About() {
                     <div className="about__section__title">
                         Clients
                     </div>
-                    <div className="about__section__content column-container">
-                        <div className="column2">
+                    <div className="about__section__content columns columns--4">
+                        <div>
                             <ul>
-                                <li>Creative direction</li>
-                                <li>UX and product design</li>
-                                <li>Prototyping</li>
-                                <li>Design systems</li>
+                                <li>Medium</li>
+                                <li>Google</li>
+                                <li>Pinterest</li>
                             </ul>
                         </div>
-                        <div className="column2">
+                        <div>
                             <ul>
-                                <li>Explainer videos</li>
-                                <li>Data visualization</li>
-                                <li>Infographics</li>
-                                <li>Content design</li>
+                                <li>Pentagram</li>
+                                <li>Universal Music</li>
+                                <li>Umbro</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Newsweek</li>
+                                <li>Businessweek</li>
+                                <li>Fast Company</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Vice</li>
+                                <li>Information Is Beautiful</li>
+                                <li>SuperRare</li>
                             </ul>
                         </div>
                     </div>
@@ -91,8 +104,8 @@ function About() {
                     <div className="about__section__title">
                         Recognition
                     </div>
-                    <div className="about__section__content column-container">
-                        <div className="column4">
+                    <div className="about__section__content columns columns--4">
+                        <div>
                             <ul>
                                 <li>Selected press for personal work</li>
                                 <li>New York Times</li>
@@ -106,7 +119,7 @@ function About() {
                                 <li>Brainpickings</li>
                             </ul>
                         </div>
-                        <div className="column4">
+                        <div>
                             <ul>
                                 <li>Exhibited</li>
                                 <li>Aquarium Tropical, Paris, Baleinopolis (2020)</li>
@@ -114,7 +127,7 @@ function About() {
                                 <li>AIGA Design Archives (2010)</li>
                             </ul>
                         </div>
-                        <div className="column4">
+                        <div>
                             <ul>
                                 <li>Awards</li>
                                 <li>(3x) Society for News Design 39 (2017)</li>
@@ -126,7 +139,7 @@ function About() {
                                 <li>AIGA 365: Design Effectiveness (2011)</li>
                             </ul>
                         </div>
-                        <div className="column4">
+                        <div>
                             <ul>
                                 <li>Speaking</li>
                                 <li>New York Creative Tech Week (2016)</li>
