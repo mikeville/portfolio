@@ -1,5 +1,6 @@
 import React from 'react';
 import './Beatles.scss';
+import coverImage from './media/beatles-cover-comp-200410-1958.gif' 
 
 
 class CoverBeatles extends React.Component {
@@ -12,7 +13,7 @@ class CoverBeatles extends React.Component {
         return (
             <div className="CoverBeatles">
                 <div className="container-inner">
-                    Beatles cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

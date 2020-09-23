@@ -1,5 +1,6 @@
 import React from 'react';
 import './Businessweek.scss';
+import coverImage from './media/businessweek-photo-comp.jpg' 
 
 
 class CoverBusinessweek extends React.Component {
@@ -12,7 +13,7 @@ class CoverBusinessweek extends React.Component {
         return (
             <div className="CoverBusinessweek">
                 <div className="container-inner">
-                Businessweek cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

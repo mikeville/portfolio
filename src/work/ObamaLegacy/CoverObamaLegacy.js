@@ -1,5 +1,6 @@
 import React from 'react';
 import './ObamaLegacy.scss';
+import coverImage from './media/obama-cover-master3--trimmed.gif' 
 
 
 class CoverObamaLegacy extends React.Component {
@@ -12,7 +13,7 @@ class CoverObamaLegacy extends React.Component {
         return (
             <div className="CoverProject">
                 <div className="container-inner">
-                ObamaLegacy covery
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

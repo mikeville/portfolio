@@ -1,5 +1,6 @@
 import React from 'react';
 import './Billboard.scss';
+import coverImage from './media/billboard-cover-181105-MegLAZ_123_RT--padding-p-1600.jpg' 
 
 
 class CoverBillboard extends React.Component {
@@ -12,7 +13,7 @@ class CoverBillboard extends React.Component {
         return (
             <div className="CoverBillboard">
                 <div className="container-inner">
-                Billboard cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

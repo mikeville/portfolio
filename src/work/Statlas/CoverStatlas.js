@@ -1,5 +1,6 @@
 import React from 'react';
 import './Statlas.scss';
+// import coverImage from './media/source' 
 
 
 class CoverStatlas extends React.Component {
@@ -12,7 +13,7 @@ class CoverStatlas extends React.Component {
         return (
             <div className="CoverStatlas">
                 <div className="container-inner">
-                    Statlas cover
+                    {/* <img src={coverImage}></img> */}
                 </div>
             </div>
         );

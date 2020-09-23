@@ -1,5 +1,6 @@
 import React from 'react';
 import './GoogleCreativeLab.scss';
+import coverImage from './media/google-mock-censored-comp-100405.jpg' 
 
 
 class CoverGoogleCreativeLab extends React.Component {
@@ -12,7 +13,7 @@ class CoverGoogleCreativeLab extends React.Component {
         return (
             <div className="CoverGoogleCreativeLab">
                 <div className="container-inner">
-                GoogleCreativeLab cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

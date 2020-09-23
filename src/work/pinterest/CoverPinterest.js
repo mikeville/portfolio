@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pinterest.scss';
-import pinterestCover from './media/pinterest-cover-181105-1814.png'
+import coverImage from './media/pinterest-cover-181105-1814.png' 
 
 
 class CoverPinterest extends React.Component {
@@ -13,7 +13,7 @@ class CoverPinterest extends React.Component {
         return (
             <div className="CoverPinterest">
                 <div className="container-inner">
-                    <img src={pinterestCover}></img>
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

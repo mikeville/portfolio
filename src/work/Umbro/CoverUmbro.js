@@ -1,5 +1,6 @@
 import React from 'react';
 import './Umbro.scss';
+import coverImage from './media/umbro-thumb-200403.svg'
 
 
 class CoverUmbro extends React.Component {
@@ -12,7 +13,7 @@ class CoverUmbro extends React.Component {
         return (
             <div className="CoverUmbro">
                 <div className="container-inner">
-                Umbro cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

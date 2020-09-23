@@ -1,5 +1,6 @@
 import React from 'react';
 import './BeautifulNews.scss';
+import coverImage from './media/BN-portfolio-cover-trans_rights-200705-1153.jpg' 
 
 
 class CoverBeautifulNews extends React.Component {
@@ -12,7 +13,7 @@ class CoverBeautifulNews extends React.Component {
         return (
             <div className="CoverBeautifulNews">
                 <div className="container-inner">
-                    Beauitful news cover
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

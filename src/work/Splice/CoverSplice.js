@@ -1,5 +1,6 @@
 import React from 'react';
 import './Splice.scss';
+import coverImage from './media/splice-mock-200406-1022.jpg' 
 
 
 class CoverSplice extends React.Component {
@@ -12,7 +13,7 @@ class CoverSplice extends React.Component {
         return (
             <div className="CoverProject">
                 <div className="container-inner">
-                Splice text
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );

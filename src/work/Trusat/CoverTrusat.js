@@ -1,5 +1,6 @@
 import React from 'react';
 import './Trusat.scss';
+import coverImage from './media/trusat-concept-phone-3up-200508-1243.jpg' 
 
 
 class CoverTrusat extends React.Component {
@@ -12,7 +13,7 @@ class CoverTrusat extends React.Component {
         return (
             <div className="CoverTrusat">
                 <div className="container-inner">
-                    TruSat cover test
+                    <img src={coverImage}></img>
                 </div>
             </div>
         );
