@@ -1,21 +1,50 @@
 @import "variables.scss";
 
 
-// Grid approach ==================
+// Flex approach ==================
 
 .columns {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 32% 32% 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.columns--3--hero div:nth-child(1) {
-    grid-column-end: span 2;
+.columns--nowrap {
+    flex-wrap: nowrap;
 }
-.columns--3--hero--right div:nth-child(2) {
-    grid-column-end: span 2;
+
+@media only screen and (min-width: $breakpoint--mobile) {
+    .columns {
+        margin-left: -1.333%;
+    }
+    
+    .columns div {
+        width: 32%;
+        margin-left: 1.333%;
+    }
+    
+    .columns--3--hero div:nth-child(1) {
+        width: 65.333%;
+    }
+    
+    .columns--3--hero--right div:nth-child(2) {
+        width: 65.333%;
+    }
 }
 
 
-// Flex approach ==================
+// Grid approach ==================
+
+// .columns {
+//     display: grid;
+//     justify-content: space-between;
+//     grid-template-columns: 32% 32% 32%;
+// }
+
+// .columns--3--hero div:nth-child(1) {
+//     grid-column-end: span 2;
+// }
+// .columns--3--hero--right div:nth-child(2) {
+//     grid-column-end: span 2;
+// }
 

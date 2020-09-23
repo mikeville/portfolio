@@ -27,6 +27,12 @@ class CoverRapmatics extends React.Component {
                         <div>
                         <img src={coverImage3}></img>
                         </div>
+                        <div>
+                        <img src={coverImage2}></img>
+                        </div>
+                        <div>
+                        <img src={coverImage3}></img>
+                        </div>
                     </div>
                     <div className="columns columns--3--hero--right">
                         <div>
