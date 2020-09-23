@@ -38,7 +38,6 @@ class Work extends React.Component {
     render() {
     return (
         <div className="Work">
-            <div  onClick={this.handleTestClick}>tester</div>
             <section className="cover">
                 <Link to="/work/vcb/vcb">
                     <div className="cover__header">

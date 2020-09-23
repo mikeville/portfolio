@@ -2,6 +2,8 @@ import React from 'react';
 import Work from './Work';
 import About from './About';
 import './Home.scss';
+import homeHeaderImage from './media-global/mikemake-logo-181102-2208--squishy_600px.gif' 
+
 
 
 function Home() {
@@ -9,9 +11,11 @@ function Home() {
     <div className="Home">
       <div className="home__header-wrapper">
         <div className="home__header">
-          <h2 className="home__header__title">Mike Deal</h2>
-          <h3 className="home__header__headline">
-          Design director for products and stories
+          <h1>
+            <img className="home__header__img" src={homeHeaderImage}></img>
+          </h1>
+          <h3>
+            Design director for products and stories
           </h3>
         </div>
       </div>
