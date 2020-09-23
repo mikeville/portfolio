@@ -5,10 +5,91 @@
     background-color: black;
     color: white;
 
-    .About__container {
+    a {
+        color: white;
+    }
+
+    .about__container {
         @include contained;
         padding-bottom: 2rem;
         padding-top: 2rem;
+    }
+
+    .about__header {
+        text-align: right;
+        padding: 20px 0 40px;;
+    }
+
+    .about__section {
+        margin-bottom: 100px;
+    }
+
+    .about__section__title {
+        font-weight: bold;
+        padding-bottom: 0.66rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid white;
+    }
+
+    .about__section--bio .about__section__content {
+        // text-align: justify;
+        font-size: $font-size--x-large;
+        font-weight: 100;
+        line-height: 1.15;
+    }
+    
+    .about__section--services .about__section__content {
+        font-size: $font-size--large;
+        font-weight: 100;
+        line-height: 1.15;
+    }
+  
+    .about__section--services .about__section__content ul li{
+        margin-bottom: 0.66rem;
+    }
+
+    .about__section--clients .about__section__content {
+        // font-size: $font-size--large;
+        // font-weight: 100;
+        // line-height: 1.15;
+    }
+  
+    .about__section--clients .about__section__content ul li{
+        margin-bottom: 0.5rem;
+    }
+
+    .about__section--recognition .about__section__content {
+        font-size: $font-size--small;
+    }
+
+    .about__section--recognition .about__section__content ul li:first-child {
+        font-weight: bold;
+    }
+
+    .about__section--recognition .about__section__content ul li {
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-icon {
+        display: inline;
+        background-color: white;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+
+    .column-container {
+        display: flex;
+    }
+
+    .column2 {
+        flex-basis: 50%;
+    }
+    .column2--right-align {
+        text-align: right;
+    }
+    .column4 {
+        flex-basis: 25%;
     }
 
   }
