@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+
+// Grid approach ==================
+
+.columns {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 32% 32% 32%;
+}
+
+.columns--3--hero div:nth-child(1) {
+    grid-column-end: span 2;
+}
+.columns--3--hero--right div:nth-child(2) {
+    grid-column-end: span 2;
+}
+
+
+// Flex approach ==================
+

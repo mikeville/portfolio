@@ -89,6 +89,23 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
+                <Link to="/work/pinterest/pinterest">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                                Pinterest branding
+                            </div>
+                            <div className="cover__header__description">
+                                Identity design
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverPinterest />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
                 <Link to="/work/vicenews/vicenews">
                     <div className="cover__header">
                         <div className="cover__header__inner-container"> 
@@ -136,23 +153,6 @@ class Work extends React.Component {
                     </div>
                     <div className="cover__body">
                         <CoverWhales />
-                    </div>
-                </Link>
-            </section>
-            <section className="cover">
-                <Link to="/work/pinterest/pinterest">
-                    <div className="cover__header">
-                        <div className="cover__header__inner-container">
-                            <div className="cover__header__title">
-                                Pinterest branding
-                            </div>
-                            <div className="cover__header__description">
-                                Identity design
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cover__body">
-                        <CoverPinterest />
                     </div>
                 </Link>
             </section>
