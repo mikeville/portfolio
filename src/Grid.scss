@@ -14,21 +14,34 @@
 }
 
 @media only screen and (min-width: $breakpoint--mobile) {
-    .columns {
-        margin-left: -1.333%;
+    //2 columns
+    .columns--2 {
+        margin-left: -1.33%;
     }
     
-    .columns div {
+    .columns--2 div {
+        width: 48.66%;
+        margin-left: 1.33%;
+    }
+
+
+
+    // 3 columns
+    .columns--3 {
+        margin-left: -1.33%;
+    }
+    
+    .columns--3 div {
         width: 32%;
-        margin-left: 1.333%;
+        margin-left: 1.33%;
     }
-    
+
     .columns--3--hero div:nth-child(1) {
-        width: 65.333%;
+        width: 65.33%;
     }
     
     .columns--3--hero--right div:nth-child(2) {
-        width: 65.333%;
+        width: 65.33%;
     }
 }
 

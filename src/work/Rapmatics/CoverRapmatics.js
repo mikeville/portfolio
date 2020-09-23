@@ -19,27 +19,13 @@ class CoverRapmatics extends React.Component {
                 <div className="container-inner">
                     <div className="columns columns--3">
                         <div>
-                        <img src={coverImage1}></img>
+                            <img src={coverImage1}></img>
                         </div>
-                        <div>
-                        <img src={coverImage2}></img>
+                        <div className="hide-on-mobile">
+                            <img src={coverImage2}></img>
                         </div>
-                        <div>
-                        <img src={coverImage3}></img>
-                        </div>
-                        <div>
-                        <img src={coverImage2}></img>
-                        </div>
-                        <div>
-                        <img src={coverImage3}></img>
-                        </div>
-                    </div>
-                    <div className="columns columns--3--hero--right">
-                        <div>
-                        <img src={coverImage1}></img>
-                        </div>
-                        <div>
-                        <img src={coverImage3}></img>
+                        <div className="hide-on-mobile">
+                            <img src={coverImage3}></img>
                         </div>
                     </div>
                 </div>
