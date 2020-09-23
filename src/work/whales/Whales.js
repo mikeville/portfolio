@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectHeader from '../../ProjectHeader';
 
-function Project1() {
+function Whales() {
     return (
       <div>
         <ProjectHeader />
@@ -11,4 +11,4 @@ function Project1() {
   }
 
 
-export default Project1;
+export default Whales;

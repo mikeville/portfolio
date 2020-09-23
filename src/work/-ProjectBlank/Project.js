@@ -1,14 +1,15 @@
 import React from 'react';
 import ProjectHeader from '../../ProjectHeader';
+import './Project.scss';
 
-function Vcb() {
+function Project() {
     return (
       <div>
         <ProjectHeader />
-        <h2>You're on Project1</h2>
+        <h2>You're on Project</h2>
       </div>
     )
   }
 
 
-export default Vcb;
+export default Project;

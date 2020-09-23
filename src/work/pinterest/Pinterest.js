@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectHeader from '../../ProjectHeader';
 
-function Project3() {
+function Project() {
     return (
       <div>
         <ProjectHeader />
@@ -11,4 +11,4 @@ function Project3() {
   }
 
 
-export default Project3;
+export default Project;
