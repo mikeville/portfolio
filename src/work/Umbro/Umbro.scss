@@ -1,0 +1,7 @@
+@import "../../variables.scss";
+
+.CoverUmbro {
+    .container-inner {
+        @include contained;
+    }
+}

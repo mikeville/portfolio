@@ -1,8 +1,8 @@
 import React from 'react';
-import './Project.scss';
+import './Businessweek.scss';
 
 
-class CoverProject extends React.Component {
+class CoverBusinessweek extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -10,13 +10,13 @@ class CoverProject extends React.Component {
 
     render() {
         return (
-            <div className="CoverProject">
+            <div className="CoverBusinessweek">
                 <div className="container-inner">
-                    Project cover
+                Businessweek cover
                 </div>
             </div>
         );
     };
 }
 
-export default CoverProject;
+export default CoverBusinessweek;

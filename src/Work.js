@@ -8,6 +8,14 @@ import CoverSplice from './work/Splice/CoverSplice';
 import CoverWhales from './work/Whales/CoverWhales';
 import CoverPinterest from './work/Pinterest/CoverPinterest';
 import CoverRapmatics from './work/Rapmatics/CoverRapmatics';
+import CoverPollen from './work/Pollen/CoverPollen';
+import CoverObamaLegacy from './work/ObamaLegacy/CoverObamaLegacy';
+import CoverStatlas from './work/Statlas/CoverStatlas';
+import CoverBeatles from './work/Beatles/CoverBeatles';
+import CoverBillboard from './work/Billboard/CoverBillboard';
+import CoverUmbro from './work/Umbro/CoverUmbro';
+import CoverGoogleCreativeLab from './work/GoogleCreativeLab/CoverGoogleCreativeLab';
+import CoverBusinessweek from './work/Businessweek/CoverBusinessweek';
 import './Work.scss';
 
 
@@ -162,6 +170,142 @@ class Work extends React.Component {
                     </div>
                     <div className="cover__body">
                         <CoverRapmatics />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/pollen/pollen">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                                Pollen
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverPollen />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/obamalegacy/obamalegacy">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                                ObamaLegacy
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverObamaLegacy />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/statlas/statlas">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            Statlas
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverStatlas />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/beatles/beatles">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            Beatles
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverBeatles />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/billboard/billboard">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            Billboard
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverBillboard />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/umbro/umbro">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            Umbro
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverUmbro />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/googlecreativelab/googlecreativelab">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            GoogleCreativeLab
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverGoogleCreativeLab />
+                    </div>
+                </Link>
+            </section>
+            <section className="cover">
+                <Link to="/work/businessweek/businessweek">
+                    <div className="cover__header">
+                        <div className="cover__header__inner-container">
+                            <div className="cover__header__title">
+                            Businessweek
+                            </div>
+                            <div className="cover__header__description">
+                                Role
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cover__body">
+                        <CoverBusinessweek />
                     </div>
                 </Link>
             </section>

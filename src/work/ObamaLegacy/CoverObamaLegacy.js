@@ -1,8 +1,8 @@
 import React from 'react';
-import './Project.scss';
+import './ObamaLegacy.scss';
 
 
-class CoverProject extends React.Component {
+class CoverObamaLegacy extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -12,11 +12,11 @@ class CoverProject extends React.Component {
         return (
             <div className="CoverProject">
                 <div className="container-inner">
-                    Project cover
+                ObamaLegacy covery
                 </div>
             </div>
         );
     };
 }
 
-export default CoverProject;
+export default CoverObamaLegacy;

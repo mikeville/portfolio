@@ -1,8 +1,8 @@
 import React from 'react';
-import './Project.scss';
+import './GoogleCreativeLab.scss';
 
 
-class CoverProject extends React.Component {
+class CoverGoogleCreativeLab extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -10,13 +10,13 @@ class CoverProject extends React.Component {
 
     render() {
         return (
-            <div className="CoverProject">
+            <div className="CoverGoogleCreativeLab">
                 <div className="container-inner">
-                    Project cover
+                GoogleCreativeLab cover
                 </div>
             </div>
         );
     };
 }
 
-export default CoverProject;
+export default CoverGoogleCreativeLab;

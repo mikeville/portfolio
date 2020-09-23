@@ -11,6 +11,14 @@ import Pinterest from './work/Pinterest/Pinterest';
 import Splice from './work/Splice/Splice';
 import Whales from './work/Whales/Whales';
 import Rapmatics from './work/Rapmatics/Rapmatics';
+import Pollen from './work/Pollen/Pollen';
+import ObamaLegacy from './work/ObamaLegacy/ObamaLegacy';
+import Statlas from './work/Statlas/Statlas';
+import Beatles from './work/Beatles/Beatles';
+import Billboard from './work/Billboard/Billboard';
+import Umbro from './work/Umbro/Umbro';
+import GoogleCreativeLab from './work/GoogleCreativeLab/GoogleCreativeLab';
+import Businessweek from './work/Businessweek/Businessweek';
 
 
 function App() {
@@ -25,6 +33,14 @@ function App() {
       <Route path="/work/splice/splice"> <Splice /> </Route>
       <Route path="/work/whales/whales"> <Whales /> </Route>
       <Route path="/work/rapmatics/rapmatics"> <Rapmatics /> </Route>
+      <Route path="/work/pollen/pollen"> <Pollen /> </Route>
+      <Route path="/work/obamalegacy/obamalegacy"> <ObamaLegacy /> </Route>
+      <Route path="/work/statlas/statlas"> <Statlas /> </Route>
+      <Route path="/work/beatles/beatles"> <Beatles /> </Route>
+      <Route path="/work/billboard/billboard"> <Billboard /> </Route>
+      <Route path="/work/umbro/umbro"> <Umbro /> </Route>
+      <Route path="/work/googlecreativelab/googlecreativelab"> <GoogleCreativeLab /> </Route>
+      <Route path="/work/businessweek/businessweek"> <Businessweek /> </Route>
 
     </Router>
   );

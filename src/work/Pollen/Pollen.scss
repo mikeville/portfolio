@@ -1,0 +1,7 @@
+@import "../../variables.scss";
+
+.CoverPollen {
+    .container-inner {
+        @include contained;
+    }
+}
