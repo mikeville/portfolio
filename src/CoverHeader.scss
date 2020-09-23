@@ -1,0 +1,26 @@
+@import "variables.scss";
+
+.CoverHeader {
+
+    .cover__header__inner-container {
+        @include contained;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .cover__header div {
+        flex-basis: 50%;
+    }
+
+    .cover__header__title {
+        font-weight: bold;
+    }
+
+    .cover__header__description {
+        text-align: right;
+    }
+  
+}
+  
