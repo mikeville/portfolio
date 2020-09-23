@@ -1,6 +1,6 @@
 import React from 'react';
 import './Whales.scss';
-import coverImage from './media/whales-cover-200405-1931--full.svg' 
+import coverImage from './media/whales-cover-200405-1931--full--duller_highlights.svg' 
 
 
 class CoverWhales extends React.Component {

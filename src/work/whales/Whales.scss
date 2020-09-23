@@ -1,9 +1,12 @@
 @import "../../variables.scss";
 
 .CoverWhales {
+    background-color: #0F1629;
 
     .container-inner {
         @include contained;
-
+        padding: 3rem 0;
     }
+
+
 }
