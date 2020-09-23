@@ -1,7 +1,11 @@
 @import "../../variables.scss";
 
 .CoverUmbro {
+    background-color: #FFF5E3;
+
     .container-inner {
         @include contained;
+        padding: 2rem 0;
     }
 }
+

@@ -1,7 +1,17 @@
 @import "../../variables.scss";
 
 .CoverBeatles {
+    background-color: #1E1E1A;
+
     .container-inner {
         @include contained;
+        padding: 2rem 0;
+        max-height: 600px;
+        height: 100%;
+    }
+
+    .container-inner img {
+        max-height: 600px;
+        object-fit: contain;
     }
 }
