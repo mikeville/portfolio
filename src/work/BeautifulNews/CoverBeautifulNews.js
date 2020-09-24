@@ -12,7 +12,7 @@ class CoverBeautifulNews extends React.Component {
     render() {
         return (
             <div className="CoverBeautifulNews">
-                <div className="container-inner">
+                <div className="contained">
                     <img src={coverImage}></img>
                 </div>
             </div>

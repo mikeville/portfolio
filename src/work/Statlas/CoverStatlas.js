@@ -12,7 +12,7 @@ class CoverStatlas extends React.Component {
     render() {
         return (
             <div className="CoverStatlas">
-                <div className="container-inner">
+                <div className="contained">
                     <img src={coverImage}></img>
                 </div>
             </div>

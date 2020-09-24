@@ -16,7 +16,7 @@ class CoverRapmatics extends React.Component {
     render() {
         return (
             <div className="CoverRapmatics">
-                <div className="container-inner">
+                <div className="contained">
                     <div className="columns columns--3">
                         <div>
                             <img src={coverImage1}></img>

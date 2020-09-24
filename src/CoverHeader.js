@@ -16,7 +16,7 @@ class CoverHeader extends React.Component {
 
         return (
             <div className="CoverHeader">
-                <div className="cover__header__inner-container"> 
+                <div className="contained cover__header__inner-container"> 
                     <div className="cover__header__title">
                         {projectName}
                     </div>

@@ -12,8 +12,8 @@ class CoverPollen extends React.Component {
 
     render() {
         return (
-            <div className="CoverProject">
-                <div className="container-inner">
+            <div className="CoverPollen">
+                <div className="contained">
                     <div className="columns columns--2">
                         <div>
                             <img src={coverImage1}></img>

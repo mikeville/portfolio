@@ -4,10 +4,10 @@ import '../../Project.scss';
 
 function Businessweek() {
     return (
-      <div className="Businessweek">
+      <div className="Project Businessweek">
         <ProjectHeader />
-        <div className="container-inner">
-          <h1 className="project__header">Businessweek</h1>
+        <div className="contained">
+          <h1 className="project__title">Businessweek</h1>
         </div>
       </div>
     )

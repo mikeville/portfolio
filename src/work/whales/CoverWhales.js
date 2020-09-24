@@ -12,7 +12,7 @@ class CoverWhales extends React.Component {
     render() {
         return (
             <div className="CoverWhales">
-                <div className="container-inner">
+                <div className="contained">
                     <img src={coverImage}></img>
                 </div>
             </div>
