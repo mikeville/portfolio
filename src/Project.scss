@@ -1,0 +1,12 @@
+@import "variables.scss";
+
+.Project {
+    .container-inner {
+        @include contained;
+        // padding-top: 4rem;
+    }
+
+    .project__header {
+        font-size: $font-size--x-large;
+    }
+}

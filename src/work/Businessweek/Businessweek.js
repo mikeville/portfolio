@@ -1,12 +1,14 @@
 import React from 'react';
 import ProjectHeader from '../../ProjectHeader';
-import './Businessweek.scss';
+import '../../Project.scss';
 
 function Businessweek() {
     return (
-      <div>
+      <div className="Businessweek">
         <ProjectHeader />
-        <h2>You're on Businessweek</h2>
+        <div className="container-inner">
+          <h1 className="project__header">Businessweek</h1>
+        </div>
       </div>
     )
   }

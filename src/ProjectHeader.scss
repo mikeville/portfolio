@@ -1,10 +1,12 @@
 @import "variables.scss";
 
 .ProjectHeader {
-    @include contained;
-    display: grid;
-    grid-template-columns: auto auto; 
-    margin-top: 1rem;
+    // padding-top: 1rem;
+    // padding-bottom: 1rem;
+    background-color: red;
+
+    .container-inner {
+    }
   
     .header__home-link {
   

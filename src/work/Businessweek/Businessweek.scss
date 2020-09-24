@@ -5,3 +5,9 @@
         @include contained;
     }
 }
+
+.Businessweek {
+    .container-inner {
+        @include contained;
+    }
+}
