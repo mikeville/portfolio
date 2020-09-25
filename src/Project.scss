@@ -5,6 +5,14 @@
         margin-top: 4rem;
     }
 
+    section {
+        margin-bottom: 5rem;
+    }
+
+    img {
+        margin-bottom: 1rem;
+    }
+
     .project__title {
         font-size: $font-size--xxx-large;
         font-weight: bold;
@@ -27,6 +35,10 @@
         font-size: $font-size--small;
     }
 
+    .note p {
+        margin-bottom: $font-size--small;
+    }
+
     .note__title {
         font-weight: bold;
         margin-bottom: 0.25rem;
@@ -34,5 +46,11 @@
 
     .credit-list > li {
         margin-bottom: 0.25rem;
+    }
+
+    .project__section-title {
+        font-size: $font-size--large;
+        font-weight: bold;
+        margin-bottom: 1rem;
     }
 }

@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+.ProjectFooter {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    background-color: $color--text;
+    color: $color--background;
+
+    font-size: $font-size--large;
+
+    a {
+        color: $color--background;
+    }
+
+    a:hover {
+        color: $color--highlight;
+    }
+
+  }
+  
