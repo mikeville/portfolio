@@ -36,7 +36,9 @@ $gutter-size: 3%;
 
 
     // 3 columns
-    .columns--3 {
+    .columns--3,
+    .columns--3--hero,
+    .columns--3--hero--right {
         margin-left: -$gutter-size;
     }
     
@@ -46,13 +48,24 @@ $gutter-size: 3%;
     }
 
         //needs fixing:
-        // .columns--3--hero > div:nth-child(1) {
-        //     flex-basis: 60% - $gutter-size;
-        // }
+        .columns--3--hero > div:nth-child(1) {
+            flex-basis: (100/3*2) - $gutter-size;
+            margin-left: $gutter-size;
+        }
+        .columns--3--hero > div:nth-child(2) {
+            flex-basis: (100/3) - $gutter-size;
+            margin-left: $gutter-size;
+        }
         
-        // .columns--3--hero--right > div:nth-child(2) {
-        //     flex-basis: 60% - $gutter-size;
-        // }
+        .columns--3--hero--right > div:nth-child(1) {
+            flex-basis: (100/3) - $gutter-size;
+            margin-left: $gutter-size;
+        }
+        
+        .columns--3--hero--right > div:nth-child(2) {
+            flex-basis: (100/3*2) - $gutter-size;
+            margin-left: $gutter-size;
+        }
 
 
 
