@@ -11,28 +11,19 @@
 
     a:hover {
         color: $color--text;
+        // text-decoration: underline;
     }
 
     .cover {
         margin-bottom: 8rem;
     }
 
-    .cover a .cover__body:hover {
-        text-decoration: underline;
-    }
-
     .cover__header {
-        
         background-color: white;
         position: -webkit-sticky;
         position: sticky;
         top: -1px;
         z-index: 1;
-    }
-
-    .cover__body img {
-        object-fit: cover;
-        width: 100%;
     }
 
     .cover__header--fixed-top {

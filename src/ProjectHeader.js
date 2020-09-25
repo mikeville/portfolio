@@ -6,7 +6,7 @@ import './ProjectHeader.scss';
 function ProjectHeader() {
     return (
       <div className="ProjectHeader">
-        <div className="contained grid">
+        <div className="grid contained">
             <div className="span-6 header__home-link">
               <Link to="/">Mike Deal</Link>
             </div>

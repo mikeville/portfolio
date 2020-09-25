@@ -43,19 +43,15 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Verse Chorus Bridge" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverVcb />
-                    </div>
+                    <CoverVcb />
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/vcb/vcb">
+                <Link to="/work/trusat/trusat">
                     <div className="cover__header">
                         <CoverHeader project="TruSat" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverTrusat />
-                    </div>
+                    <CoverTrusat />
                 </Link>
             </section>
             <section className="cover">
@@ -63,9 +59,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Beautiful News" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverBeautifulNews />
-                    </div>
+                    <CoverBeautifulNews />
                 </Link>
             </section>
             <section className="cover">
@@ -73,9 +67,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Pinterest Identity" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverPinterest />
-                    </div>
+                    <CoverPinterest />
                 </Link>
             </section>
             <section className="cover">
@@ -83,9 +75,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Vice News" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverViceNews />
-                    </div>
+                    <CoverViceNews />
                 </Link>
             </section>
             <section className="cover">
@@ -93,9 +83,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Splice" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverSplice />
-                    </div>
+                    <CoverSplice />
                 </Link>
             </section>
             <section className="cover">
@@ -103,9 +91,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Whale Song Explained" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverWhales />
-                    </div>
+                    <CoverWhales />
                 </Link>
             </section>
             <section className="cover">
@@ -113,9 +99,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Rapmatics" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverRapmatics />
-                    </div>
+                    <CoverRapmatics />
                 </Link>
             </section>
             <section className="cover">
@@ -123,9 +107,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Pollen" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverPollen />
-                    </div>
+                    <CoverPollen />
                 </Link>
             </section>
             <section className="cover">
@@ -133,9 +115,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Obama's Legacy" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverObamaLegacy />
-                    </div>
+                    <CoverObamaLegacy />
                 </Link>
             </section>
             <section className="cover">
@@ -143,9 +123,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Statlas" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverStatlas />
-                    </div>
+                    <CoverStatlas />
                 </Link>
             </section>
             <section className="cover">
@@ -153,9 +131,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Charting the Beatles" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverBeatles />
-                    </div>
+                    <CoverBeatles />
                 </Link>
             </section>
             <section className="cover">
@@ -163,9 +139,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Billboard Redesign" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverBillboard />
-                    </div>
+                    <CoverBillboard />
                 </Link>
             </section>
             <section className="cover">
@@ -173,9 +147,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Umbro" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverUmbro />
-                    </div>
+                    <CoverUmbro />
                 </Link>
             </section>
             <section className="cover">
@@ -183,9 +155,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Google Creative Lab" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverGoogleCreativeLab />
-                    </div>
+                    <CoverGoogleCreativeLab />
                 </Link>
             </section>
             <section className="cover">
@@ -193,9 +163,7 @@ class Work extends React.Component {
                     <div className="cover__header">
                         <CoverHeader project="Businessweek" role="Role goes heeeere" />
                     </div>
-                    <div className="cover__body">
-                        <CoverBusinessweek />
-                    </div>
+                    <CoverBusinessweek />
                 </Link>
             </section>
         </div>
