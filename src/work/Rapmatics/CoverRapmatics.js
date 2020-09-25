@@ -17,14 +17,14 @@ class CoverRapmatics extends React.Component {
         return (
             <div className="CoverRapmatics">
                 <div className="contained">
-                    <div className="columns columns--3">
-                        <div>
+                    <div className="grid">
+                        <div className="span-4 ">
                             <img src={coverImage1}></img>
                         </div>
-                        <div className="hide-on-mobile">
+                        <div className="span-4 hide-on-mobile">
                             <img src={coverImage2}></img>
                         </div>
-                        <div className="hide-on-mobile">
+                        <div className="span-4 hide-on-mobile">
                             <img src={coverImage3}></img>
                         </div>
                     </div>

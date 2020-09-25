@@ -23,79 +23,30 @@ $gutter-size: 3%;
 
 @media only screen and (min-width: $breakpoint--mobile) {
 
-    //2 columns
-    .columns--2 {
-        margin-left: -$gutter-size;
+    .grid {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(12, (100/12) - $gutter-size);
     }
     
-    .columns--2 > div {
-        flex-basis: (100/2) - $gutter-size;
-        margin-left: $gutter-size;
-    }
-
-
-
-    // 3 columns
-    .columns--3,
-    .columns--3--hero,
-    .columns--3--hero--right {
-        margin-left: -$gutter-size;
+    .grid > div {
+        // debugging:
+        // background-color: peachpuff;
     }
     
-    .columns--3 > div {
-        flex-basis: (100/3) - $gutter-size;
-        margin-left: $gutter-size;
-    }
-
-        //needs fixing:
-        .columns--3--hero > div:nth-child(1) {
-            flex-basis: (100/3*2) - $gutter-size;
-            margin-left: $gutter-size;
-        }
-        .columns--3--hero > div:nth-child(2) {
-            flex-basis: (100/3) - $gutter-size;
-            margin-left: $gutter-size;
-        }
-        
-        .columns--3--hero--right > div:nth-child(1) {
-            flex-basis: (100/3) - $gutter-size;
-            margin-left: $gutter-size;
-        }
-        
-        .columns--3--hero--right > div:nth-child(2) {
-            flex-basis: (100/3*2) - $gutter-size;
-            margin-left: $gutter-size;
-        }
-
-
-
-    // 4 columns
-    .columns--4 {
-        margin-left: -$gutter-size;
-    }
-    
-    .columns--4 > div {
-        flex-basis:  (100/4) - $gutter-size;
-        margin-left: $gutter-size;
-    }
-
-
+    .span-1 { grid-column-end: span 1; }
+    .span-2 { grid-column-end: span 2; }
+    .span-3 { grid-column-end: span 3; }
+    .span-4 { grid-column-end: span 4; }
+    .span-5 { grid-column-end: span 5; }
+    .span-6 { grid-column-end: span 6; }
+    .span-7 { grid-column-end: span 7; }
+    .span-8 { grid-column-end: span 8; }
+    .span-9 { grid-column-end: span 9; }
+    .span-10 { grid-column-end: span 10; }
+    .span-11 { grid-column-end: span 11; }
+    .span-12 { grid-column-end: span 12; }
     
 }
 
-
-// Grid approach ==================
-
-// .columns {
-//     display: grid;
-//     justify-content: space-between;
-//     grid-template-columns: 32% 32% 32%;
-// }
-
-// .columns--3--hero div:nth-child(1) {
-//     grid-column-end: span 2;
-// }
-// .columns--3--hero--right div:nth-child(2) {
-//     grid-column-end: span 2;
-// }
 

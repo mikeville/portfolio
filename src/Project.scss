@@ -7,6 +7,7 @@
 
     .project__title {
         font-size: $font-size--xxx-large;
+        font-weight: bold;
     }
 
     .project__subtitle {
@@ -20,5 +21,18 @@
     // Make global variable?
     .body-copy {
    
+    }
+
+    .note {
+        font-size: $font-size--small;
+    }
+
+    .note__title {
+        font-weight: bold;
+        margin-bottom: 0.25rem;
+    }
+
+    .credit-list > li {
+        margin-bottom: 0.25rem;
     }
 }

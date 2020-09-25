@@ -14,11 +14,11 @@ class CoverPollen extends React.Component {
         return (
             <div className="CoverPollen">
                 <div className="contained">
-                    <div className="columns columns--2">
-                        <div>
+                    <div className="grid">
+                        <div className="span-6">
                             <img src={coverImage1}></img>
                         </div>
-                        <div>
+                        <div className="span-6">
                             <img src={coverImage2}></img>
                         </div>
                     </div>
