@@ -11,15 +11,15 @@ $gutter-size: 3%;
 
 // Flex approach ==================
 
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
+// .columns {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: flex-start;
+// }
 
-.columns--nowrap {
-    flex-wrap: nowrap;
-}
+// .columns--nowrap {
+//     flex-wrap: nowrap;
+// }
 
 @media only screen and (min-width: $breakpoint--mobile) {
 
@@ -30,23 +30,29 @@ $gutter-size: 3%;
     }
     
     .grid > div {
-        // debugging:
+        // debugging -----
         // background-color: peachpuff;
     }
     
-    .span-1 { grid-column-end: span 1; }
-    .span-2 { grid-column-end: span 2; }
-    .span-3 { grid-column-end: span 3; }
-    .span-4 { grid-column-end: span 4; }
-    .span-5 { grid-column-end: span 5; }
-    .span-6 { grid-column-end: span 6; }
-    .span-7 { grid-column-end: span 7; }
-    .span-8 { grid-column-end: span 8; }
-    .span-9 { grid-column-end: span 9; }
-    .span-10 { grid-column-end: span 10; }
-    .span-11 { grid-column-end: span 11; }
-    .span-12 { grid-column-end: span 12; }
+    .span-1 { grid-column-start: span 1; }
+    .span-2 { grid-column-start: span 2; }
+    .span-3 { grid-column-start: span 3; }
+    .span-4 { grid-column-start: span 4; }
+    .span-5 { grid-column-start: span 5; }
+    .span-6 { grid-column-start: span 6; }
+    .span-7 { grid-column-start: span 7; }
+    .span-8 { grid-column-start: span 8; }
+    .span-9 { grid-column-start: span 9; }
+    .span-10 { grid-column-start: span 10; }
+    .span-11 { grid-column-start: span 11; }
+    .span-12 { grid-column-start: span 12; }
+
+    .align-right {
+        grid-column-end: 13; 
+    }
     
+    // Still don't know how to do a "push" where a grid item is offset by a specific number of columns...
+
 }
 
 

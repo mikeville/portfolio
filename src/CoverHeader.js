@@ -16,11 +16,11 @@ class CoverHeader extends React.Component {
 
         return (
             <div className="CoverHeader">
-                <div className="contained cover__header__inner-container"> 
-                    <div className="cover__header__title">
+                <div className="contained grid"> 
+                    <div className="span-6 cover__header__title">
                         {projectName}
                     </div>
-                    <div className="cover__header__description">
+                    <div className="span-6 cover__header__description">
                         {role}
                     </div>
                 </div>

@@ -5,13 +5,16 @@
     margin-bottom: 8rem;
     margin-top: 8rem;
 
-    .cover {
-        margin-bottom: 8rem;
+    a {
+        text-decoration: none;
     }
 
-    .cover a {
-        text-decoration: none;
-        color: $color-text;
+    a:hover {
+        color: $color--text;
+    }
+
+    .cover {
+        margin-bottom: 8rem;
     }
 
     .cover a .cover__body:hover {
@@ -25,10 +28,6 @@
         position: sticky;
         top: -1px;
         z-index: 1;
-    }
-
-    .cover__body {
-        // @include contained;
     }
 
     .cover__body img {

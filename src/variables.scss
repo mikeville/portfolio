@@ -1,3 +1,6 @@
+$color--text: #1F1F1F;
+$color--highlight: red;
+
 $font-size--small: 0.6666rem; //16px
 $font-size--regular: 24px;
 $font-size--large: 2rem; //48px
@@ -9,12 +12,3 @@ $line-height--large: 1.1;
 
 $breakpoint--mobile: 600px;
 $breakpoint--midsize: 1080px;
-
-$color-text: black;
-
-@mixin contained {
-    margin: 0 auto;
-    padding: 0 40px;
-    max-width: 1280px;
-  }
-  

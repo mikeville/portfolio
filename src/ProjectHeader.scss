@@ -4,8 +4,12 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 
+    a {
+      text-decoration: none;
+  }
+
     .header__home-link {
-  
+      font-weight: bold;
     }
   
     .header__about-links {

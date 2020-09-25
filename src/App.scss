@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import "variables.scss";
 
+// Typography
 html {
+  color: $color--text;
   font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: $font-size--regular;
   line-height: 1.33;
@@ -11,6 +13,17 @@ strong {
   font-weight: 700;
 }
 
+a,
+a:active,
+a:visited {
+  color: $color--text;
+}
+
+a:hover {
+  color: $color--highlight;
+}
+
+// Responsive hides
 .hide-on-mobile {
   display: none;
 
@@ -19,6 +32,7 @@ strong {
   }
 }
 
+// Images
 img {
   width: 100%;
 }

@@ -3,12 +3,8 @@
 
 .Home {
 
-    .home__header-wrapper {
-        padding-top: 6rem;
-    }
-
     .home__header {
-        @include contained;
+        padding-top: 6rem;
     }
 
     .home__header__img {

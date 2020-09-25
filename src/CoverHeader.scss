@@ -2,13 +2,9 @@
 
 .CoverHeader {
 
-    .cover__header__inner-container {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
-
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
     .cover__header div {
         flex-basis: 50%;
     }

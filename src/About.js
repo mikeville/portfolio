@@ -8,7 +8,7 @@ import './About.scss';
 function About() {
     return (
         <div className="About">
-            <div className="about__container">
+            <div className="about__container contained">
                 <a name="about-anchor"></a>
                 <div className="about__header">
                     <a href="#top-anchor">Work</a>
