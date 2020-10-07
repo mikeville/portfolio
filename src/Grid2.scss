@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+// code from: https://codepen.io/jbwharris/pen/dBZKxv
+// discussion: https://github.com/rachelandrew/cssgrid-ama/issues/127
+
+// no IE support!
+$grid_gutter: 40px;
+
+$screen_viewport_xs: 0;
+$screen_viewport_sm: 500px;
+$screen_viewport_md: 768px;
+$screen_viewport_lg: 992px;
+$screen_viewport_xl: 1260px;
+
+// Grid array (used for generating the grid)
+$grid_arr: (
+    (xs, $screen_viewport_xs), 
+    (sm, $screen_viewport_sm), 
+    (md, $screen_viewport_md), 
+    (lg, $screen_viewport_lg), 
+    (xl, $screen_viewport_xl)
+);
+
+.row {
+    border: 1px solid black; //debugging
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: $grid_gutter;
+    width:100%;
+}
+
+[class^="col-"], [class*=" col-"] { grid-column-start: span 12; }
+
+@each $label, $breakpoint, $width in $grid_arr {
+    @media (min-width: #{$breakpoint}) {
+        @for $i from 1 through 12 {
+            @for $y from 1 through 12 {
+                $combined : $i + $y;
+                @if($combined <= 12) {
+                .offset-#{$label}-#{$y}.col-#{$label}-#{$i} {
+                grid-column: #{$y + 1} / span #{$i};
+                }
+            }
+        }
+
+        // as in bootstrap
+        .col-#{$label}-#{$i} {
+            border: 1px solid black; //debugging
+            grid-column-start: span #{$i};
+        }
+    }
+
+    .container {
+        border: 1px solid black; //debugging
+        width: calc(#{$breakpoint} - #{$grid_gutter});
+        margin: 0 auto;
+    }
+  }
+}
