@@ -15,6 +15,7 @@
 
     a:hover {
         color: $color--highlight;
+        //why is this line necessary? Shouldn't it catch the style from the global a:hover ?
     }
 
   }
