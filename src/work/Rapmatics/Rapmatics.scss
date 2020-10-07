@@ -5,8 +5,29 @@
 
 .Rapmatics {
 
-    .project__intro {
-        background-color: paleturquoise;
+    .rapmatic-container {
+        padding: 6rem 0;
     }
+
+    .bg--red {
+        background-color: #d84227;	
+    }
+  
+    .bg--green {
+        background-color: #16b15d;	
+    }
+
+    .bg--yellow {
+        background-color: #ffd101;	
+    }
+  
+    .bg--green.the-world-is-yours {
+        background-color: #00b55e;	
+    }
+
+    .bg--red.bridge-over {
+        background-color: #d44127;	
+    }
+  
 
 }
