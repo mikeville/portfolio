@@ -4,8 +4,6 @@ import ProjectFooter from '../../ProjectFooter';
 import '../../Project.scss';
 import './Rapmatics.scss';
 
-import '../../Grid2.scss';
-
 import imgCanIKickIt from './media/rapmatic--animated--can-i-kick-it.gif' 
 import imgGiveItToMe from './media/rapmatic--give-it-to-me-800.gif' 
 import imgSoWhatchaWant from './media/rapmatic--watchoo-want-800.gif' 
