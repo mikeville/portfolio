@@ -13,12 +13,12 @@ class CoverPollen extends React.Component {
     render() {
         return (
             <div className="CoverPollen">
-                <div className="contained">
-                    <div className="grid">
-                        <div className="span-6">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
                             <img src={coverImage1}></img>
                         </div>
-                        <div className="span-6">
+                        <div className="col-md-6">
                             <img src={coverImage2}></img>
                         </div>
                     </div>

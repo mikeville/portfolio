@@ -12,7 +12,7 @@ class CoverTrusat extends React.Component {
     render() {
         return (
             <div className="CoverTrusat">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

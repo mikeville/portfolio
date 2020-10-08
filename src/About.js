@@ -1,24 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
-import './Grid.scss';
 import './About.scss';
-
-
 
 function About() {
     return (
         <div className="About">
-            <div className="about__container contained">
-                <a name="about-anchor"></a>
-                <div className="about__header">
-                    <a href="#top-anchor">Work</a>
+            <a name="about-anchor"></a>
+            <div className="container about__container">
+                <div className="row about__header">
+                    <div className="col-xs-12">
+                        <a href="#top-anchor">Work</a>
+                    </div>
                 </div>
-                <div className="about__section about__section--contact">
-                    <div className="about__section__title">
+                <div className="row about__section about__section--contact">
+                    <div className="col-xs-12 about__section__title">
                         Get in touch
                     </div>
-                    <div className="about__section__content container">
-                        <div className="row">
+                    <div className="col-xs-12">
+                        <div className="row about__section__content">
                             <div className="col-md-6">
                                 thedeal@gmail.com
                             </div>
@@ -36,19 +35,19 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="about__section about__section--bio">
-                    <div className="about__section__title">
+                <div className="row about__section about__section--bio">
+                    <div className="col-xs-12 about__section__title">
                         Bio
                     </div>
-                    <div className="about__section__content">
+                    <div className="col-xs-12 about__section__content">
                         Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. 
                     </div>
                 </div>
-                <div className="about__section about__section--services">
-                    <div className="about__section__title">
+                <div className="row about__section about__section--services">
+                    <div className="col-xs-12 about__section__title">
                         Services
                     </div>
-                    <div className="about__section__content container">
+                    <div className="col-xs-12 about__section__content">
                         <div className="row">
                             <div className="col-md-6">
                                 <ul>
@@ -69,11 +68,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="about__section about__section--clients">
-                    <div className="about__section__title">
+                <div className="row about__section about__section--clients">
+                    <div className="col-xs-12 about__section__title">
                         Clients
                     </div>
-                    <div className="about__section__content container">
+                    <div className="col-xs-12 about__section__content">
                         <div className="row">
                             <ul className="col-md-6 col-lg-3">
                                 <li>Medium</li>
@@ -98,13 +97,13 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="about__section about__section--recognition">
-                    <div className="about__section__title">
+                <div className="row about__section about__section--recognition">
+                    <div className="col-xs-12 about__section__title">
                         Recognition
                     </div>
-                    <div className="about__section__content container">
+                    <div className="col-xs-12 about__section__content">
                         <div className="row">
-                        <ul className="col-md-6 col-lg-3">
+                            <ul className="col-md-6 col-lg-3">
                                 <li>Selected press for personal work</li>
                                 <li>New York Times</li>
                                 <li>Kanye West</li>
@@ -141,8 +140,10 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="about__header">
-                    <a href="#top-anchor">Back to top</a>
+                <div className="row about__header">
+                    <div className="col-xs-12">
+                        <a href="#top-anchor">Back to top</a>
+                    </div>
                 </div>
             </div>
 

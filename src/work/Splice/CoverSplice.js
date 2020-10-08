@@ -12,7 +12,7 @@ class CoverSplice extends React.Component {
     render() {
         return (
             <div className="CoverProject">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

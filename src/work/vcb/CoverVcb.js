@@ -35,7 +35,7 @@ class CoverVcb extends React.Component {
     render() {
         return (
             <div className="CoverVcb">
-                <div className="contained">
+                <div className="container">
                     <ImageCycler imageCycling={this.state.imageCycling} images={this.state.vcbImageSources} />
                 </div>
             </div>

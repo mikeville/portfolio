@@ -6,7 +6,7 @@ import './ProjectFooter.scss';
 function ProjectFooter() {
     return (
       <div className="ProjectFooter">
-          <div className="contained">
+          <div className="container">
             <Link to="/">
               Back to project list
             </Link>

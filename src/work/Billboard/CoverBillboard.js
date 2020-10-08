@@ -12,7 +12,7 @@ class CoverBillboard extends React.Component {
     render() {
         return (
             <div className="CoverBillboard">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

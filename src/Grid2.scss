@@ -20,7 +20,7 @@ $grid_arr: (
     // border: 1px solid black; //debugging
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: $grid_gutter;
+    column-gap: $grid_gutter; //change property from "column-gap" to "grid-gap" if you want vertical margin between rows
     width:100%;
 }
 

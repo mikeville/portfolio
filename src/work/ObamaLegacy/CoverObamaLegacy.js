@@ -12,7 +12,7 @@ class CoverObamaLegacy extends React.Component {
     render() {
         return (
             <div className="CoverObamaLegacy">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

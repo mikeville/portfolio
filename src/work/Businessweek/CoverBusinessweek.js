@@ -12,7 +12,7 @@ class CoverBusinessweek extends React.Component {
     render() {
         return (
             <div className="CoverBusinessweek">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

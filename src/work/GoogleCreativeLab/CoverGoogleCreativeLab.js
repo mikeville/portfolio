@@ -12,7 +12,7 @@ class CoverGoogleCreativeLab extends React.Component {
     render() {
         return (
             <div className="CoverGoogleCreativeLab">
-                <div className="contained">
+                <div className="container">
                     <img src={coverImage}></img>
                 </div>
             </div>

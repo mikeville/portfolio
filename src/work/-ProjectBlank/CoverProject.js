@@ -11,7 +11,7 @@ class CoverProject extends React.Component {
     render() {
         return (
             <div className="CoverProject">
-                <div className="contained">
+                <div className="container">
                     Project cover
                 </div>
             </div>

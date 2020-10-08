@@ -12,7 +12,7 @@ class CoverUmbro extends React.Component {
     render() {
         return (
             <div className="CoverUmbro">
-                <div className="contained container-inner">
+                <div className="container container-inner">
                     <img src={coverImage}></img>
                 </div>
             </div>

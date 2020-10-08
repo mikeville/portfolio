@@ -9,7 +9,7 @@ import homeHeaderImage from './media-global/mikemake-logo-181102-2208--squishy_6
 function Home() {
   return (
     <div className="Home">
-      <div className="home__header contained">
+      <div className="home__header container">
         <h1>
           <img className="home__header__img" src={homeHeaderImage} alt="Mike Make logo"></img>
         </h1>
