@@ -40,7 +40,7 @@ function About() {
                         Bio
                     </div>
                     <div className="col-xs-12 about__section__content">
-                        Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. 
+                        {/* Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts.  */}
                     </div>
                 </div>
                 <div className="row about__section about__section--services">
