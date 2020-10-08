@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import CoverHeader from './CoverHeader'
+import './Work.scss';
 
 import CoverVcb from './work/Vcb/CoverVcb';
 import CoverTrusat from './work/Trusat/CoverTrusat';
@@ -18,7 +19,7 @@ import CoverBillboard from './work/Billboard/CoverBillboard';
 import CoverUmbro from './work/Umbro/CoverUmbro';
 import CoverGoogleCreativeLab from './work/GoogleCreativeLab/CoverGoogleCreativeLab';
 import CoverBusinessweek from './work/Businessweek/CoverBusinessweek';
-import './Work.scss';
+
 
 
 
