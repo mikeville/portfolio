@@ -4,9 +4,9 @@
         // and https://codepen.io/jbwharris/pen/dBZKxv
 // discussion: https://github.com/rachelandrew/cssgrid-ama/issues/127
 
+// Note: it doesn't yet do so well with nested containers
+
 // no IE support!
-
-
 $grid_gutter: 30px;
 
 // Grid array (used for generating the grid)
@@ -25,8 +25,8 @@ $grid_arr: (
     width:100%;
 
     column-gap: 20px; //change property from "column-gap" to "grid-gap" if you want vertical margin between rows
-    @media (min-width: $screen_viewport_sm) { column-gap: calc($grid_gutter * 1.5) }
-    @media (min-width: $screen_viewport_md) { column-gap: calc($grid_gutter * 2) }
+    @media (min-width: $screen_viewport_sm) { column-gap: calc(#{$grid_gutter} * 1.5); }
+    @media (min-width: $screen_viewport_md) { column-gap: calc(#{$grid_gutter} * 2) !important; }
 }
 
 [class^="col-"], [class*=" col-"] { grid-column-start: span 12; }
@@ -86,9 +86,20 @@ $grid_arr: (
 
     max-width: $screen_viewport_xl;
 
-    @media (min-width: $screen_viewport_sm) { width: calc(100% - ( #{$grid_gutter} * 2)); }
+    @media (min-width: $screen_viewport_sm) { width: calc(100% - ( #{$grid_gutter} * 3)); }
     @media (min-width: $screen_viewport_md) { width: calc(100% - ( #{$grid_gutter} * 4)); }
 }
+
+// prevent margin effect on nested grids
+.container .container {
+    width: 100%;
+}
+
+// .container--no-margin {
+//     width: 100% !important;
+// }
+
+
 
 // // ATTTEMPT 2 WORKING
 // // MOBILE OVERRIDE FOR BETTER MARGINS
