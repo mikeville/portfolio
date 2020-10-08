@@ -43,16 +43,10 @@ function Rapmatics() {
             </div>
           </div>
           <div className="project__content">
-            <div className="contained rapmatic-container bg--green">
+            <div className="rapmatic-container bg--green">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-2 offset-lg-2">
-                    test
-                  </div>
-                  <img className="col-sm-12 col-lg-6" src={imgCanIKickIt} alt="lyric diagram for `Can I Kick It`"></img>
-                  <div className="col-sm-12 col-lg-2">
-                    test
-                  </div>
+                  <img className="offset-lg-2 col-lg-6" src={imgCanIKickIt} alt="lyric diagram for `Can I Kick It`"></img>
                 </div>
               </div>
             </div>

@@ -16,7 +16,7 @@ $grid_arr: (
 );
 
 .row {
-    // border: 1px solid black; //debugging
+    border: 1px solid black; //debugging
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: $grid_gutter;
@@ -39,13 +39,13 @@ $grid_arr: (
 
         // as in bootstrap
         .col-#{$label}-#{$i} {
-            // border: 1px solid black; //debugging
+            border: 1px solid black; //debugging
             grid-column-start: span #{$i};
         }
     }
 
     .container {
-        // border: 1px solid black; //debugging
+        border: 1px solid black; //debugging
         width: calc(#{$breakpoint});
         margin: 0 auto;
     }
