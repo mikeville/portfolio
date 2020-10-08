@@ -1,58 +1,56 @@
 @import "variables.scss";
 
-$gutter-size: 3%;
+// code from: https://codepen.io/stavros-liaskos/pen/GGRjVZ?editors=1100
+        // and https://codepen.io/jbwharris/pen/dBZKxv
+// discussion: https://github.com/rachelandrew/cssgrid-ama/issues/127
 
-.contained {
-    margin: 0 auto;
-    padding: 0 40px;
-    max-width: $screen_viewport_xl;
-  }
-  
+// no IE support!
+$grid_gutter: 40px;
 
-// Flex approach ==================
+// Grid array (used for generating the grid)
+$grid_arr: (
+    (xs, $screen_viewport_xs), 
+    (sm, $screen_viewport_sm), 
+    (md, $screen_viewport_md), 
+    (lg, $screen_viewport_lg), 
+    (xl, $screen_viewport_xl)
+);
 
-// .columns {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: flex-start;
-// }
-
-// .columns--nowrap {
-//     flex-wrap: nowrap;
-// }
-
-@media only screen and (min-width: $screen_viewport_sm) {
-
-    .grid {
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(12, (100/12) - $gutter-size);
-    }
-    
-    .grid > div {
-        // debugging -----
-        // background-color: peachpuff;
-    }
-    
-    .span-1 { grid-column-start: span 1; }
-    .span-2 { grid-column-start: span 2; }
-    .span-3 { grid-column-start: span 3; }
-    .span-4 { grid-column-start: span 4; }
-    .span-5 { grid-column-start: span 5; }
-    .span-6 { grid-column-start: span 6; }
-    .span-7 { grid-column-start: span 7; }
-    .span-8 { grid-column-start: span 8; }
-    .span-9 { grid-column-start: span 9; }
-    .span-10 { grid-column-start: span 10; }
-    .span-11 { grid-column-start: span 11; }
-    .span-12 { grid-column-start: span 12; }
-
-    .align-right {
-        grid-column-end: 13; 
-    }
-    
-    // Still don't know how to do a "push" where a grid item is offset by a specific number of columns...
-
+.row {
+    // border: 1px solid black; //debugging
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: $grid_gutter; //change property from "column-gap" to "grid-gap" if you want vertical margin between rows
+    width:100%;
 }
 
+[class^="col-"], [class*=" col-"] { grid-column-start: span 12; }
 
+@each $label, $breakpoint, $width in $grid_arr {
+    @media (min-width: #{$breakpoint}) {
+        @for $i from 1 through 12 {
+            @for $y from 1 through 12 {
+                // Differs from bootstrap from the point that it specifies the index of a column to start
+                // example: col-start-6 col-4 (start at col 6 columns and occupy 4 columns
+                $combined : $i + $y;
+                @if($combined <= 12) {
+                .start-#{$label}-#{$y}.col-#{$label}-#{$i} {
+                    grid-column: #{$y + 1} / span #{$i};
+                }
+            }
+        }
+
+        // as in bootstrap
+        .col-#{$label}-#{$i} {
+            // border: 1px solid black; //debugging
+            grid-column-start: span #{$i};
+        }
+    }
+
+    .container {
+        // border: 1px solid black; //debugging
+        width: calc(#{$breakpoint});
+        margin: 0 auto;
+    }
+  }
+}
