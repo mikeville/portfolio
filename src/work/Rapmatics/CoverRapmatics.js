@@ -1,6 +1,5 @@
 import React from 'react';
 import './Rapmatics.scss';
-import '../../Grid.scss'; 
 import coverImage1 from './media/rapmatic--give-it-to-me-800.gif' 
 import coverImage2 from './media/rapmatic--animated--shimmy.gif' 
 import coverImage3 from './media/rapmatic--animated--can-i-kick-it.gif' 

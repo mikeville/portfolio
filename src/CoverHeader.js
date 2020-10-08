@@ -16,12 +16,14 @@ class CoverHeader extends React.Component {
 
         return (
             <div className="CoverHeader">
-                <div className="contained grid"> 
-                    <div className="span-6 cover__header__title">
-                        {projectName}
-                    </div>
-                    <div className="span-6 cover__header__description">
-                        {role}
+                <div className="container"> 
+                    <div className="row">
+                        <div className="col-md-6 cover__header__title">
+                            {projectName}
+                        </div>
+                        <div className="col-md-6 cover__header__description">
+                            {role}
+                        </div>
                     </div>
                 </div>
             </div>
