@@ -1,10 +1,7 @@
 @import "variables.scss";
 
-// code from: https://codepen.io/stavros-liaskos/pen/GGRjVZ?editors=1100
-        // and https://codepen.io/jbwharris/pen/dBZKxv
+// code from: https://codepen.io/stavros-liaskos/pen/GGRjVZ?editors=1100 and https://codepen.io/jbwharris/pen/dBZKxv
 // discussion: https://github.com/rachelandrew/cssgrid-ama/issues/127
-
-// Note: it doesn't yet do so well with nested containers
 
 // no IE support!
 $grid_gutter: 30px;
@@ -52,82 +49,21 @@ $grid_arr: (
                 // text-overflow: clip;
             }
         }
-
-    // .container {
-    //     // border: 1px solid black; //debugging
-    //     width: calc(#{$breakpoint} - #{$grid_gutter});
-    //     margin: 0 auto;
-    // }
-
-    // .container {
-    //     border: 1px solid black; //debugging
-    //     width: calc(#{$breakpoint});
-    //     margin: 0 auto;
-    // }
   }
 }
-
-
-
-// .container {
-//     border: 1px solid black; //debugging
-
-//     width: 100%;
-//     margin: 0 auto;
-
-//     max-width: $screen_viewport_xl;
-// }
 
 .container {
     // border: 1px solid black; //debugging
 
     width: calc(100% - ( #{$grid_gutter} * 1.5 ));
-    margin: 0 auto;
-
-    max-width: $screen_viewport_xl;
-
     @media (min-width: $screen_viewport_sm) { width: calc(100% - ( #{$grid_gutter} * 3)); }
     @media (min-width: $screen_viewport_md) { width: calc(100% - ( #{$grid_gutter} * 4)); }
+
+    margin: 0 auto;
+    max-width: $screen_viewport_xl;
 }
 
 // prevent margin effect on nested grids
 .container .container {
     width: 100%;
 }
-
-// .container--no-margin {
-//     width: 100% !important;
-// }
-
-
-
-// // ATTTEMPT 2 WORKING
-// // MOBILE OVERRIDE FOR BETTER MARGINS
-// @media (max-width: $screen_viewport_sm) {
-//     .container {
-//         width: calc(100% - #{$grid_gutter});
-//     }
-// }
-
-
-// //ATTEMPT: 1
-// .container {
-//     // border: 1px solid black; //debugging
-
-//     width: 100%;
-//     margin: 0 auto;
-//     padding: 0 $grid_gutter;
-
-//     @media (min-width: $screen_viewport_md) {
-//         width: $screen_viewport_md;
-//     }
-
-//     @media (min-width: $screen_viewport_lg) {
-//         width: $screen_viewport_lg;
-//     }
-
-//     @media (min-width: $screen_viewport_xl) {
-//         width: $screen_viewport_xl;
-//     }
-
-// }
