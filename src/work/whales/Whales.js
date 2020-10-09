@@ -15,6 +15,10 @@ class Whales extends React.Component {
     window.addEventListener("resize", this.resizeIframe);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.resizeIframe);
+  }
+
   resizeIframe() {
     var iFrame = document.getElementById("whales-iframe");
     console.log(iFrame)
