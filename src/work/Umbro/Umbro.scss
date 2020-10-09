@@ -1,7 +1,12 @@
 @import "../../variables.scss";
 
+$color-umbro-paper: #fff5e3;
+$color-umbro-pass: #fdc659;
+$color-umbro-shot: #333132;
+$color-umbro-goal: #ef3e23;
+
 .CoverUmbro {
-    background-color: #FFF5E3;
+    background-color: $color-umbro-paper;
 
     .container-inner {
         padding: 2rem 0;
