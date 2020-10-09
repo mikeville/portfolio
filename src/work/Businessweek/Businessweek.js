@@ -7,7 +7,17 @@ import imgTimeline from './media/businessweek-photo-timeline.jpg'
 import imgHeads from './media/businessweek-photo-heads.jpg' 
 
 
-function Businessweek() {
+class Businessweek extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {}
+    }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
     return (
       <div className="Project Businessweek">
         <ProjectHeader />
@@ -93,6 +103,7 @@ function Businessweek() {
       </div>
     )
   }
+}
 
 
 export default Businessweek;

@@ -54,4 +54,15 @@
         font-weight: bold;
         margin-bottom: 1rem;
     }
+
+
+    // For iframe projects:
+    .iframe-wrapper {
+        overflow: hidden;
+    }
+
+    .project-iframe {
+        margin-top: -30px;
+        width: 100%;
+    }
 }
