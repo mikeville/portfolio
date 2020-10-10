@@ -1,37 +1,38 @@
 import React from 'react';
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
+import Modal from '../../Modal';
+import VcbThumb from './VcbThumb';
 
-const episodes = [
-  {
-    artist: "REM",
-    song: "Man on the Moon",
-    image: "imageURL"
-  },
-  {
-    artist: "Superorganism",
-    song: "asdfasdfasdfasd",
-    image: "imageURL"
-  },
-  {
-    artist: "Jamila Woods",
-    song: "asdfsdf",
-    image: "imageURL"
-  }
-]
-
-const episodeList = episodes.map((episode) =>
-  <div className="Vcb">
-    <div>{episode.image}</div>
-    <div>{episode.artist}</div>
-    <div>{episode.song}</div>
-  </div>
-  );
+import imgArtist1 from './media/vcbTempThumb.png' 
 
 class Vcb extends React.Component {
   constructor(props) {
       super(props)
-      this.state = {}
+      this.state = {
+        episodes: [
+          {
+            artist: "REM",
+            song: "Man on the Moon",
+            image: imgArtist1
+          },
+          {
+            artist: "Superorganism",
+            song: "asdfasdfasdfasd",
+            image: imgArtist1
+          },
+          {
+            artist: "Jamila Woods",
+            song: "asdfsdf",
+            image: imgArtist1
+          }
+        ]
+    }
+  }
+
+
+  showModal() {
+    console.log("hi")
   }
 
   componentDidMount() {
@@ -75,7 +76,13 @@ class Vcb extends React.Component {
               </div>
             </div>
             <div className="project__content">
-              {episodeList}
+              <Modal />
+              {/* <iframe className="embedly-embed w-lightbox-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F_pg_yD57bW0%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_pg_yD57bW0&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_pg_yD57bW0%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe> */}
+              {this.state.episodes.map((episode) =>
+                <div onClick={ e => {this.showModal(); }} >
+                  <VcbThumb artist={episode.artist} song={episode.song} image={episode.image} />
+                </div>
+              )}
             </div>
           </div>
           <ProjectFooter />
