@@ -16,26 +16,35 @@ class Vcb extends React.Component {
           {
             artist: "REM",
             song: "Man on the Moon",
-            image: imgArtist1
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
           },
           {
             artist: "Superorganism",
             song: "asdfasdfasdfasd",
-            image: imgArtist1
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/_pg_yD57bW0"
           },
           {
             artist: "Jamila Woods",
             song: "asdfsdf",
-            image: imgArtist1
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/KuVXE3iNnkI"
           }
         ],
-        show: false
+        show: false,
+        activeEpisode: "tbd"
     }
   }
 
+  debugger(message) {
+    console.log(this.state.activeEpisode)
+  }
 
-  showModal = e => {
+
+  showModal(episode, e) {
     this.setState({
+      activeEpisode: episode,
       show: !this.state.show
     });
   };
@@ -46,7 +55,7 @@ class Vcb extends React.Component {
 
   render() {
     return (
-      <div className="Project VCB">
+      <div className="Project Vcb">
         <div>
           <ProjectHeader />
           <div className="project__body container">
@@ -81,21 +90,24 @@ class Vcb extends React.Component {
               </div>
             </div>
             <div className="project__content">
-              <Modal onClose={this.showModal} show={this.state.show}>
-                {/* <iframe src="https://www.youtube.com/embed/_pg_yD57bW0" width="940" height="528" scrolling="no" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe> */}
-                  <ReactPlayer
-                    className="Modal__video"
-                    url="https://www.youtube.com/embed/_pg_yD57bW0"
-                    controls="true"
-                    // playing="true"
-                    frameBorder="0"
-                  />
-              </Modal>
-              {this.state.episodes.map((episode) =>
-                <div onClick={ e => {this.showModal(); }} >
-                  <VcbThumb artist={episode.artist} song={episode.song} image={episode.image} />
+              <div className="container">
+                <div className="row">
+                  {this.state.episodes.map((episode) =>
+                    <div key={episode.artist} className="vcb-wrapper col-md-4" onClick={(e) => this.showModal(episode, e)} >
+                      <VcbThumb artist={episode.artist} song={episode.song} image={episode.image} />
+                    </div>
+                  )}
                 </div>
-              )}
+              </div>
+              <Modal onClose={this.showModal.bind(this)} show={this.state.show}>
+                        <ReactPlayer
+                          className="Modal__video"
+                          url={this.state.activeEpisode.url}
+                          controls
+                          // playing="true"
+                          frameBorder="0"
+                        />
+                      </Modal>
             </div>
           </div>
           <ProjectFooter />

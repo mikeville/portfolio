@@ -11,7 +11,6 @@ class Modal extends React.Component {
     }
 
     onClose = e => {
-        console.log("closing?")
         this.props.onClose && this.props.onClose(e);
       };
     
