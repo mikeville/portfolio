@@ -1,4 +1,6 @@
 import React from 'react';
+import './Modal.scss';
+
 
 class Modal extends React.Component {
     constructor(props) {
@@ -17,14 +19,15 @@ class Modal extends React.Component {
         }
         return (
             <div className="Modal">
-                {this.props.children}
-                <button
+                <div className="Modal__bg"
                     onClick={e => {
                         this.onClose(e);
                     }}
                 >
-                    Close
-                </button>
+                </div>
+                <div className="Modal__content">
+                    {this.props.children}
+                </div>
             </div>
         )
     }

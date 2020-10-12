@@ -79,7 +79,9 @@ class Vcb extends React.Component {
               </div>
             </div>
             <div className="project__content">
-              <Modal onClose={this.showModal} show={this.state.show}> Modal content here</Modal>
+              <Modal onClose={this.showModal} show={this.state.show}>
+                <iframe className="embedly-embed w-lightbox-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F_pg_yD57bW0%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_pg_yD57bW0&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_pg_yD57bW0%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+              </Modal>
               {this.state.episodes.map((episode) =>
                 <div onClick={ e => {this.showModal(); }} >
                   <VcbThumb artist={episode.artist} song={episode.song} image={episode.image} />
