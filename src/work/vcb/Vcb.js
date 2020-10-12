@@ -44,13 +44,6 @@ class Vcb extends React.Component {
     window.scrollTo(0, 0);    
   }
 
-  getWindowWidth() {
-    console.log(window.innerWidth);
-    return {
-      width: window.innerWidth
-    }
-  }
-
   render() {
     return (
       <div className="Project VCB">
@@ -90,18 +83,13 @@ class Vcb extends React.Component {
             <div className="project__content">
               <Modal onClose={this.showModal} show={this.state.show}>
                 {/* <iframe src="https://www.youtube.com/embed/_pg_yD57bW0" width="940" height="528" scrolling="no" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe> */}
-                <div className="Modal__video-wrapper"
-                  // style={this.getWindowWidth()}
-                  >
                   <ReactPlayer
-                    width={this.getWindowWidth()}
                     className="Modal__video"
                     url="https://www.youtube.com/embed/_pg_yD57bW0"
                     controls="true"
                     // playing="true"
                     frameBorder="0"
                   />
-                </div>
               </Modal>
               {this.state.episodes.map((episode) =>
                 <div onClick={ e => {this.showModal(); }} >
