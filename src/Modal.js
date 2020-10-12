@@ -1,4 +1,6 @@
 import React from 'react';
+import Loader from './Loader';
+
 import './Modal.scss';
 
 
@@ -26,11 +28,12 @@ class Modal extends React.Component {
                 >
                 </div>
                 <div className="Modal__loader">
-                    <div className="ripple">
-                    </div>
+                    {/* <div className="ripple">
+                    </div> */}
+                    <Loader />
                 </div>
                 <div className="Modal__content">
-                    {this.props.children}
+                    {/* {this.props.children} */}
                 </div>
             </div>
         )
