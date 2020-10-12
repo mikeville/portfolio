@@ -27,13 +27,11 @@ class Modal extends React.Component {
                     }}
                 >
                 </div>
-                <div className="Modal__loader">
-                    {/* <div className="ripple">
-                    </div> */}
+                <div className="Modal__loader-container">
                     <Loader />
                 </div>
                 <div className="Modal__content">
-                    {/* {this.props.children} */}
+                    {this.props.children}
                 </div>
             </div>
         )
