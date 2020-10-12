@@ -25,6 +25,10 @@ class Modal extends React.Component {
                     }}
                 >
                 </div>
+                <div className="Modal__loader">
+                    <div className="ripple">
+                    </div>
+                </div>
                 <div className="Modal__content">
                     {this.props.children}
                 </div>
