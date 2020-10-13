@@ -48,20 +48,20 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/trusat/trusat">
+                <a href="https://trusat.org/" target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="TruSat" role="Role goes heeeere" />
                     </div>
                     <CoverTrusat />
-                </Link>
+                </a>
             </section>
             <section className="cover">
-                <Link to="/work/beautifulnews/beautifulnews">
+                <a href="https://informationisbeautiful.net/beautifulnews/"  target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="Beautiful News" role="Role goes heeeere" />
                     </div>
                     <CoverBeautifulNews />
-                </Link>
+                </a>
             </section>
             <section className="cover">
                 <Link to="/work/pinterest/pinterest">
@@ -80,12 +80,12 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/splice/splice">
+                <a href="https://splice.com/features/sounds" target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="Splice" role="Role goes heeeere" />
                     </div>
                     <CoverSplice />
-                </Link>
+                </a>
             </section>
             <section className="cover">
                 <Link to="/work/whales/whales">
@@ -104,12 +104,12 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/pollen/pollen">
+                <a href="http://pollenmagazine.com/001" target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="Pollen" role="Role goes heeeere" />
                     </div>
                     <CoverPollen />
-                </Link>
+                </a>
             </section>
             <section className="cover">
                 <Link to="/work/obamalegacy/obamalegacy">
@@ -120,28 +120,28 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/statlas/statlas">
+                <a href="https://statlas.co/" target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="Statlas" role="Role goes heeeere" />
                     </div>
                     <CoverStatlas />
-                </Link>
+                </a>
             </section>
             <section className="cover">
-                <Link to="/work/beatles/beatles">
+                <a href="https://chartingthebeatles.net/" target="_blank">
                     <div className="cover__header">
                         <CoverHeader project="Charting the Beatles" role="Role goes heeeere" />
                     </div>
                     <CoverBeatles />
-                </Link>
+                </a>
             </section>
             <section className="cover">
-                <Link to="/work/billboard/billboard">
+                <div>
                     <div className="cover__header">
                         <CoverHeader project="Billboard Redesign" role="Role goes heeeere" />
                     </div>
                     <CoverBillboard />
-                </Link>
+                </div>
             </section>
             <section className="cover">
                 <Link to="/work/umbro/umbro">
@@ -152,12 +152,12 @@ class Work extends React.Component {
                 </Link>
             </section>
             <section className="cover">
-                <Link to="/work/googlecreativelab/googlecreativelab">
+                <div>
                     <div className="cover__header">
                         <CoverHeader project="Google Creative Lab" role="Role goes heeeere" />
                     </div>
                     <CoverGoogleCreativeLab />
-                </Link>
+                </div>
             </section>
             <section className="cover">
                 <Link to="/work/businessweek/businessweek">
