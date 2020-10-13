@@ -47,7 +47,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
               <h1 className="project__title">Vital Stats for the World Cup in South Africa</h1>
               <h2 className="project__subtitle">Client: Umbro</h2>
               <h2 className="project__subtitle">My role goes here</h2>
-              <div className="container project__info">
+              <div className="project__info">
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>

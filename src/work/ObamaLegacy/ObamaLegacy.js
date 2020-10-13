@@ -20,30 +20,32 @@ function ObamaLegacy() {
       <div className="Project Obama">
         <ProjectHeader />
         <div className="project__body container">
-          <div className="project__intro">
-            <h1 className="project__title">Obama's Legacy</h1>
-            <h2 className="project__subtitle">Role goes here</h2>
-            <div className="container project__info">
-              <div className="row">
-                <div className="col-md-7 body-copy">
-                  <p>
-                    This three-part series of animations discusses Obama's long-term impact in the categories of energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week as POTUS.
-                  </p>
-                </div>
-                <div className="col-md-3 start-md-9 note">
-                  <p className="note__title">
-                    Recognition
-                  </p>
-                  <ul className="credit-list">
-                    <li>Society for News Design Award of Excellence (2017)</li>  
-                  </ul>
-                  <p className="note__title">
-                    Team
-                  </p>
-                  <ul className="credit-list">
-                    <li>Visuals: Kris Cave, Michael Deal, Andrew Macfarlane, Brian McGee, Kenton Powell, Grace Shin</li>  
-                    <li>Writing: Reid Cherlin, Taylor Dolven, Allison McCann, Isabella McKinley-Corbo.</li>  
-                  </ul>
+          <div className="project__intro-wrapper">
+            <div className="project__intro">
+              <h1 className="project__title">Obama's Legacy</h1>
+              <h2 className="project__subtitle">Role goes here</h2>
+              <div className="container project__info">
+                <div className="row">
+                  <div className="col-md-7 body-copy">
+                    <p>
+                      This three-part series of animations discusses Obama's long-term impact in the categories of energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week as POTUS.
+                    </p>
+                  </div>
+                  <div className="col-md-3 start-md-9 note">
+                    <p className="note__title">
+                      Recognition
+                    </p>
+                    <ul className="credit-list">
+                      <li>Society for News Design Award of Excellence (2017)</li>  
+                    </ul>
+                    <p className="note__title">
+                      Team
+                    </p>
+                    <ul className="credit-list">
+                      <li>Visuals: Kris Cave, Michael Deal, Andrew Macfarlane, Brian McGee, Kenton Powell, Grace Shin</li>  
+                      <li>Writing: Reid Cherlin, Taylor Dolven, Allison McCann, Isabella McKinley-Corbo.</li>  
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

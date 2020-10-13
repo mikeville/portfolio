@@ -2,7 +2,7 @@
 
 .Project {
     .project__body {
-        margin-top: 4rem;
+        // margin-top: 4rem;
     }
 
     section {
@@ -12,6 +12,16 @@
     img {
         margin-bottom: 1rem;
     }
+
+    .project__intro-wrapper {
+        padding-top: 3rem;
+        padding-bottom: 0.01rem;
+        margin-bottom: 4rem;
+    }
+
+    // .project__intro {
+    //     margin-bottom: 2rem;
+    // }
 
     .project__title {
         font-size: $font-size--xxx-large;

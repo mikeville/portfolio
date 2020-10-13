@@ -17,15 +17,28 @@ $color-umbro-goal: #ef3e23;
 }
 
 .Umbro {
-    background-color: $color-umbro-paper;
-	color: $color-umbro-shot;
+
+	// * INTRO OVERRIDES ********
+
+	.project__title {
+		color: $color-umbro-goal
+	}
 	
 	.project__intro-wrapper {
-		// background-color: $color-umbro-shot;
-		// color: $color-umbro-paper;
+		background-color: $color-umbro-shot;
+		color: $color-umbro-paper;
 	}
 
-	/*TYPOGRAPHY ************/
+	.project__intro-wrapper a {
+		color: $color-umbro-paper;
+	}
+
+	// * COLORS ********
+
+    background-color: $color-umbro-paper;
+	color: $color-umbro-shot;
+
+	// *TYPOGRAPHY ************
 
 	.project__content {
 		text-align: center;

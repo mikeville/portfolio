@@ -22,20 +22,22 @@ function Rapmatics() {
       <div className="Project Rapmatics">
         <ProjectHeader />        
         <div className="project__body">
-          <div className="project__intro container">
-            <h1 className="project__title">Rapmatics</h1>
-            <h2 className="project__subtitle">Lyric maps</h2>
-            <div class="container project__info">
-              <div className="row">
-                <div className="col-md-7 body-copy">
-                  <p>
-                    Music has many properties (pitch, rhythm, tempo, etc), but repetition is what makes something <em>feel</em> musical.
-                  </p>
-                  <p>
-                    These flow-mapping, loop-doodling spit-samples are an ongoing tribute to lyrical repetition in hip hop.
-                  </p>
-                </div>
-                <div className="col-md-3 start-md-9 note">
+          <div className="project__intro-wrapper">
+            <div className="project__intro container">
+              <h1 className="project__title">Rapmatics</h1>
+              <h2 className="project__subtitle">Lyric maps</h2>
+              <div class="container project__info">
+                <div className="row">
+                  <div className="col-md-7 body-copy">
+                    <p>
+                      Music has many properties (pitch, rhythm, tempo, etc), but repetition is what makes something <em>feel</em> musical.
+                    </p>
+                    <p>
+                      These flow-mapping, loop-doodling spit-samples are an ongoing tribute to lyrical repetition in hip hop.
+                    </p>
+                  </div>
+                  <div className="col-md-3 start-md-9 note">
+                  </div>
                 </div>
               </div>
             </div>
