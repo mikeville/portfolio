@@ -138,7 +138,7 @@ class Work extends React.Component {
             <section className="cover">
                 <div>
                     <div className="cover__header">
-                        <CoverHeader project="Billboard Redesign" role="Role goes heeeere" />
+                        <CoverHeader project="Billboard Charts Redesign" role="Role goes heeeere" />
                     </div>
                     <CoverBillboard />
                 </div>
