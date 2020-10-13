@@ -17,8 +17,18 @@ import imgNextEpisode from './media/rapmatic--animated--next-episode.gif'
 import imgShimmyShimmyYa from './media/rapmatic--animated--shimmy.gif' 
 
 
-function Rapmatics() {
-    return (
+class Rapmatics extends React.Component {
+  constructor(props) {
+      super(props)
+      this.state = {}
+  }
+
+componentDidMount() {
+  window.scrollTo(0, 0);
+}
+
+render() {
+  return (
       <div className="Project Rapmatics">
         <ProjectHeader />        
         <div className="project__body">
@@ -126,6 +136,7 @@ function Rapmatics() {
       </div>
     )
   }
+}
 
 
 export default Rapmatics;

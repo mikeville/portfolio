@@ -15,8 +15,18 @@ import imgCriminalJustice2 from './media/obama-cj-thumb2b.gif'
 import imgCriminalJustice3 from './media/obama-cj-thumb1b.gif' 
 
 
-function ObamaLegacy() {
-    return (
+class ObamaLegacy extends React.Component {
+  constructor(props) {
+      super(props)
+      this.state = {}
+  }
+
+componentDidMount() {
+  window.scrollTo(0, 0);
+}
+
+render() {
+  return (
       <div className="Project Obama">
         <ProjectHeader />
         <div className="project__body container">
@@ -99,6 +109,7 @@ function ObamaLegacy() {
       </div>
     )
   }
+}
 
 
 export default ObamaLegacy;
