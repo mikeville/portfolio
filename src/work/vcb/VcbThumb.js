@@ -2,9 +2,9 @@ import React from 'react';
 
 function VcbThumb(props) {
     return (
-        <div>
+        <div className="VcbThumb">
             <div>
-            <img src={props.image}></img>
+                <img className="VcbThumb__img" src={props.image}></img>
             </div>
             <div>{props.artist}</div>
             <div>{props.song}</div>

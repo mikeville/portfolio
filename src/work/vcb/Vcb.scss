@@ -5,7 +5,15 @@
 }
 
 .Vcb {
-    .vcb-wrapper {
-        border: 1px solid orange;
+    .VcbThumb {
+        margin-bottom: 2rem;
+    }
+    .VcbThumb:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .VcbThumb__img {
+        margin-bottom: 0.25rem;
     }
 }

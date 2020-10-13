@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactPlayer from "react-player/youtube"
 
+import './Vcb.scss';
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import Modal from '../../Modal';
@@ -14,23 +16,149 @@ class Vcb extends React.Component {
       this.state = {
         episodes: [
           {
-            artist: "REM",
-            song: "Man on the Moon",
+            artist: "Jamila Woods",
+            song: "Eartha",
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
+          },
+          {
+            artist: "Drugdealer",
+            song: "Fools",
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/_pg_yD57bW0"
+          },
+          {
+            artist: "Nakhane",
+            song: "Interloper",
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/KuVXE3iNnkI"
+          },
+          {
+            artist: "Flying Lotus ft. Andderson .Paak",
+            song: "More",
             image: imgArtist1,
             url: "https://www.youtube.com/embed/eb-4fn0yLwA"
           },
           {
             artist: "Superorganism",
-            song: "asdfasdfasdfasd",
+            song: "Everybody Wants to Be Famous",
             image: imgArtist1,
             url: "https://www.youtube.com/embed/_pg_yD57bW0"
           },
           {
-            artist: "Jamila Woods",
-            song: "asdfsdf",
+            artist: "R.E.M.",
+            song: "Man on the Moon",
             image: imgArtist1,
             url: "https://www.youtube.com/embed/KuVXE3iNnkI"
-          }
+          },
+          {
+            artist: "Toro Y Moi",
+            song: "Freelance",
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
+          },
+          {
+            artist: "Deerhunter",
+            song: "Plains",
+            image: imgArtist1,
+            url: "https://www.youtube.com/embed/_pg_yD57bW0"
+          },
+          {
+            artist: "Christian Scott aTunde  Adjuah",
+            song: "Ancestral Recall",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "Lily & Madeleine",
+            song: "Can't Help the Way I Feel",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "Andrew Bird",
+            song: "Sisyphus",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "Justice",
+            song: "Love S.O.S. (WWW)",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
+          {
+            artist: "ARTIST",
+            song: "SONG",
+            image: imgArtist1,
+            url: "URL"
+          },
         ],
         show: false,
         activeEpisode: "tbd"
@@ -70,7 +198,7 @@ class Vcb extends React.Component {
                     A series of over 30 interviews with musicians about their songwriting process for Vice News Tonight on HBO. I designed and animated music visualizations, using patterns of tiles to illustrate the layers of sound the artists describe.
                     </p>
                   </div>
-                  <div className="col-md-3 start-md-9 note">
+                  <div className="col-md-4 start-md-8 note">
                     <p className="note__title">
                       Recognition
                     </p>
@@ -93,7 +221,7 @@ class Vcb extends React.Component {
               <div className="container">
                 <div className="row">
                   {this.state.episodes.map((episode) =>
-                    <div key={episode.artist} className="vcb-wrapper col-md-4" onClick={(e) => this.showModal(episode, e)} >
+                    <div key={episode.artist} className="col-md-4" onClick={(e) => this.showModal(episode, e)} >
                       <VcbThumb artist={episode.artist} song={episode.song} image={episode.image} />
                     </div>
                   )}
