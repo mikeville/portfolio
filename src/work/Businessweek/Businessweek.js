@@ -33,7 +33,7 @@ class Businessweek extends React.Component {
                       I joined the Businessweek team to lead the research and design of visual news stories for a special issue marking the five-year anniversary of the financial meltdown triggering the Great Recession.
                     </p>
                   </div>
-                  <div className="col-md-3 start-md-9 note">
+                  <div className="col-xs-10 col-md-3 start-md-9 note">
                     <p className="note__title">
                       Team
                     </p>

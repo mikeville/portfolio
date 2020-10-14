@@ -35,7 +35,7 @@ p {
 .hide-on-mobile {
   display: none;
 
-  @media only screen and (min-width: $screen_viewport_sm) {
+  @media (min-width: $screen_viewport_sm) {
     display: block;
   }
 }
@@ -50,7 +50,12 @@ img {
 // Buttons
 
 button {
-  border: 2px solid $color--text;
+  border: 1px solid $color--text;
+
+  @media (min-width: $screen_viewport_md) {
+    border: 2px solid $color--text;
+  }
+
   color: $color--text;
   padding: 0 1.5rem;
   height: 3rem;

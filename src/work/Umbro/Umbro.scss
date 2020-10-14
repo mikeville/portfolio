@@ -16,7 +16,7 @@ $color-umbro-goal: #ef3e23;
     }
 }
 
-.Umbro {
+#Umbro {
 
 	// * INTRO OVERRIDES ********
 
@@ -27,6 +27,7 @@ $color-umbro-goal: #ef3e23;
 	.project__intro-wrapper {
 		background-color: $color-umbro-shot;
 		color: $color-umbro-paper;
+		margin-bottom: 6rem;
 	}
 
 	.project__intro-wrapper a {
@@ -39,6 +40,12 @@ $color-umbro-goal: #ef3e23;
 	color: $color-umbro-shot;
 
 	// *TYPOGRAPHY ************
+
+	@media (max-width: $screen_viewport_md) {
+		.project__content .container {
+			width: 100%;
+		}
+	}
 
 	.project__content {
 		text-align: center;
@@ -88,20 +95,28 @@ $color-umbro-goal: #ef3e23;
 	
 	.section-break {
 		background-color: $color-umbro-shot;
-		height: 5rem;
+		height: 4rem;
+		margin-bottom: 6rem;
 	}
 
-	.section,
-	.section-break {
-		margin-bottom: 6rem;
+	.section {
+		margin-bottom: 4rem;
+
+		@media (max-width: $screen_viewport_md) {
+			margin-bottom: 3rem;
+		}
 	}
 
 	.subsection {
 		margin-bottom: 3rem;
 	}
 
-	.subsection--final {
-		margin-top: -0.5rem;
+	.subsection--semifinal {
+		margin-bottom: 2rem;
+
+		@media (max-width: $screen_viewport_md) {
+			margin-bottom: 3rem;
+		}
 	}
 
 	.sub-subsection {

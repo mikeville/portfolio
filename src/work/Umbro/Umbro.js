@@ -39,7 +39,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
 
   render() {
     return (
-      <div className="Project Umbro">
+      <div className="Project" id="Umbro">
         <ProjectHeader />
         <div className="project__body">
           <div className="project__intro-wrapper">
@@ -60,7 +60,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                       Maybe smaller type: Umbro's final post of the series—a single bird's-eye view of all 64 matches—was the most trafficked post on their blog to that date. In response to the high engagement, Umbro gave away posters of the final graphic.
                     </p>
                   </div>
-                  <div className="col-md-3 start-md-9 note">
+                  <div className="col-xs-10 col-md-3 start-md-9 note">
                     <p className="note__title">
                       Recognition
                     </p>
@@ -88,7 +88,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
             <div class="section section--onboarding">
               <div class="container">
                 <div class="row section-title">
-                  <div class="col-sm-6 start-sm-3">
+                  <div class="start-xs-1 col-xs-10 col-sm-6 start-sm-3">
                     <div class="section-title__title">
                       <h3>
                         How to read these timelines
@@ -122,7 +122,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
             <div class="section">
               <div class="container">
                 <div class="row section-title">
-                  <div class="col-sm-6 start-sm-3">
+                  <div class="start-xs-1 col-xs-10 col-sm-6 start-sm-3">
                     <div class="section-title__title">
                       <h3>
                         Infamous goals from the tournament
@@ -170,7 +170,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
             <div class="section section--tournament">
               <div class="container">
                 <div class="row section-title">
-                  <div class="col-sm-6 start-sm-3">
+                  <div class="start-xs-1 col-xs-10 col-sm-6 start-sm-3">
                     <div class="section-title__title">
                       <h3>
                         Every pass, shot, and goal of the World Cup
@@ -290,7 +290,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                         </div>
                       </div>
 
-                      <div class="col-md-6 subsection tester">
+                      <div class="col-md-6 subsection subsection--semifinal">
                           <div class="sub-subsection">
                               <h5>
                                 Quarter finals
@@ -320,7 +320,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                       </div>
                     </div>
 
-                    <div class="col-xs-12 subsection subsection--final">
+                    <div class="col-xs-12 subsection">
                       <div class="row subsection__title">
                         <div class="col-xs-12">
                           <h5>

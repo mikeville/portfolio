@@ -14,14 +14,10 @@
     }
 
     .project__intro-wrapper {
-        padding-top: 3rem;
-        padding-bottom: 0.01rem;
-        margin-bottom: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
     }
-
-    // .project__intro {
-    //     margin-bottom: 2rem;
-    // }
 
     .project__title {
         @include font--xxxlarge;
@@ -36,7 +32,6 @@
 
     .project__info {
         margin-top: 2rem;
-        margin-bottom: 5rem;
     }
 
     // Make global variable?

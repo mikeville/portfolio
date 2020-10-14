@@ -69,7 +69,7 @@ render() {
                       This three-part series of animations discusses Obama's long-term impact in the categories of energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week as POTUS.
                     </p>
                   </div>
-                  <div className="col-md-3 start-md-9 note">
+                  <div className="col-xs-10 start-md-8 col-md-4 note">
                     <p className="note__title">
                       Recognition
                     </p>
@@ -144,6 +144,7 @@ render() {
                 url={this.state.activeEpisode.url}
                 controls
                 // playing="true"
+                modestBranding="1"
                 frameBorder="0"
               />
             </Modal>

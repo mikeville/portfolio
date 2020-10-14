@@ -46,7 +46,7 @@ render() {
                       These flow-mapping, loop-doodling spit-samples are an ongoing tribute to lyrical repetition in hip hop.
                     </p>
                   </div>
-                  <div className="col-md-3 start-md-9 note">
+                  <div className="col-xs-10 col-md-3 start-md-9 note">
                   </div>
                 </div>
               </div>
