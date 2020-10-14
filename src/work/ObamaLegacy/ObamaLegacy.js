@@ -1,6 +1,10 @@
 import React from 'react';
+import ReactPlayer from "react-player/youtube"
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
+import Modal from '../../Modal';
+
 import '../../Project.scss';
 import './ObamaLegacy.scss';
 
@@ -18,12 +22,36 @@ import imgCriminalJustice3 from './media/obama-cj-thumb1b.gif'
 class ObamaLegacy extends React.Component {
   constructor(props) {
       super(props)
-      this.state = {}
+      this.state = {
+        episodes: [
+          {
+            topic: "energy",
+            url: "https://www.youtube.com/embed/Y8MctZkpwd0"
+          },
+          {
+            topic: "military",
+            url: "https://www.youtube.com/embed/uv9UVmJa9DM"
+          },
+          {
+            topic: "criminal justice",
+            url: "https://www.youtube.com/embed/b2JgpADOokY"
+          }
+        ],
+        activeEpisode: "tbd"
+      }
   }
 
 componentDidMount() {
   window.scrollTo(0, 0);
 }
+
+showModal(episode, e) {
+  this.setState({
+    activeEpisode: episode,
+    show: !this.state.show
+  });
+};
+
 
 render() {
   return (
@@ -61,7 +89,7 @@ render() {
             </div>
           </div>
           <div className="project__content container">
-            <section className="row obama-section">
+            <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[0], e)}>
               <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgEnergy1} alt="Excerpts from Obama's Energy Legacy"></img>
               </div>
@@ -77,7 +105,7 @@ render() {
                 </button>
               </div>
             </section>
-            <section className="row obama-section">
+            <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[1], e)}>
               <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgMilitary1} alt="Excerpts from Obama's Military Legacy"></img>
               </div>
@@ -93,7 +121,7 @@ render() {
                 </button>
               </div>
             </section>
-            <section className="row obama-section">
+            <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[2], e)}>
             <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgCriminalJustice1} alt="Excerpts from Obama's Criminal Justice Legacy"></img>
               </div>
@@ -110,6 +138,15 @@ render() {
               </div>
             </section>
           </div>
+          <Modal onClose={this.showModal.bind(this)} show={this.state.show}>
+              <ReactPlayer
+                className="Modal__video"
+                url={this.state.activeEpisode.url}
+                controls
+                // playing="true"
+                frameBorder="0"
+              />
+            </Modal>
         </div>
         <ProjectFooter />
       </div>

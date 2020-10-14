@@ -13,6 +13,10 @@
             border-top: 0;
             padding-top: 0;
         }
+
+        &:hover {
+            cursor: pointer;
+        }
     }
     .obama-thumb--cover {
         margin-bottom: 1rem;
