@@ -47,31 +47,26 @@ img {
   margin: 0;
 }
 
-@mixin buttonBG($bg) {
-  border: 2px solid $bg;
-  color: $bg;
-  &:hover {
-    background-color: $bg;
-    transition: all 0.3s ease-in-out;
-  }
-}
+
+// Buttons
 
 button {
-  width: 180px;
-  height: 80px;
+  border: 2px solid $color--text;
+  color: $color--text;
+  padding: 0 1.5rem;
+  height: 3rem;
   outline: none;
   cursor: pointer;
   background: none;
-  transition: .5s;
-  font-size: 24px;
+  transition: .25s;
+  font-size: 1rem;
   border-radius: 5px;
-  font-family: "Lato",sans-serif;
   &:hover{
     border: none;
-    color: white;
-    font-size: 28px;
+    background-color: $color--text;
+    transition: all 0.125s ease-in-out;
+    color: $color--background;
+    font-size: 1.1rem;
     transform:scale(1.1);
   }
-
-  @include buttonBG($color--text);
 }

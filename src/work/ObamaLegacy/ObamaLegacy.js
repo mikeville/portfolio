@@ -61,49 +61,49 @@ render() {
             </div>
           </div>
           <div className="project__content container">
-            <section className="row">
-              <div className="col-xs-12 note">
+            <section className="row obama-section">
+              <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgEnergy1} alt="Excerpts from Obama's Energy Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 start-md-2 col-md-4">
                 <img src={imgEnergy2} alt="Excerpts from Obama's Energy Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 col-md-4">
                 <img src={imgEnergy3} alt="Excerpts from Obama's Energy Legacy"></img>
               </div>
-              <div className="col-xs-12 play-button-container">
+              <div className="col-xs-12 start-md-2 col-md-8 play-button-container">
                 <button>
                   Play video
                 </button>
               </div>
             </section>
-            <section className="row">
-              <div className="col-xs-12 note">
+            <section className="row obama-section">
+              <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgMilitary1} alt="Excerpts from Obama's Military Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 start-md-2 col-md-4">
                 <img src={imgMilitary2} alt="Excerpts from Obama's Military Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 col-md-4">
                 <img src={imgMilitary3} alt="Excerpts from Obama's Military Legacy"></img>
               </div>
-              <div className="col-xs-12 play-button-container">
+              <div className="col-xs-12 start-md-2 col-md-8 play-button-container">
                 <button>
                   Play video
                 </button>
               </div>
             </section>
-            <section className="row">
-              <div className="col-xs-12 note">
+            <section className="row obama-section">
+            <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgCriminalJustice1} alt="Excerpts from Obama's Criminal Justice Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 start-md-2 col-md-4">
                 <img src={imgCriminalJustice2} alt="Excerpts from Obama's Criminal Justice  Legacy"></img>
               </div>
-              <div className="col-xs-6">
+              <div className="col-xs-6 col-md-4">
                 <img src={imgCriminalJustice3} alt="Excerpts from Obama's Criminal Justice  Legacy"></img>
               </div>
-              <div className="col-xs-12 play-button-container">
+              <div className="col-xs-12 start-md-2 col-md-8 play-button-container">
                 <button>
                   Play video
                 </button>
