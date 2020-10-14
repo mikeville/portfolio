@@ -15,6 +15,10 @@
     }
 
     .cover {
+        @media (max-width: $screen_viewport_sm) {
+            margin-bottom: 4rem;
+        }
+
         margin-bottom: 8rem;
     }
 

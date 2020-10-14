@@ -18,10 +18,10 @@ class CoverHeader extends React.Component {
             <div className="CoverHeader">
                 <div className="container"> 
                     <div className="row">
-                        <div className="col-md-6 cover__header__title">
+                        <div className="col-xs-12 col-sm-6 cover__header__title">
                             {projectName}
                         </div>
-                        <div className="col-md-6 cover__header__description">
+                        <div className="col-xs-12 col-sm-6 cover__header__description">
                             {role}
                         </div>
                     </div>
