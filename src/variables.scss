@@ -32,7 +32,7 @@ $line-height--xxxlarge: 1.1;
 
     @media (max-width: $screen_viewport_md) {
         // NOTE: This change affects the global REM unit. Changing this affects spacing and sizing on every page.
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 

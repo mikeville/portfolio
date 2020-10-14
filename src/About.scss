@@ -55,7 +55,7 @@
 
     .about__section--bio .about__section__content {
         @media (max-width: $screen_viewport_sm) {
-            @include font--xlarge;
+            @include font--large;
         }
 
         @include font--xxxlarge;
@@ -65,6 +65,10 @@
     // Services ===================
     
     .about__section--services .about__section__content {
+        @media (max-width: $screen_viewport_sm) {
+            @include font--large;
+        }
+
         @include font--xlarge;
         font-weight: 100;
     }
