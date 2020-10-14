@@ -49,9 +49,5 @@ $line-height--xxxlarge: 1.1;
 @mixin font--xxxlarge {
     font-size: $font-size--xxxlarge;
     line-height: $line-height--xxxlarge;
-
-    @media (max-width: $screen_viewport_md) {
-        // font-size: $font-size--large;
-    }
 }
 

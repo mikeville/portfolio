@@ -40,7 +40,7 @@ function About() {
                         Bio
                     </div>
                     <div className="col-xs-12 about__section__content">
-                        {/* Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts.  */}
+                        Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. 
                     </div>
                 </div>
                 <div className="row about__section about__section--services">
@@ -74,22 +74,22 @@ function About() {
                     </div>
                     <div className="col-xs-12 about__section__content">
                         <div className="row">
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Medium</li>
                                 <li>Google</li>
                                 <li>Pinterest</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Pentagram</li>
                                 <li>Universal Music</li>
                                 <li>Umbro</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Newsweek</li>
                                 <li>Businessweek</li>
                                 <li>Fast Company</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Vice</li>
                                 <li>Information Is Beautiful</li>
                                 <li>SuperRare</li>
@@ -103,7 +103,7 @@ function About() {
                     </div>
                     <div className="col-xs-12 about__section__content">
                         <div className="row">
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Selected press for personal work</li>
                                 <li>New York Times</li>
                                 <li>Kanye West</li>
@@ -115,13 +115,13 @@ function About() {
                                 <li>Kottke</li>
                                 <li>Brainpickings</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Exhibited</li>
                                 <li>Aquarium Tropical, Paris, Baleinopolis (2020)</li>
                                 <li>Museum of Modern Art, New York City, Talk to Me (2011)</li>
                                 <li>AIGA Design Archives (2010)</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Awards</li>
                                 <li>(3x) Society for News Design 39 (2017)</li>
                                 <li>Society for News Design 38 (2016)</li>
@@ -131,7 +131,7 @@ function About() {
                                 <li>Type Directors Club Certification of Excellence (2011)</li>
                                 <li>AIGA 365: Design Effectiveness (2011)</li>
                             </ul>
-                            <ul className="col-md-6 col-lg-3">
+                            <ul className="col-sm-6 col-lg-3">
                                 <li>Speaking</li>
                                 <li>New York Creative Tech Week (2016)</li>
                                 <li>Sci Viz Conference (2016)</li>

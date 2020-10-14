@@ -35,6 +35,10 @@
 
     // Contact ===================
 
+    .about__section--contact {
+        
+    }
+
     .contact-icon-container {
         text-align: right;
     }
@@ -50,18 +54,19 @@
     // Bio ===================
 
     .about__section--bio .about__section__content {
-        // text-align: justify;
-        font-size: $font-size--xxxlarge;
+        @media (max-width: $screen_viewport_sm) {
+            @include font--xlarge;
+        }
+
+        @include font--xxxlarge;
         font-weight: 100;
-        line-height: 1.15;
     }
 
     // Services ===================
     
     .about__section--services .about__section__content {
-        font-size: $font-size--xlarge;
+        @include font--xlarge;
         font-weight: 100;
-        line-height: 1.15;
     }
   
     .about__section--services .about__section__content ul li{
@@ -71,7 +76,8 @@
     // Clients ===================
 
     .about__section--clients .about__section__content {
-        line-height: 1.15;
+        // line-height: 1.15;
+        // @include font--regular;
     }
   
     .about__section--clients .about__section__content ul li{
@@ -81,7 +87,17 @@
     // Recognition ===================
 
     .about__section--recognition .about__section__content {
-        font-size: $font-size--small;
+        // @include font--regular; // This is getting overridden for some reason, so I'm hard-coding the mixin:
+        font-size: calc($font-size--regular*.8);
+        line-height: calc($line-height--regular*.8);
+
+        @media (min-width: $screen_viewport_sm) {
+            @include font--small;
+        }
+    }
+
+    .about__section--recognition .about__section__content ul {
+        margin-bottom: 1rem;
     }
 
     .about__section--recognition .about__section__content ul li:first-child {
