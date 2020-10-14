@@ -41,6 +41,15 @@
     .cover__video {
         width: 100%;
     }
+
+    .temp-caption {
+        padding: 1rem;
+        @include font--small;
+    }
+
+    .temp-caption a {
+            text-decoration: underline;
+    }
     
 
   }
