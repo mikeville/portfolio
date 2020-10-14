@@ -28,6 +28,10 @@ a:hover {
   color: $color--highlight;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 // Responsive hides
 .hide-on-mobile {
   display: none;
@@ -41,4 +45,33 @@ a:hover {
 img {
   width: 100%;
   margin: 0;
+}
+
+@mixin buttonBG($bg) {
+  border: 2px solid $bg;
+  color: $bg;
+  &:hover {
+    background-color: $bg;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+button {
+  width: 180px;
+  height: 80px;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  transition: .5s;
+  font-size: 24px;
+  border-radius: 5px;
+  font-family: "Lato",sans-serif;
+  &:hover{
+    border: none;
+    color: white;
+    font-size: 28px;
+    transform:scale(1.1);
+  }
+
+  @include buttonBG($color--text);
 }

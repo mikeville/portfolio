@@ -90,9 +90,6 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                 <div class="row section-title">
                   <div class="col-sm-6 start-sm-3">
                     <div class="section-title__title">
-                      <div class="umbro-logo-container">
-                        <img src="images/yg-umbro-wireframes-170817-2130--slicing-logo-29.svg"></img>
-                      </div>
                       <h3>
                         How to read these timelines
                       </h3>

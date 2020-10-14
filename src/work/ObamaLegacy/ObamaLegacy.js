@@ -71,8 +71,10 @@ render() {
               <div className="col-xs-6">
                 <img src={imgEnergy3} alt="Excerpts from Obama's Energy Legacy"></img>
               </div>
-              <div className="col-xs-12">
-                Play Button Here
+              <div className="col-xs-12 play-button-container">
+                <button>
+                  Play video
+                </button>
               </div>
             </section>
             <section className="row">
@@ -85,8 +87,10 @@ render() {
               <div className="col-xs-6">
                 <img src={imgMilitary3} alt="Excerpts from Obama's Military Legacy"></img>
               </div>
-              <div className="col-xs-12">
-                Play Button Here
+              <div className="col-xs-12 play-button-container">
+                <button>
+                  Play video
+                </button>
               </div>
             </section>
             <section className="row">
@@ -99,8 +103,10 @@ render() {
               <div className="col-xs-6">
                 <img src={imgCriminalJustice3} alt="Excerpts from Obama's Criminal Justice  Legacy"></img>
               </div>
-              <div className="col-xs-12">
-                Play Button Here
+              <div className="col-xs-12 play-button-container">
+                <button>
+                  Play video
+                </button>
               </div>
             </section>
           </div>
