@@ -7,7 +7,7 @@
     background-color: $color--text;
     color: $color--background;
 
-    font-size: $font-size--large;
+    @include font--xlarge;
 
     a {
         color: $color--background;

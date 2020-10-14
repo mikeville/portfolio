@@ -6,8 +6,7 @@
 html {
   color: $color--text;
   font-family: Poppins, Helvetica, Arial, sans-serif;
-  font-size: $font-size--regular;
-  line-height: 1.33;
+  @include font--regular;
 }
 
 strong {

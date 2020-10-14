@@ -138,7 +138,7 @@ class Work extends React.Component {
             <section className="cover">
                 <div>
                     <div className="cover__header">
-                        <CoverHeader project="Billboard Charts Redesign" role="Role goes heeeere" />
+                        <CoverHeader project="Billboard Charts redesign" role="Role goes heeeere" />
                     </div>
                     <CoverBillboard />
                 </div>
@@ -146,7 +146,7 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/umbro/umbro">
                     <div className="cover__header">
-                        <CoverHeader project="Umbro" role="Role goes heeeere" />
+                        <CoverHeader project="Umbro World Cup visualization" role="Role goes heeeere" />
                     </div>
                     <CoverUmbro />
                 </Link>
@@ -162,7 +162,7 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/businessweek/businessweek">
                     <div className="cover__header">
-                        <CoverHeader project="Businessweek" role="Role goes heeeere" />
+                        <CoverHeader project="Businessweek special issue" role="Role goes heeeere" />
                     </div>
                     <CoverBusinessweek />
                 </Link>

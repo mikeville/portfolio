@@ -24,7 +24,7 @@ class Businessweek extends React.Component {
         <div className="project__body container">
           <div className="project__intro-wrapper">
             <div className="project__intro">
-              <h1 className="project__title">Businessweek</h1>
+              <h1 className="project__title">Great Recession special issue</h1>
               <h2 className="project__subtitle">Data visualization and design</h2>
               <div className="container project__info">
                 <div className="row">

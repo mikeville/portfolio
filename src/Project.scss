@@ -24,11 +24,13 @@
     // }
 
     .project__title {
-        font-size: $font-size--xxx-large;
+        @include font--xxxlarge;
         font-weight: bold;
+        margin-bottom: 0.5rem
     }
 
     .project__subtitle {
+        // @include font--large;
         font-weight: bold;
     }
 
@@ -43,7 +45,7 @@
     }
 
     .note {
-        font-size: $font-size--small;
+        @include font--small;
     }
 
     .note__title {
@@ -60,7 +62,7 @@
     }
 
     .project__section-title {
-        font-size: $font-size--large;
+        @include font--xlarge;
         font-weight: bold;
         margin-bottom: 1rem;
     }
