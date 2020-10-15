@@ -35,8 +35,8 @@
 
     // Contact ===================
 
-    .about__section--contact {
-        
+    .about__section--contact .about__section__content{
+        // @include font--large;
     }
 
     .contact-icon-container {
@@ -58,18 +58,18 @@
             @include font--large;
         }
 
-        @include font--xxxlarge;
+        @include font--xlarge;
         font-weight: 100;
     }
 
     // Services ===================
     
     .about__section--services .about__section__content {
-        @media (max-width: $screen_viewport_sm) {
-            @include font--large;
-        }
+        // @media (max-width: $screen_viewport_sm) {
+        //     @include font--large;
+        // }
 
-        @include font--xlarge;
+        @include font--large;
         font-weight: 100;
     }
   
@@ -82,6 +82,7 @@
     .about__section--clients .about__section__content {
         // line-height: 1.15;
         // @include font--regular;
+        @include font--large;
     }
   
     .about__section--clients .about__section__content ul li{

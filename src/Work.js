@@ -47,7 +47,7 @@ class Work extends React.Component {
                     </div>
                     <CoverVcb />
                     <CoverCaption>
-                        Animations for 30 interviews with musicians, visualizing the musical layers and songwriting process.
+                        Animations for interviews with 30 bands, visualizing the musical layers and their songwriting process.
                     </CoverCaption>
                 </Link>
             </section>
@@ -58,7 +58,7 @@ class Work extends React.Component {
                     </div>
                     <CoverTrusat />
                     <CoverCaption>
-                        I designed and launched TruSat with the ConsenSys Space team. TruSat is a volunteer-led project to promote space sustainability via an independent catalog of satellite position.
+                        I designed and launched TruSat with the ConsenSys Space team. TruSat is a volunteer-led project to promote space sustainability via an independent catalog of satellite positions.
                     </CoverCaption>
                 </a>
             </section>

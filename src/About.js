@@ -39,8 +39,11 @@ function About() {
                     <div className="col-xs-12 about__section__title">
                         Bio
                     </div>
-                    <div className="col-xs-12 about__section__content">
-                        Hi there. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. I'm a multi-disciplinary design director with 11 years of experience serving a wide range of audiences etc etc. I've taught design at the school of visual arts. 
+                    <div className="col-xs-12 col-md-10 about__section__content">
+                        <p>
+                        Ahoy! I'm a Seattle-born, Brooklyn-based design director searching for new ways to spread info and ideas that increase our well being.                        </p>
+                        <p>
+                        I have 11 years of experience serving a range of audiences and organizations. I design holistically—balancing user needs with business goals, and merging product with brand to create useful tools with impactful stories. I love working with others to solve complex puzzles in uncharted waters.                        </p>
                     </div>
                 </div>
                 <div className="row about__section about__section--services">
@@ -52,19 +55,42 @@ function About() {
                             <div className="col-md-6">
                                 <ul>
                                     <li>Creative direction</li>
-                                    <li>UX and product design</li>
-                                    <li>Prototyping</li>
+                                    <li>Product design and UX</li>
+                                    <li>Design strategy</li>
                                     <li>Design systems</li>
+                                    <li>Prototyping</li>
                                 </ul>
                             </div>
                             <div className="col-md-6">
                                 <ul>
+                                    <li>Presentation design</li>
                                     <li>Explainer videos</li>
+                                    <li>Branded content</li>
                                     <li>Data visualization</li>
                                     <li>Infographics</li>
-                                    <li>Content design</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row about__section about__section--clients">
+                    <div className="col-xs-12 about__section__title">
+                        Former teams
+                    </div>
+                    <div className="col-xs-12 about__section__content">
+                        <div className="row">
+                            <ul className="col-sm-4">
+                                <li>Vice News</li>
+                                <li>Pentagram</li>
+                            </ul>
+                            <ul className="col-sm-4">
+                                <li>Google Creative Lab</li>
+                                <li>Splice</li>
+                            </ul>
+                            <ul className="col-sm-4">
+                                <li>Local Projects</li>
+                                <li>ConsenSys</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -74,25 +100,20 @@ function About() {
                     </div>
                     <div className="col-xs-12 about__section__content">
                         <div className="row">
-                            <ul className="col-sm-6 col-lg-3">
+                            <ul className="col-sm-4">
                                 <li>Medium</li>
-                                <li>Google</li>
                                 <li>Pinterest</li>
+                                <li>SuperRare</li>
                             </ul>
-                            <ul className="col-sm-6 col-lg-3">
-                                <li>Pentagram</li>
-                                <li>Universal Music</li>
-                                <li>Umbro</li>
-                            </ul>
-                            <ul className="col-sm-6 col-lg-3">
+                            <ul className="col-sm-4">
                                 <li>Newsweek</li>
                                 <li>Businessweek</li>
                                 <li>Fast Company</li>
                             </ul>
-                            <ul className="col-sm-6 col-lg-3">
-                                <li>Vice</li>
+                            <ul className="col-sm-4">
+                                <li>Universal Music</li>
+                                <li>Umbro</li>
                                 <li>Information Is Beautiful</li>
-                                <li>SuperRare</li>
                             </ul>
                         </div>
                     </div>

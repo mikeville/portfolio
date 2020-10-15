@@ -18,8 +18,8 @@ $font-size--xxxlarge--mobile: 2rem; //72px
 $line-height--small: 1.33;
 $line-height--regular: 1.33;
 $line-height--large: 1.2;
-$line-height--xlarge: 1.1;
-$line-height--xxxlarge: 1.1;
+$line-height--xlarge: 1.2;
+$line-height--xxxlarge: 1.15;
 
 @mixin font--small {
     font-size: $font-size--small;
