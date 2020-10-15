@@ -43,51 +43,51 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/vcb/vcb">
                     <div className="cover__header">
-                        <CoverHeader project="Verse Chorus Bridge" role="Role goes heeeere" />
+                        <CoverHeader project="Verse Chorus Bridge" role="Art direction, design, animation" />
                     </div>
                     <CoverVcb />
                     <CoverCaption>
-                        Art direction and animation for 30 interviews with musicians, visualizing the musical layers and songwriting process.
+                        Animations for 30 interviews with musicians, visualizing the musical layers and songwriting process.
                     </CoverCaption>
                 </Link>
             </section>
             <section className="cover">
                 <a href="https://trusat.org/" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="TruSat" role="Role goes heeeere" />
+                        <CoverHeader project="TruSat" role="Creative direction, product design" />
                     </div>
                     <CoverTrusat />
                     <CoverCaption>
-                        Creative direction and product design for TruSat, the independent catalog of satellites—a volunteer-led project to promote space sustainability.
+                        I designed and launched TruSat with the ConsenSys Space team. TruSat is a volunteer-led project to promote space sustainability via an independent catalog of satellite position.
                     </CoverCaption>
                 </a>
             </section>
             <section className="cover">
                 <a href="https://informationisbeautiful.net/beautifulnews/"  target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Beautiful News" role="Role goes heeeere" />
+                        <CoverHeader project="Beautiful News" role="Data stories" />
                     </div>
                     <CoverBeautifulNews />
                     <CoverCaption>
-                        Various visual data stories for <em><a href="https://informationisbeautiful.net/beautifulnews/" target="_blank">Beautiful News</a></em>, highlighting positive trends across our planet.
+                        Various visual data stories highlighting positive trends across our planet.
                     </CoverCaption>
                 </a>
             </section>
             <section className="cover">
-                <Link to="/work/pinterest/pinterest">
+                <a href="https://carlospagan.com/portfolio/pinterest" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Pinterest Identity" role="Role goes heeeere" />
+                        <CoverHeader project="Pinterest Identity" role="Identity design" />
                     </div>
                     <CoverPinterest />
                     <CoverCaption>
-                        Brand identity for Pinterest, designed in collaboration with the amazing <a href="https://carlospagan.com/portfolio/pinterest" target="_blank">Juan Carlos Pagan</a>.
+                        Brand identity for Pinterest, designed in collaboration with the amazing <a href="https://carlospagan.com" target="_blank">Juan Carlos Pagan</a>.
                     </CoverCaption>
-                </Link>
+                </a>
             </section>
             <section className="cover">
                 <Link to="/work/vicenews/vicenews">
                     <div className="cover__header">
-                        <CoverHeader project="Vice News" role="Role goes heeeere" />
+                        <CoverHeader project="Vice News" role="Design direction, product design" />
                     </div>
                     <CoverViceNews />
                     <CoverCaption>
@@ -98,18 +98,18 @@ class Work extends React.Component {
             <section className="cover">
                 <a href="https://splice.com/features/sounds" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Splice" role="Role goes heeeere" />
+                        <CoverHeader project="Splice Sounds" role="Product design" />
                     </div>
                     <CoverSplice />
                     <CoverCaption>
-                        I designed Splice Sounds from concept to launch&emdash;a Spotify-like platform for musicians to distribute and collect audio samples. The product has been the central engine for Splice's growth and 9-figure valuation.
+                        I designed Splice Sounds from concept to launch&mdash;a Spotify-like platform for musicians to distribute and collect audio samples. The product has been the central engine for Splice's growth and 9-figure valuation.
                     </CoverCaption>
                 </a>
             </section>
             <section className="cover">
                 <Link to="/work/whales/whales">
                     <div className="cover__header">
-                        <CoverHeader project="Whale Song Explained" role="Role goes heeeere" />
+                        <CoverHeader project="Whale Song Explained" role="Sound visualization" />
                     </div>
                     <CoverWhales />
                     <CoverCaption>
@@ -120,18 +120,18 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/rapmatics/rapmatics">
                     <div className="cover__header">
-                        <CoverHeader project="Rapmatics" role="Role goes heeeere" />
+                        <CoverHeader project="Rapmatics" role="Diagrams" />
                     </div>
                     <CoverRapmatics />
                     <CoverCaption>
-                        A series of lyrical diagrams
+                        A series of lyrical doodles
                     </CoverCaption>
                 </Link>
             </section>
             <section className="cover">
                 <a href="http://pollenmagazine.com/001" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Pollen" role="Role goes heeeere" />
+                        <CoverHeader project="Pollen" role="Art direction, design, illustration" />
                     </div>
                     <CoverPollen />
                     <CoverCaption>
@@ -142,29 +142,29 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/obamalegacy/obamalegacy">
                     <div className="cover__header">
-                        <CoverHeader project="Obama's Legacy" role="Role goes heeeere" />
+                        <CoverHeader project="Obama's Legacy" role="Art direction, explainer videos" />
                     </div>
                     <CoverObamaLegacy />
                     <CoverCaption>
-                        This three-part series of animations discusses Obama's long-term impact in the categories of energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week in office.
+                        This three-part series shows Obama's long-term impact on energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week in office.
                     </CoverCaption>
                 </Link>
             </section>
             <section className="cover">
                 <a href="https://statlas.co/" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Statlas" role="Role goes heeeere" />
+                        <CoverHeader project="Statlas" role="Co-founder, product design" />
                     </div>
                     <CoverStatlas />
                     <CoverCaption>
-                        In 2013 I quit my day job to build a baseball news app with live infographic coverage of every MLB game. A stripped down version still exists <a href="http://statlas.co" target="_blank" >here</a>
+                        In 2013 I quit my day job to build a baseball news app with live infographic coverage of every MLB game. A stripped down version still exists <a href="http://statlas.co" target="_blank" >here</a>.
                     </CoverCaption>
                 </a>
             </section>
             <section className="cover">
                 <a href="https://chartingthebeatles.net/" target="_blank">
                     <div className="cover__header">
-                        <CoverHeader project="Charting the Beatles" role="Role goes heeeere" />
+                        <CoverHeader project="Charting the Beatles" role="Data visualization" />
                     </div>
                     <CoverBeatles />
                     <CoverCaption>
@@ -175,7 +175,7 @@ class Work extends React.Component {
             <section className="cover">
                 <div>
                     <div className="cover__header">
-                        <CoverHeader project="Billboard Charts redesign" role="Role goes heeeere" />
+                        <CoverHeader project="Billboard Charts redesign" role="Information design" />
                     </div>
                     <CoverBillboard />
                     <CoverCaption>
@@ -186,7 +186,7 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/umbro/umbro">
                     <div className="cover__header">
-                        <CoverHeader project="Umbro World Cup visualization" role="Role goes heeeere" />
+                        <CoverHeader project="Umbro World Cup visualization" role="Data stories" />
                     </div>
                     <CoverUmbro />
                     <CoverCaption>
@@ -197,18 +197,18 @@ class Work extends React.Component {
             <section className="cover">
                 <div>
                     <div className="cover__header">
-                        <CoverHeader project="Google Creative Lab" role="Role goes heeeere" />
+                        <CoverHeader project="Google Creative Lab" role="Product design" />
                     </div>
                     <CoverGoogleCreativeLab />
                     <CoverCaption>
-                        I spent a year at Google working on product design R&amp;D, and campaigns for projects like <a href="https://loon.co/" target="_blank" class="link--default">Loon</a>&emdash;Alphabet&#x27;s internet balloon moonshot.
+                        I spent a year at Google working on product R&amp;D, and campaigns for projects like <a href="https://loon.co/" target="_blank" class="link--default">Loon</a>&mdash;Alphabet&#x27;s internet balloon moonshot.
                     </CoverCaption>
                 </div>
             </section>
             <section className="cover">
                 <Link to="/work/businessweek/businessweek">
                     <div className="cover__header">
-                        <CoverHeader project="Businessweek special issue" role="Role goes heeeere" />
+                        <CoverHeader project="Businessweek special issue" role="Data stories" />
                     </div>
                     <CoverBusinessweek />
                     <CoverCaption>
