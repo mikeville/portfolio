@@ -24,13 +24,13 @@ class Businessweek extends React.Component {
         <div className="project__body container">
           <div className="project__intro-wrapper">
             <div className="project__intro">
-              <h1 className="project__title">Great Recession special issue</h1>
+              <h1 className="project__title">Businessweek special issue</h1>
               <h2 className="project__subtitle">Data visualization and design</h2>
               <div className="container project__info">
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>
-                      I joined the Businessweek team to lead the research and design of visual news stories for a special issue marking the five-year anniversary of the financial meltdown triggering the Great Recession.
+                      I worked with the Businessweek team to lead the research and design of a collection of visual news stories for a special issue marking the five-year anniversary of the financial meltdown that triggered the Great Recession.
                     </p>
                   </div>
                   <div className="col-xs-10 col-md-3 start-md-9 note">

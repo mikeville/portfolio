@@ -8,7 +8,33 @@ import ProjectFooter from '../../ProjectFooter';
 import Modal from '../../Modal';
 import VcbThumb from './VcbThumb';
 
-import imgArtist1 from './media/vcbTempThumb.png' 
+import imgAndrewBird from './media/vcb-andrew_bird-cover.gif' 
+import imgBroods from './media/vcb-broods-cover-3_frame.gif' 
+import imgChristianScott from './media/vcb-christian_scott-cover.gif' 
+import imgCourtneyBarnett from './media/vcb-courtney_barnett-cover-3_frame.gif' 
+import imgDeafheaven from './media/vcb-deafheaven-cover-3_frame.gif' 
+import imgDeerhunter from './media/vcb-deerhunter-cover.gif' 
+import imgDrugdealer from './media/vcb-drugdealer-cover.gif'
+import imgFlylo from './media/vcb-flylo-cover.gif'
+import imgGrizzlyBear from './media/vcb-grizzly_bear-cover-3_frame.gif'
+import imgJadenSmith from './media/vcb-jaden-cover-3_frame.gif'
+import imgJamilaWoods from './media/vcb-jamila-cover.gif'
+import imgJonnyMarr from './media/vcb-jonny_marr-cover-3_frame.gif'
+import imgJustice from './media/vcb-justice-cover-3_frame.gif'
+import imgKurtVile from './media/vcb-kurt-cover-3_frame.gif'
+import imgLilMad from './media/vcb-lilmad-cover.gif'
+import imgNakhane from './media/vcb-nakhane-cover.gif'
+import imgPhoenix from './media/vcb-phoenix-cover-3_frame.gif'
+import imgREM from './media/vcb-rem-cover-3_frame.gif'
+import imgRostam from './media/vcb-rostam-cover-3_frame.gif'
+import imgScreamingFemales from './media/vcb-screaming_females-cover-3_frame.gif'
+import imgSnailMail from './media/vcb-snail_mail-cover-3_frame.gif'
+import imgSparks from './media/vcb-sparks-cover-3_frame.gif'
+import imgSuperorganism from './media/vcb-superorganism-cover-3_frame.gif'
+import imgTheGoTeam from './media/vcb-the_go_team-cover-3_frame.gif'
+import imgToroYMoi from './media/vcb-toro-cover.gif'
+import imgUMO from './media/vcb-umo-cover-3_frame.gif'
+import imgZiggyMarley from './media/vcb-ziggy-cover-3_frame.gif'
 
 class Vcb extends React.Component {
   constructor(props) {
@@ -18,146 +44,164 @@ class Vcb extends React.Component {
           {
             artist: "Jamila Woods",
             song: "Eartha",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
+            image: imgJamilaWoods,
+            url: "https://www.youtube.com/embed/KuVXE3iNnkI"
           },
           {
             artist: "Drugdealer",
             song: "Fools",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/_pg_yD57bW0"
+            image: imgDrugdealer,
+            url: "https://www.youtube.com/embed/KVVcwGcxY3c"
           },
           {
             artist: "Nakhane",
             song: "Interloper",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/KuVXE3iNnkI"
+            image: imgNakhane,
+            url: "https://www.youtube.com/embed/Xyuf4wbDLqA"
           },
           {
             artist: "Flying Lotus ft. Andderson .Paak",
             song: "More",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
+            image: imgFlylo,
+            url: "https://www.youtube.com/embed/_pg_yD57bW0"
           },
           {
             artist: "Superorganism",
             song: "Everybody Wants to Be Famous",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/_pg_yD57bW0"
+            image: imgSuperorganism,
+            url: "https://www.youtube.com/embed/wHaV77qdw6E"
           },
           {
             artist: "R.E.M.",
             song: "Man on the Moon",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/KuVXE3iNnkI"
+            image: imgREM,
+            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
           },
           {
             artist: "Toro Y Moi",
             song: "Freelance",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/eb-4fn0yLwA"
+            image: imgToroYMoi,
+            url: "https://www.youtube.com/embed/hRKIqrF8sT0"
           },
           {
             artist: "Deerhunter",
             song: "Plains",
-            image: imgArtist1,
-            url: "https://www.youtube.com/embed/_pg_yD57bW0"
+            image: imgDeerhunter,
+            url: "https://www.youtube.com/embed/aUvZefdghLc"
           },
           {
             artist: "Christian Scott aTunde  Adjuah",
             song: "Ancestral Recall",
-            image: imgArtist1,
-            url: "URL"
+            image: imgChristianScott,
+            url: "https://www.youtube.com/embed/OV2qV64V2QI"
           },
           {
             artist: "Lily & Madeleine",
             song: "Can't Help the Way I Feel",
-            image: imgArtist1,
-            url: "URL"
+            image: imgLilMad,
+            url: "https://www.youtube.com/embed/LcXqVHJQ0vw"
           },
           {
             artist: "Andrew Bird",
             song: "Sisyphus",
-            image: imgArtist1,
-            url: "URL"
+            image: imgAndrewBird,
+            url: "https://www.youtube.com/embed/M5xO9Q3HBv4"
           },
           {
             artist: "Justice",
             song: "Love S.O.S. (WWW)",
-            image: imgArtist1,
-            url: "URL"
+            image: imgJustice,
+            url: "https://www.youtube.com/embed/dDD5dAHhAYc"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Ziggy Marley",
+            song: "Rebellion Rising",
+            image: imgZiggyMarley,
+            url: "https://www.youtube.com/embed/_iuzHwBJvJU"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Kurt Vile",
+            song: "Bassackwards",
+            image: imgKurtVile,
+            url: "https://www.youtube.com/embed/rCMoRgVMt8s"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Broods",
+            song: "Peach",
+            image: imgBroods,
+            url: "https://www.youtube.com/embed/qTShnaWE_N0"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Unknown Mortal Orchestra",
+            song: "Not in Love, We're Just High",
+            image: imgUMO,
+            url: "https://www.youtube.com/embed/1bGTxHwBtQ4"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Courtney Barnett",
+            song: "City Looks Pretty",
+            image: imgCourtneyBarnett,
+            url: "https://www.youtube.com/embed/lJx1CPkxj7s"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Jaden Smith",
+            song: "Lost Boy",
+            image: imgJadenSmith,
+            url: "https://www.youtube.com/embed/tHZnZs6wFqc"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Screaming Females",
+            song: "Glass House",
+            image: imgScreamingFemales,
+            url: "https://www.youtube.com/embed/cWBXaZysuT4"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Sparks",
+            song: "Edith Piaf (Said It Beter Than Me)",
+            image: imgSparks,
+            url: "https://www.youtube.com/embed/PSVpgPy4ms4"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Grizzly Bear",
+            song: "Neighbors",
+            image: imgGrizzlyBear,
+            url: "https://www.youtube.com/embed/5KaoJuFUmN4"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Phoenix",
+            song: "J-boy",
+            image: imgPhoenix,
+            url: "https://www.youtube.com/embed/jOEq7tNo7xY"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "DeafHeaven",
+            song: "HoneyComb",
+            image: imgDeafheaven,
+            url: "https://www.youtube.com/embed/vYTM7kbsRmM"
           },
           {
-            artist: "ARTIST",
-            song: "SONG",
-            image: imgArtist1,
-            url: "URL"
+            artist: "Snail Mail",
+            song: "Pristine",
+            image: imgSnailMail,
+            url: "https://www.youtube.com/embed/d3ZrywI6RFE"
+          },
+          {
+            artist: "Johny Marr",
+            song: "The Tracers",
+            image: imgJonnyMarr,
+            url: "https://www.youtube.com/embed/yD2_pErDZp8"
+          },
+          {
+            artist: "Rostam",
+            song: "Gwan",
+            image: imgRostam,
+            url: "https://www.youtube.com/embed/8T9LfPr6Z3k"
+          },
+          {
+            artist: "The Go! Team",
+            song: "MayDay",
+            image: imgTheGoTeam,
+            url: "https://www.youtube.com/embed/dGHpgjnAvGE"
           },
         ],
         show: false,

@@ -43,10 +43,17 @@ render() {
                       Music has many properties (pitch, rhythm, tempo, etc), but repetition is what makes something <em>feel</em> musical.
                     </p>
                     <p>
-                      These flow-mapping, loop-doodling spit-samples are an ongoing tribute to lyrical repetition in hip hop.
+                      These doodles are a tribute to patterns of repetition and poetic structure in hip hop.
                     </p>
                   </div>
                   <div className="col-xs-10 col-md-3 start-md-9 note">
+                    <p className="note__title">
+                      Further reading
+                    </p>
+                    <ul className="credit-list">
+                      <li><a href="http://www.ethanhein.com/wp/2014/repetition-defines-music/" target="_blank">Repetition defines music</a> <span className="nobr">&mdash;Ethan Hein</span></li>  
+                      <li><a href="https://www.youtube.com/watch?v=uTINOGFv-Dw" target="_blank">Repetition begets awareness</a> <span className="nobr">&mdash;Weezy F. Baby</span></li>  
+                    </ul>
                   </div>
                 </div>
               </div>

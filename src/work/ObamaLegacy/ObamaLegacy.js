@@ -66,7 +66,7 @@ render() {
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>
-                      This three-part series of animations discusses Obama's long-term impact in the categories of energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week as POTUS.
+                    This three-part series shows Obama's long-term impact on energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week in office.
                     </p>
                   </div>
                   <div className="col-xs-10 start-md-8 col-md-4 note">
