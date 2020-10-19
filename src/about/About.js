@@ -2,6 +2,8 @@ import React from 'react';
 import Modal from './../Modal';
 import './About.scss';
 
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+
 import imgBeatlesNewsweek from './media/beatles-newsweek-181106.jpg' 
 import imgPinterestCandy from './media/IMG_0513-650x487.jpeg' 
 import imgKanyeMonsterTweet from './media/kanye-tweet-monster-vid.jpg' 
@@ -63,19 +65,17 @@ class About extends React.Component {
                         </div>
                         <div className="col-xs-12">
                             <div className="row about__section__content">
-                                <div className="col-md-6">
-                                    thedeal@gmail.com
-                                </div>
-                                <div className="col-md-6 contact-icon-container">
+                                <div className="col-md-12">
                                     <div className="contact-icon">
-                                        x
+                                        <a href="https://www.linkedin.com/in/mikedeal/" target="_blank"><FaLinkedin/></a>
                                     </div>
                                     <div className="contact-icon">
-                                        x
+                                        <a href="https://www.instagram.com/michaelvision/" target="_blank"><FaInstagram/></a>
                                     </div>
                                     <div className="contact-icon">
-                                        x
+                                        <a href="https://twitter.com/dealville" target="_blank"><FaTwitter/></a>
                                     </div>
+                                    <a href="mailto:thedeal@gmail.com" target="_blank">thedeal@gmail.com  </a>
                                 </div>
                             </div>
                         </div>

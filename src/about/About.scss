@@ -9,6 +9,9 @@
 
     a {
         color: white;
+        &:hover {
+            color: $color--highlight;
+        }
     }
 
     .about__container {
@@ -45,6 +48,10 @@
 
     .about__section--contact .about__section__content{
         // @include font--large;
+        a {
+            text-decoration: none;
+
+        }
     }
 
     .contact-icon-container {
@@ -52,10 +59,11 @@
     }
 
     .contact-icon {
+        font-size: 30px;
+        position: relative;
+        top: 0.25rem;
         display: inline;
-        background-color: white;
-        height: 30px;
-        margin-left: 10px;
+        margin-right: 1.5rem;
     }
 
 
