@@ -57,7 +57,7 @@ class Businessweek extends React.Component {
                 <div className="row">
                   <div className="col-md-3 note">
                     <p>
-                      A diagram showing the risk each major financial instituion was exposed to by [risk] from each other. Concentrations of longer arrows indicate more counterparty risk exposure.
+                      A diagram showing the dangerous connections between the major financial on the eve of the collapse. Concentrations of longer arrows indicate more exposure to counterparty risk.
                     </p>
                   </div>
                   <div className="col-md-9">
@@ -75,7 +75,7 @@ class Businessweek extends React.Component {
                 <div className="row">
                   <div className="col-md-4 note">
                     <p>
-                      At the start of each section in the issue—one for each year sinc ethe meltdown—is a stack of graphs showing key economic indexes (GDP, household income, etc.). More of each index is revealed as the issue unfolds.
+                      The issue was divided into a section for each year since the collapse. Each year starts with a stack of graphs showing key economic indexes (GDP, household income, etc.). More of each index is revealed as the issue unfolds.
                     </p>
                   </div>
                 </div>
@@ -89,10 +89,10 @@ class Businessweek extends React.Component {
                 <div className="row">
                   <div className="col-md-4 note">
                     <p>
-                      Designed with Allison McCann
+                      Designed with <a href="http://allisontmccann.com/" target="_blank">Allison McCann</a>
                     </p>
                     <p>
-                      The purple in this heatmap shows drops in unemployment from 2007-2013, serving as the stage over which different world leaders come and go (marked by black dots). We figured eye-crops made for a more compelling set of headshots.
+                      The purple in this heatmap shows drops in unemployment from 2007-2013, serving as the stage over which different world leaders come and go (marked by black dots). We figured eye-crops made for a more engaging set of headshots.
                     </p>
                   </div>
                 </div>

@@ -41,9 +41,11 @@ function About() {
                     </div>
                     <div className="col-xs-12 col-md-10 about__section__content">
                         <p>
-                        Ahoy! I'm a Seattle-born, Brooklyn-based design director searching for new ways to spread info and ideas that increase our well being.                        </p>
+                        Ahoy! I'm a Seattle-born, Brooklyn-based design director searching for new ways to spread info and ideas that increase our well being.
+                        </p>
                         <p>
-                        I have 11 years of experience serving a range of audiences and organizations. I design holistically—balancing user needs with business goals, and merging product with brand to create useful tools with impactful stories. I love working with others to solve complex puzzles in uncharted waters.                        </p>
+                        I have 11 years of experience serving a range of audiences and organizations. I design holistically—balancing user needs with business goals, and merging product with brand to create useful tools with impactful stories. I love working with others to solve complex puzzles in uncharted waters. Long live the funk.
+                        </p>
                     </div>
                 </div>
                 <div className="row about__section about__section--services">
@@ -161,8 +163,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="row about__header">
-                    <div className="col-xs-12">
+                <div className="row about__footer">
+                    <div className="col-xs-12 col-md-6">
+                        Check out my partner <a href="http://megmake.com" target="_blank">Meg</a> for more creative direction and brand strategy.
+                    </div>
+                    <div className="col-xs-12 col-md-6 about__back-to-top">
                         <a href="#top-anchor">Back to top</a>
                     </div>
                 </div>

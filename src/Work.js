@@ -47,7 +47,7 @@ class Work extends React.Component {
                     </div>
                     <CoverVcb />
                     <CoverCaption>
-                        Animations for interviews with 30 bands, visualizing the musical layers and their songwriting process.
+                        Animations for interviews with 30 bands, visualizing the musical layers of their songwriting process.
                     </CoverCaption>
                 </Link>
             </section>
@@ -69,7 +69,7 @@ class Work extends React.Component {
                     </div>
                     <CoverBeautifulNews />
                     <CoverCaption>
-                        Various visual data stories highlighting positive trends across our planet.
+                        Various graphics highlighting positive trends across our planet.
                     </CoverCaption>
                 </a>
             </section>
@@ -113,7 +113,7 @@ class Work extends React.Component {
                     </div>
                     <CoverWhales />
                     <CoverCaption>
-                        A graphic notation system for transcribing humpback whale songs to reveal their musical structure. Published in <em><a href="http://opinionator.blogs.nytimes.com/2014/10/05/how-to-make-music-with-a-whale/" target="_blank">The New York Times</a></em> and <em>The Wire</em> magazine. Exhibited at <em>Aquarium Tropical, Paris, Baleinopolis</em>.
+                        A graphic notation system for transcribing humpback whale songs to reveal their musical structure. Published in <em><a href="http://opinionator.blogs.nytimes.com/2014/10/05/how-to-make-music-with-a-whale/" target="_blank">The New York Times</a></em> and <em>The Wire</em> magazine. Exhibited in <em>Baleinopolis</em>, Aquarium Tropical, Paris, .
                     </CoverCaption>
                 </Link>
             </section>
@@ -124,7 +124,7 @@ class Work extends React.Component {
                     </div>
                     <CoverRapmatics />
                     <CoverCaption>
-                        A series of lyrical doodles
+                        A series of doodles plotting poetic structure.
                     </CoverCaption>
                 </Link>
             </section>
@@ -157,7 +157,7 @@ class Work extends React.Component {
                     </div>
                     <CoverStatlas />
                     <CoverCaption>
-                        In 2013 I quit my day job to build a baseball news app with live infographic coverage of every MLB game. A stripped down version still exists <a href="http://statlas.co" target="_blank" >here</a>.
+                    “The prettiest MLB box scores you can find.” <em><a href="http://regressing.deadspin.com/the-prettiest-online-mlb-box-scores-are-now-updated-liv-1576430193">~Deadspin</a></em>. In 2013 I quit my day job to build a baseball news app with live infographic coverage of every MLB game. A stripped down version still exists <a href="http://statlas.co" target="_blank" >here</a>. Built with Dan Chaparian, Chris Ring, and Geoff Beck.  
                     </CoverCaption>
                 </a>
             </section>
@@ -186,7 +186,7 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/work/umbro/umbro">
                     <div className="cover__header">
-                        <CoverHeader project="Umbro World Cup visualization" role="Data stories" />
+                        <CoverHeader project="Umbro World Cup visualizations" role="Data stories" />
                     </div>
                     <CoverUmbro />
                     <CoverCaption>

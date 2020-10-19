@@ -242,7 +242,7 @@ class Vcb extends React.Component {
                         Between 2017 and 2019, <em>Vice News Tonight on HBO</em> ran a series of interviews with musicians about their songwriting process. I designed and animated graphics visualizing the musical layers that artists described.
                       </p>
                       <p>
-                        The tight deadlines called for a graphic system that could be reused for each episode, while allowing for enough flexibility to fit the unique vibe of each musician.
+                        The tight deadlines called for a graphic system that could be reused for each episode, while allowing enough flexibility to fit the unique vibe of each musician.
                       </p>
                       <p>
                         I designed visuals for 30 episodes. By the 6th episode I'd locked in a system based on tiled patterns. The illustrated lines within the tiles complement the song's sound, while the grid between the tiles provides a versatile lattice for plotting musical structure.

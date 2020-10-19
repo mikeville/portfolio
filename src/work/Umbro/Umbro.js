@@ -45,19 +45,15 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
           <div className="project__intro-wrapper">
             <div className="project__intro container">
               <h1 className="project__title">Umbro World Cup visualization</h1>
-              <h2 className="project__subtitle">Client: Umbro</h2>
-              <h2 className="project__subtitle">My role goes here</h2>
+              <h2 className="project__subtitle">Data stories</h2>
               <div className="project__info">
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>
-                      Umbro covered the World Cup with post-game recaps across their digital channels. They paired their written analysis with this graphic system I designed to visualize game highlights.
+                      Umbro planned to cover the World Cup with game recaps across their digital channels, and they commissioned me to come up with infographics to feature in their coverage. I designed a visual language for summarizing soccer matches, using timelines that can be paired with written game analysis.
                     </p>
                     <p>
-                      Something about how I was commissioned.
-                    </p>
-                    <p>
-                      Maybe smaller type: Umbro's final post of the series—a single bird's-eye view of all 64 matches—was the most trafficked post on their blog to that date. In response to the high engagement, Umbro gave away posters of the final graphic.
+                    Umbro's final post of the series—a single bird's-eye view of all 64 matches—was the most trafficked post on their blog to that date. In response to the high engagement, Umbro gave away posters of the final graphic.
                     </p>
                   </div>
                   <div className="col-xs-10 col-md-3 start-md-9 note">
