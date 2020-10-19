@@ -1,4 +1,6 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import Modal from './../Modal';
 import './About.scss';
 
@@ -51,12 +53,12 @@ class About extends React.Component {
     
     render() {
         return (
-            <div className="About">
+            <div  id="about-link" className="About">
                 <a name="about-anchor"></a>
                 <div className="container about__container">
                     <div className="row about__header">
                         <div className="col-xs-12">
-                            <a href="#top-anchor">Work</a>
+                            <Link to="/#work-link">Work</Link>
                         </div>
                     </div>
                     <div className="row about__section about__section--contact">
