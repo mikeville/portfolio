@@ -29,13 +29,23 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        // display: flex;
-        // align-items: center;
-        // justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 80%;
+        max-width: 960px;
+    }
+
+    .Modal__content img,
+    .Modal__content p {
+        width: 100%;
     }
 
     .Modal__caption {
         @include font--small;
+        margin-top: 0.5rem;
     }
 
     .Modal__video iframe {
