@@ -4,7 +4,7 @@ import Loader from './Loader';
 import './Modal.scss';
 
 
-class Modal extends React.Component {
+class Modal extends React.Component { 
     constructor(props) {
         super(props)
         this.state = {}

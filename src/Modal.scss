@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .Modal {
     position: fixed;
     left: 0;
@@ -27,10 +29,13 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+    }
 
+    .Modal__caption {
+        @include font--small;
     }
 
     .Modal__video iframe {

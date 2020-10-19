@@ -1,6 +1,6 @@
 import React from 'react';
 import Work from './Work';
-import About from './About';
+import About from './about/About';
 import './Home.scss';
 import homeHeaderImage from './media-global/mikemake-logo-181102-2208--squishy_600px.gif' 
 

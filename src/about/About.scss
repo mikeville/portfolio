@@ -1,4 +1,4 @@
-@import "variables.scss";
+@import "./../variables.scss";
 
 
 .About {
@@ -121,5 +121,10 @@
         margin-bottom: 0.25rem;
     }
 
-
+    .about__modal-links li:not(:first-child) {
+        cursor: pointer;
+        &:hover {
+            color: $color--highlight;
+        }
+    }
   }

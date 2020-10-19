@@ -1,6 +1,13 @@
 import React from 'react';
-import Modal from './Modal';
+import Modal from './../Modal';
 import './About.scss';
+
+import imgBeatlesNewsweek from './media/beatles-newsweek-181106.jpg' 
+import imgPinterestCandy from './media/IMG_0513-650x487.jpeg' 
+import imgKanyeMonsterTweet from './media/kanye-tweet-monster-vid.jpg' 
+import imgMomaTalkToMe from './media/moma-ge.jpg' 
+import imgTronReference from './media/tron.jpg' 
+
 
 class About extends React.Component {
     constructor(props) {
@@ -8,24 +15,24 @@ class About extends React.Component {
         this.state = {
           content: [
             {
-              recognition: "moma",
-              url: "https://www.youtube.com/embed/Y8MctZkpwd0"
+              recognition: "The home energy calculator I worked on with Lisa Strausfeld and team was shown in the MoMa’s ‘Talk To Me’ exhibition.",
+              img: imgMomaTalkToMe
             },
             {
-              recognition: "kanye",
-              url: "https://www.youtube.com/embed/uv9UVmJa9DM"
+              recognition: "Tim Heintzelman and I made a video of muppets lip syncing Kanye West’s ‘Monster.’",
+              img: imgKanyeMonsterTweet
             },
             {
-              recognition: "candy",
-              url: "https://www.youtube.com/embed/b2JgpADOokY"
+              recognition: "The Pinterest logo has been baked into many sweet foods.",
+              img: imgPinterestCandy
             },
             {
-              recognition: "tron",
-              url: "https://www.youtube.com/embed/b2JgpADOokY"
+              recognition: "A scene from Tron Legacy references one of the Charting the Beatles graphics.",
+              img: imgTronReference
             },
             {
-              recognition: "print",
-              url: "https://www.youtube.com/embed/b2JgpADOokY"
+              recognition: "Newsweek comissioned a new graphc in my Charting the Beatles series.",
+              img: imgBeatlesNewsweek
             }
           ],
           activeContent: "tbd"
@@ -164,7 +171,7 @@ class About extends React.Component {
                         </div>
                         <div className="col-xs-12 about__section__content">
                             <div className="row">
-                                <ul className="col-sm-6 col-lg-3">
+                                <ul className="col-sm-6 col-lg-3 about__modal-links">
                                     <li>Highlights</li>
                                     <li onClick={(e) => this.showModal(this.state.content[0], e)}>Hung in the Museum of Modern Art</li>
                                     <li onClick={(e) => this.showModal(this.state.content[1], e)}>Tweeted by Kanye</li>
@@ -207,7 +214,8 @@ class About extends React.Component {
                     </div>
                 </div>
                 <Modal onClose={this.showModal.bind(this)} show={this.state.show}>
-                    {this.state.activeContent.recognition}
+                    <img src={this.state.activeContent.img} alt={this.state.activeContent.recognition}></img>
+                    <p className="Modal__caption">{this.state.activeContent.recognition}</p>
                 </Modal>
 
             </div>
