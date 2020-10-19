@@ -1,15 +1,26 @@
 import React from 'react';
 
-function VcbThumb(props) {
-    return (
-        <div className="VcbThumb">
-            <div>
-                <img className="VcbThumb__img" src={props.image}></img>
+
+class VcbThumb extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {}
+    }
+
+    
+    render() {
+        this.imgAltText = "Screenshots from interview with " + this.props.artist + " about '" + this.props.song + "'"
+
+        return (
+            <div className="VcbThumb">
+                <div>
+                    <img className="VcbThumb__img" src={this.props.image} alt={this.imgAltText}></img>
+                </div>
+                <div>{this.props.artist}</div>
+                <div>{this.props.song}</div>
             </div>
-            <div>{props.artist}</div>
-            <div>{props.song}</div>
-        </div>
-    )
+        )
+    }
 }
 
 export default VcbThumb;

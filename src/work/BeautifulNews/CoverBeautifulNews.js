@@ -13,7 +13,7 @@ class CoverBeautifulNews extends React.Component {
         return (
             <div className="CoverBeautifulNews">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Cover image for Beautiful News"></img>
                 </div>
             </div>
         );

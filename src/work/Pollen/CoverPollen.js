@@ -16,10 +16,10 @@ class CoverPollen extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src={coverImage1}></img>
+                            <img src={coverImage1} alt="Cover of Pollen Magazine"></img>
                         </div>
                         <div className="col-md-6">
-                            <img src={coverImage2}></img>
+                            <img src={coverImage2} alt="Collage snippets from Pollen"></img>
                         </div>
                     </div>
                 </div>

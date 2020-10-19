@@ -13,7 +13,7 @@ class CoverBeatles extends React.Component {
         return (
             <div className="CoverBeatles">
                 <div className="container container-inner">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Excerpts from Charting the Beatles"></img>
                 </div>
             </div>
         );

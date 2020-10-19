@@ -13,7 +13,7 @@ class CoverGoogleCreativeLab extends React.Component {
         return (
             <div className="CoverGoogleCreativeLab">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Cover image for Google Creative Lab"></img>
                 </div>
             </div>
         );

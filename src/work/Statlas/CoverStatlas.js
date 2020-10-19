@@ -13,7 +13,7 @@ class CoverStatlas extends React.Component {
         return (
             <div className="CoverStatlas">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Screenshots of Statlas"></img>
                 </div>
             </div>
         );

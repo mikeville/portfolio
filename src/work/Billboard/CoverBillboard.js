@@ -13,7 +13,7 @@ class CoverBillboard extends React.Component {
         return (
             <div className="CoverBillboard">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Photo of the Billboard 200 spread"></img>
                 </div>
             </div>
         );

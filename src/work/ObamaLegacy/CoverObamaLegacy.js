@@ -13,7 +13,7 @@ class CoverObamaLegacy extends React.Component {
         return (
             <div className="CoverObamaLegacy">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Excerpts from Obama's Legacy videos"></img>
                 </div>
             </div>
         );

@@ -18,13 +18,13 @@ class CoverRapmatics extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-4 ">
-                            <img src={coverImage1}></img>
+                            <img src={coverImage1} alt="Lyric diagram for 'Give It To Me'"></img>
                         </div>
                         <div className="col-sm-4 hide-on-mobile">
-                            <img src={coverImage2}></img>
+                            <img src={coverImage2} alt="Lyric diagram for 'Shimmy Shimmy Ya'"></img>
                         </div>
                         <div className="col-sm-4 hide-on-mobile">
-                            <img src={coverImage3}></img>
+                            <img src={coverImage3} alt="Lyric diagram for ''Can I Kick It?"></img>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ class CoverPinterest extends React.Component {
         return (
             <div className="CoverPinterest">
                 <div className="container container-inner">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Pinterest logo"></img>
                 </div>
             </div>
         );

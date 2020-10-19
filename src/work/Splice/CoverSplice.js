@@ -13,7 +13,7 @@ class CoverSplice extends React.Component {
         return (
             <div className="CoverProject">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Screenshots of Splice Sounds on mobile"></img>
                 </div>
             </div>
         );

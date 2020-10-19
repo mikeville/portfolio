@@ -94,16 +94,16 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                 </div>
                 <div class="row section-body">
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgOnboarding1} alt="XXXX"></img>
+                    <img src={imgOnboarding1} alt="This ~90-minute timeline represents a football match"></img>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgOnboarding2} alt="XXXX"></img>
+                    <img src={imgOnboarding2} alt="Yellow lines in the timeline indicate passes"></img>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgOnboarding3} alt="XXXX"></img>
+                    <img src={imgOnboarding3} alt="Blue triangles indicate shots on goal"></img>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgOnboarding4} alt="XXXX"></img>
+                    <img src={imgOnboarding4} alt="Red circles above any blue triangles indicate a successful goal"></img>
                   </div>
                 </div>
               </div>      
@@ -128,25 +128,25 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                 </div>
                 <div class="row section-body">
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgInfamousGoal4} alt="XXXX"></img>
+                    <img src={imgInfamousGoal4} alt="Timeline for Portgual v. North Korea match"></img>
                     <h6>
                       Portugal hammers North Korea with a 7-0 shutout.
                     </h6>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgInfamousGoal2} alt="XXXX"></img>
+                    <img src={imgInfamousGoal2} alt="Timeline for Spain v. Switzerland match"></img>
                     <h6>
                       While Spain dominates Switzerland all match, the Swiss slip one in for the win.
                     </h6>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgInfamousGoal1} alt="XXXX"></img>
+                    <img src={imgInfamousGoal1} alt="Timeline for Argentina v. Nigeria match"></img>
                     <h6>
                       Argentina comes out swinging, but goes unanswered.
                     </h6>
                   </div>
                   <div class="col-xs-12 graphic-container graphic-container--onboarding">
-                    <img src={imgInfamousGoal3} alt="XXXX"></img>
+                    <img src={imgInfamousGoal3} alt="Timeline for Algeria v. USA match"></img>
                     <h6>
                       After 90 balanced minutes, USA scores with seconds left.
                     </h6>
@@ -184,7 +184,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group A
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney1} alt="XXXX"></img>
+                          <img src={imgTourney1} alt="Timelines for the six matches in Group A"></img>
                         </div>
                       </div>
 
@@ -194,7 +194,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                             Group B
                           </h5>            
                           <div class="col-xs-12 graphic-container graphic-container--group">
-                            <img src={imgTourney2} alt="XXXX"></img>
+                            <img src={imgTourney2} alt="Timelines for the six matches in Group B"></img>
                           </div>
                       </div>
 
@@ -209,7 +209,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group C
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney3} alt="XXXX"></img>
+                          <img src={imgTourney3} alt="Timelines for the six matches in Group C"></img>
                         </div>
                       </div>
 
@@ -219,7 +219,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group D
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney4} alt="XXXX"></img>
+                          <img src={imgTourney4} alt="Timelines for the six matches in Group D"></img>
                         </div>
                       </div>
 
@@ -234,7 +234,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group E
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney5} alt="XXXX"></img>
+                          <img src={imgTourney5} alt="Timelines for the six matches in Group E"></img>
                         </div>
                       </div>
 
@@ -243,7 +243,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group F
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney6} alt="XXXX"></img>
+                          <img src={imgTourney6} alt="Timelines for the six matches in Group F"></img>
                         </div>
                       </div>
 
@@ -258,7 +258,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group G
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney7} alt="XXXX"></img>
+                          <img src={imgTourney7} alt="Timelines for the six matches in Group G"></img>
                         </div>
                       </div>
 
@@ -267,7 +267,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Group H
                         </h5>            
                         <div class="graphic-container graphic-container--group">
-                          <img src={imgTourney8} alt="XXXX"></img>
+                          <img src={imgTourney8} alt="Timelines for the six matches in Group H"></img>
                         </div>
                       </div>
 
@@ -282,7 +282,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                           Round of 16
                         </h5>            
                         <div class="col-xs-12 graphic-container graphic-container--group">
-                          <img src={imgTourney9} alt="XXXX"></img>
+                          <img src={imgTourney9} alt="Timelines for the eight matches in the Round of 16"></img>
                         </div>
                       </div>
 
@@ -292,7 +292,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                                 Quarter finals
                               </h5>            
                               <div class="graphic-container graphic-container--group">
-                                <img src={imgTourney10} alt="XXXX"></img>
+                                <img src={imgTourney10} alt="Timelines for the four matches in quarter finals"></img>
                               </div>
                           </div>
                           <div class="sub-subsection">
@@ -300,7 +300,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                                 Semi finals
                               </h5>            
                               <div class="graphic-container graphic-container--group">
-                                <img src={imgTourney11} alt="XXXX"></img>
+                                <img src={imgTourney11} alt="Timelines for the two matches in the semi finals"></img>
                               </div>
 
                           </div>
@@ -309,7 +309,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                               Third place
                             </h5>            
                             <div class="col-xs-12 graphic-container graphic-container--group">
-                              <img src={imgTourney12} alt="XXXX"></img>
+                              <img src={imgTourney12} alt="Timeline for the third place match"></img>
                             </div>
                           </div>
 
@@ -326,7 +326,7 @@ import imgTourney13 from './media/yg-umbro-wireframes-170817-2130--slicing-27.sv
                       </div>
                       <div class="row subsection__body">
                         <div class="col-xs-12 graphic-container graphic-container--group">
-                          <img src={imgTourney13} alt="XXXX"></img>
+                          <img src={imgTourney13} alt="Timeline for the final match"></img>
                         </div>
                       </div>
                     </div>

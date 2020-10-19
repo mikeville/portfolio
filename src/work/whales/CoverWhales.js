@@ -13,7 +13,7 @@ class CoverWhales extends React.Component {
         return (
             <div className="CoverWhales">
                 <div className="container">
-                    <img src={coverImage}></img>
+                    <img src={coverImage} alt="Sample glyphs from whale song visualization"></img>
                 </div>
             </div>
         );
