@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import './reset.css';
 import './App.scss';
 import Home from './Home';
-import Vcb from './work/Vcb/Vcb';
+import Vcb from './work/Vcb/Vcb.js';
 import Trusat from './work/Trusat/Trusat';
 import BeautifulNews from './work/BeautifulNews/BeautifulNews';
 import ViceNews from './work/ViceNews/ViceNews';
