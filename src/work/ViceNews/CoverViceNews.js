@@ -16,7 +16,7 @@ class CoverViceNews extends React.Component {
         return (
             <div className="CoverProject">
                 <div className="container">
-                    <video className="cover__video" muted preload="metadata" autoplay="autoplay" loop="loop">
+                    <video className="cover__video" muted preload="metadata" autoPlay="autoplay" loop="loop">
                         <source src={coverVideo}></source>
                         Your browser does not support the video tag.
                     </video>
