@@ -1,4 +1,4 @@
 [build]
-base = "portfolio2020fall/"
-publish = "portfolio2020fall/build/"
+publish = "build/"
 command = "yarn build"
+build = "build"
