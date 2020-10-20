@@ -3,7 +3,7 @@
 
 .Work {
     margin-bottom: 8rem;
-    margin-top: 8rem;
+    margin-top: 7rem;
 
     a {
         text-decoration: none;
@@ -19,7 +19,7 @@
             margin-bottom: 4rem;
         }
 
-        margin-bottom: 6rem;
+        margin-bottom: 7rem;
     }
 
     .cover__header {
@@ -43,7 +43,7 @@
     }
 
     .temp-caption {
-        padding: 1rem;
+        padding-top: 0.8rem;
         @include font--small;
     }
 

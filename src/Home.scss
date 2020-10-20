@@ -4,7 +4,11 @@
 .Home {
 
     .home__header {
-        padding-top: 6rem;
+        @media (max-width: $screen-viewport-md) {
+            padding-top: 2rem;
+        }
+
+        padding-top: 2.5rem;
     }
 
     .home__header__img {
@@ -16,9 +20,14 @@
     .home__header__about-link-container {
         @media (max-width: $screen-viewport-md) {
             text-align: left;
-            margin-top: 1rem;
+            margin-top: 0.5rem;
+            text-decoration: underline;
         }
         text-align: right;
+        
+        a {
+            text-decoration: none;
+        }
     }
 
 

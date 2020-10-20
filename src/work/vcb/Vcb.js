@@ -60,7 +60,7 @@ class Vcb extends React.Component {
             url: "https://www.youtube.com/embed/Xyuf4wbDLqA"
           },
           {
-            artist: "Flying Lotus ft. Andderson .Paak",
+            artist: "Flying Lotus ft. Anderson .Paak",
             song: "More",
             image: imgFlylo,
             url: "https://www.youtube.com/embed/_pg_yD57bW0"
@@ -174,8 +174,8 @@ class Vcb extends React.Component {
             url: "https://www.youtube.com/embed/jOEq7tNo7xY"
           },
           {
-            artist: "DeafHeaven",
-            song: "HoneyComb",
+            artist: "Deafheaven",
+            song: "Honeycomb",
             image: imgDeafheaven,
             url: "https://www.youtube.com/embed/vYTM7kbsRmM"
           },
@@ -199,7 +199,7 @@ class Vcb extends React.Component {
           },
           {
             artist: "The Go! Team",
-            song: "MayDay",
+            song: "Mayday",
             image: imgTheGoTeam,
             url: "https://www.youtube.com/embed/dGHpgjnAvGE"
           },

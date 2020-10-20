@@ -1,6 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+
 import './ProjectHeader.scss';
+
+import homeHeaderImage from './media-global/mikemake-logo-181102-2208--squishy_600px.gif' 
 
 
 function ProjectHeader() {
@@ -9,10 +12,10 @@ function ProjectHeader() {
         <div className="container">
           <div className="row">
             <div className="col-xs-6 header__home-link">
-              <Link to="/">Mike Deal</Link>
+              <Link to="/"><img src={homeHeaderImage}></img></Link>
             </div>
             <div className="col-xs-6 header__about-links">
-            <Link to="/#about-link">About</Link>
+              <Link to="/#about-link">About</Link>
             </div>
           </div>
         </div>

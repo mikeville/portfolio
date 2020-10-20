@@ -18,7 +18,7 @@ class CoverPollen extends React.Component {
                         <div className="col-md-6">
                             <img src={coverImage1} alt="Cover of Pollen Magazine"></img>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 hide-on-mobile">
                             <img src={coverImage2} alt="Collage snippets from Pollen"></img>
                         </div>
                     </div>

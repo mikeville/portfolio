@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="Home">
       <div className="home__header container">
-      <h1 id="work-link">
+        <h1 id="work-link">
           <img className="home__header__img" src={homeHeaderImage} alt="Mike Make logo"></img>
         </h1>
         <div className="row">

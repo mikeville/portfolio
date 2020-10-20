@@ -16,7 +16,7 @@ class VcbThumb extends React.Component {
                 <div>
                     <img className="VcbThumb__img" src={this.props.image} alt={this.imgAltText}></img>
                 </div>
-                <div>{this.props.artist}</div>
+                <div className="VcbThumb__artist">{this.props.artist}</div>
                 <div>{this.props.song}</div>
             </div>
         )

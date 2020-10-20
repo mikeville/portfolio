@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Modal from './../Modal';
 import './About.scss';
 
-import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter, FaArrowUp } from 'react-icons/fa';
 
 import imgBeatlesNewsweek from './media/beatles-newsweek-181106.jpg' 
 import imgPinterestCandy from './media/IMG_0513-650x487.jpeg' 
@@ -58,7 +58,7 @@ class About extends React.Component {
                 <div className="container about__container">
                     <div className="row about__header">
                         <div className="col-xs-12">
-                            <Link to="/#work-link">Work</Link>
+                            <Link className="about__work-link" to="/#work-link"><span className="about__work-link__icon"><FaArrowUp/></span> Work</Link>
                         </div>
                     </div>
                     <div className="row about__section about__section--contact">
@@ -211,7 +211,7 @@ class About extends React.Component {
                             Check out my partner <a href="http://megmake.com" target="_blank">Meg</a> for more creative direction and brand strategy.
                         </div>
                         <div className="col-xs-12 col-md-6 about__back-to-top">
-                            <a href="#top-anchor">Back to top</a>
+                            <a onClick={window.scrollTo(0, 0)} href="#top-anchor"><span className="about__work-link__icon"><FaArrowUp/></span> Back to top</a>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,13 @@
 .About {
 
     // General =================== 
+    @media (max-width: $screen_viewport_sm) {
+        padding-bottom: 0;
+    }
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
     background-color: black;
     color: white;
 
@@ -14,14 +21,20 @@
         }
     }
 
-    .about__container {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
-
     .about__header {
         text-align: right;
-        padding: 20px 0 40px;;
+        padding: 20px 0 40px;
+        
+    }
+
+    .about__work-link {
+        text-decoration: none;
+    }
+
+    .about__work-link__icon {
+        position: relative;
+        top: 0.125rem;
+
     }
 
     .about__footer {
@@ -40,7 +53,15 @@
     }
 
     .about__back-to-top {
+        @media (max-width: $screen_viewport_sm) {
+            text-align: left;
+            margin-top: 4rem;
+        }
         text-align: right;
+
+        a {
+            text-decoration: none;
+        }
     }
 
 
