@@ -41,7 +41,6 @@ function App() {
       <Route path="/work/umbro"> <Umbro /> </Route>
       <Route path="/work/googlecreativelab"> <GoogleCreativeLab /> </Route>
       <Route path="/work/businessweek"> <Businessweek /> </Route>
-
     </Router>
   );
 }

@@ -15,7 +15,7 @@ function ProjectHeader() {
               <Link to="/"><img src={homeHeaderImage}></img></Link>
             </div>
             <div className="col-xs-6 header__about-links">
-              <Link to="/#about-link">About</Link>
+              <Link to="/#about">About</Link>
             </div>
           </div>
         </div>

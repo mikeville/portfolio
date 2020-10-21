@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
 import Work from './Work';
-import About from './about/About';
+import About from './About/About';
 import './Home.scss';
 import homeHeaderImage from './media-global/mikemake-logo-181102-2208--squishy_600px.gif' 
 
@@ -22,7 +22,7 @@ function Home() {
             </h3>
           </div>
           <div className="col-md-6 home__header__about-link-container">
-            <Link to="/#about-link">About</Link>
+            <Link to="/#about">About</Link>
           </div>
         </div>
 
