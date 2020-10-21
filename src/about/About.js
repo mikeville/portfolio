@@ -58,7 +58,7 @@ class About extends React.Component {
                 <div className="container about__container">
                     <div className="row about__header">
                         <div className="col-xs-12">
-                            <Link className="about__work-link" to="/#work-link"><span className="about__work-link__icon"><FaArrowUp/></span> Work</Link>
+                            <Link className="about__work-link" to="/#work"><span className="about__work-link__icon"><FaArrowUp/></span> Work</Link>
                         </div>
                     </div>
                     <div className="row about__section about__section--contact">
