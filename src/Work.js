@@ -41,7 +41,7 @@ class Work extends React.Component {
     return (
         <div className="Work">
             <section className="cover">
-                <Link to="/work/vcb/vcb">
+                <Link to="/work/vcb">
                     <div className="cover__header">
                         <CoverHeader project="Verse Chorus Bridge" role="Art direction, design, animation" />
                     </div>
@@ -85,7 +85,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/vicenews/vicenews">
+                <Link to="/work/vicenews">
                     <div className="cover__header">
                         <CoverHeader project="Vice News" role="Design direction, product design" />
                     </div>
@@ -107,7 +107,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/whales/whales">
+                <Link to="/work/whales">
                     <div className="cover__header">
                         <CoverHeader project="Whale Song Explained" role="Sound visualization" />
                     </div>
@@ -118,7 +118,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/rapmatics/rapmatics">
+                <Link to="/work/rapmatics">
                     <div className="cover__header">
                         <CoverHeader project="Rapmatics" role="Diagrams" />
                     </div>
@@ -140,7 +140,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/obamalegacy/obamalegacy">
+                <Link to="/work/obamalegacy">
                     <div className="cover__header">
                         <CoverHeader project="Obama's Legacy" role="Art direction, explainer videos" />
                     </div>
@@ -184,7 +184,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/umbro/umbro">
+                <Link to="/work/umbro">
                     <div className="cover__header">
                         <CoverHeader project="Umbro World Cup visualizations" role="Data stories" />
                     </div>
@@ -206,7 +206,7 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <Link to="/work/businessweek/businessweek">
+                <Link to="/work/businessweek">
                     <div className="cover__header">
                         <CoverHeader project="Businessweek special issue" role="Data stories" />
                     </div>

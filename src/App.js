@@ -25,22 +25,22 @@ function App() {
   return (
     <Router>
       <Route exact path="/" component={Home} />
-      <Route path="/work/vcb/vcb"> <Vcb /> </Route>
-      <Route path="/work/trusat/trusat"> <Trusat /> </Route>
-      <Route path="/work/beautifulnews/beautifulnews"> <BeautifulNews /> </Route>
-      <Route path="/work/vicenews/vicenews"> <ViceNews /> </Route>
-      <Route path="/work/pinterest/pinterest"> <Pinterest /> </Route>
-      <Route path="/work/splice/splice"> <Splice /> </Route>
-      <Route path="/work/whales/whales"> <Whales /> </Route>
-      <Route path="/work/rapmatics/rapmatics"> <Rapmatics /> </Route>
-      <Route path="/work/pollen/pollen"> <Pollen /> </Route>
-      <Route path="/work/obamalegacy/obamalegacy"> <ObamaLegacy /> </Route>
-      <Route path="/work/statlas/statlas"> <Statlas /> </Route>
-      <Route path="/work/beatles/beatles"> <Beatles /> </Route>
-      <Route path="/work/billboard/billboard"> <Billboard /> </Route>
-      <Route path="/work/umbro/umbro"> <Umbro /> </Route>
-      <Route path="/work/googlecreativelab/googlecreativelab"> <GoogleCreativeLab /> </Route>
-      <Route path="/work/businessweek/businessweek"> <Businessweek /> </Route>
+      <Route path="/work/vcb"> <Vcb /> </Route>
+      <Route path="/work/trusat"> <Trusat /> </Route>
+      <Route path="/work/beautifulnews"> <BeautifulNews /> </Route>
+      <Route path="/work/vicenews"> <ViceNews /> </Route>
+      <Route path="/work/pinterest"> <Pinterest /> </Route>
+      <Route path="/work/splice"> <Splice /> </Route>
+      <Route path="/work/whales"> <Whales /> </Route>
+      <Route path="/work/rapmatics"> <Rapmatics /> </Route>
+      <Route path="/work/pollen"> <Pollen /> </Route>
+      <Route path="/work/obamalegacy"> <ObamaLegacy /> </Route>
+      <Route path="/work/statlas"> <Statlas /> </Route>
+      <Route path="/work/beatles"> <Beatles /> </Route>
+      <Route path="/work/billboard"> <Billboard /> </Route>
+      <Route path="/work/umbro"> <Umbro /> </Route>
+      <Route path="/work/googlecreativelab"> <GoogleCreativeLab /> </Route>
+      <Route path="/work/businessweek"> <Businessweek /> </Route>
 
     </Router>
   );
