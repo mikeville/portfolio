@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
+
 import ReactPlayer from "react-player/youtube"
 
 import ProjectHeader from '../../ProjectHeader';
@@ -56,6 +58,9 @@ showModal(episode, e) {
 render() {
   return (
       <div className="Project Obama">
+        <Helmet>
+          <title>Mike Deal: Obama's Legacy</title>
+        </Helmet>
         <ProjectHeader />
         <div className="project__body container">
           <div className="project__intro-wrapper">

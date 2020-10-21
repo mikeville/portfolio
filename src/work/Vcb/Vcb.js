@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import ReactPlayer from "react-player/youtube"
 
 import './Vcb.scss';
@@ -228,6 +229,9 @@ class Vcb extends React.Component {
   render() {
     return (
       <div className="Project Vcb">
+        <Helmet>
+          <title>Mike Deal: Verse Chorus Bridge</title>
+        </Helmet>
         <div>
           <ProjectHeader />
           <div className="project__body container">

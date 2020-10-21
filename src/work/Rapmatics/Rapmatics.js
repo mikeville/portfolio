@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import '../../Project.scss';
@@ -30,6 +32,9 @@ componentDidMount() {
 render() {
   return (
       <div className="Project Rapmatics">
+        <Helmet>
+          <title>Mike Deal: Rapmatics</title>
+        </Helmet>
         <ProjectHeader />        
         <div className="project__body">
           <div className="project__intro-wrapper">

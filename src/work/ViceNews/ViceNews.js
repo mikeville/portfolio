@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import './ViceNews.scss';
@@ -28,6 +30,9 @@ class ViceNews extends React.Component {
   render() {
     return (
       <div className="Project ViceNews">
+          <Helmet>
+          <title>Mike Deal: Vice News</title>
+        </Helmet>
         <div>
           <ProjectHeader />
             <div className="iframe-wrapper">

@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import '../../Project.scss';
@@ -20,6 +22,9 @@ class Businessweek extends React.Component {
   render() {
     return (
       <div className="Project Businessweek">
+        <Helmet>
+          <title>Mike Deal: Businessweeek special issue</title>
+        </Helmet>
         <ProjectHeader />
         <div className="project__body container">
           <div className="project__intro-wrapper">

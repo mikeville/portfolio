@@ -1,4 +1,6 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
+
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import './Whales.scss';
@@ -28,6 +30,9 @@ class Whales extends React.Component {
   render() {
     return (
       <div className="Project Whales">
+        <Helmet>
+          <title>Mike Deal: Whale Song Explained</title>
+        </Helmet>
         <div>
           <ProjectHeader />
             <div className="iframe-wrapper">
