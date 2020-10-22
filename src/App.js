@@ -40,7 +40,7 @@ function App() {
       <Route path="/billboard"> <Billboard /> </Route>
       <Route path="/umbro"> <Umbro /> </Route>
       <Route path="/googlecreativelab"> <GoogleCreativeLab /> </Route>
-      <Route path="/work/businessweek"> <Businessweek /> </Route>
+      <Route path="/businessweek"> <Businessweek /> </Route>
     </Router>
   );
 }
