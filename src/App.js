@@ -25,21 +25,21 @@ function App() {
   return (
     <Router>
       <Route exact path="/" component={Home} />
-      <Route path="/work/vcb"> <Vcb /> </Route>
-      <Route path="/work/trusat"> <Trusat /> </Route>
-      <Route path="/work/beautifulnews"> <BeautifulNews /> </Route>
-      <Route path="/work/vicenews"> <ViceNews /> </Route>
-      <Route path="/work/pinterest"> <Pinterest /> </Route>
-      <Route path="/work/splice"> <Splice /> </Route>
-      <Route path="/work/whales"> <Whales /> </Route>
-      <Route path="/work/rapmatics"> <Rapmatics /> </Route>
-      <Route path="/work/pollen"> <Pollen /> </Route>
-      <Route path="/work/obamalegacy"> <ObamaLegacy /> </Route>
-      <Route path="/work/statlas"> <Statlas /> </Route>
-      <Route path="/work/beatles"> <Beatles /> </Route>
-      <Route path="/work/billboard"> <Billboard /> </Route>
-      <Route path="/work/umbro"> <Umbro /> </Route>
-      <Route path="/work/googlecreativelab"> <GoogleCreativeLab /> </Route>
+      <Route path="/vcb"> <Vcb /> </Route>
+      <Route path="/trusat"> <Trusat /> </Route>
+      <Route path="/beautifulnews"> <BeautifulNews /> </Route>
+      <Route path="/vicenews"> <ViceNews /> </Route>
+      <Route path="/pinterest"> <Pinterest /> </Route>
+      <Route path="/splice"> <Splice /> </Route>
+      <Route path="/whales"> <Whales /> </Route>
+      <Route path="/rapmatics"> <Rapmatics /> </Route>
+      <Route path="/pollen"> <Pollen /> </Route>
+      <Route path="/obamalegacy"> <ObamaLegacy /> </Route>
+      <Route path="/statlas"> <Statlas /> </Route>
+      <Route path="/beatles"> <Beatles /> </Route>
+      <Route path="/billboard"> <Billboard /> </Route>
+      <Route path="/umbro"> <Umbro /> </Route>
+      <Route path="/googlecreativelab"> <GoogleCreativeLab /> </Route>
       <Route path="/work/businessweek"> <Businessweek /> </Route>
     </Router>
   );
