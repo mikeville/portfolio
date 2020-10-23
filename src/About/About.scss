@@ -130,8 +130,8 @@
 
     .about__section--recognition .about__section__content {
         // @include font--regular; // This is getting overridden for some reason, so I'm hard-coding the mixin:
-        font-size: calc($font-size--regular*.8);
-        line-height: calc($line-height--regular*.8);
+        font-size: calc(#{$font-size--regular}*.8);
+        line-height: calc(#{$line-height--regular}*.8);
 
         @media (min-width: $screen_viewport_sm) {
             @include font--small;
