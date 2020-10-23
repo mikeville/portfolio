@@ -17,7 +17,7 @@ class CoverVcb extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            imageCycling: false,
+            imageCycling: true,
             vcbImageSources: [
                 vcbCoverImg1,
                 vcbCoverImg2,
