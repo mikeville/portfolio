@@ -49,6 +49,11 @@ class About extends React.Component {
         show: !this.state.show
         });
     };
+
+    scrollToTop() {
+        console.log("scrollin");
+        window.scrollTo(0, 0);
+    }
   
     
     render() {
@@ -211,7 +216,7 @@ class About extends React.Component {
                             Check out my partner <a href="http://megmake.com" target="_blank">Meg</a> for more creative direction and brand strategy.
                         </div>
                         <div className="col-xs-12 col-md-6 about__back-to-top">
-                            <a onClick={window.scrollTo(0, 0)} href="#top-anchor"><span className="about__work-link__icon"><FaArrowUp/></span> Back to top</a>
+                            <a onClick={this.scrollToTop} href="#top-anchor"><span className="about__work-link__icon"><FaArrowUp/></span> Back to top</a>
                         </div>
                     </div>
                 </div>
