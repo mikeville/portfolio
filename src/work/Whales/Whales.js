@@ -36,7 +36,7 @@ class Whales extends React.Component {
         <div>
           <ProjectHeader />
             <div className="iframe-wrapper">
-              <iframe onLoad={this.resizeIframe} id="whales-iframe" className="project-iframe" src="https://mikemake.com/projects/whales/" title="Whale Song Explained"></iframe>
+              <iframe onLoad={this.resizeIframe} id="whales-iframe" className="project-iframe" src="https://mikemake.com/portfolio/projects/whales/" title="Whale Song Explained"></iframe>
             </div>
           {/* <ProjectFooter /> */}
         </div>
