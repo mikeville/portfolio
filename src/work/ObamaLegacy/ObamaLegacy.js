@@ -71,7 +71,7 @@ render() {
           <div className="project__intro-wrapper">
             <div className="project__intro">
               <h1 className="project__title">Obama's Legacy</h1>
-              <h2 className="project__subtitle">Explainer video, art direction</h2>
+              <h2 className="project__subtitle">Explainer videos, art direction</h2>
               <div className="container project__info">
                 <div className="row">
                   <div className="col-md-7 body-copy">

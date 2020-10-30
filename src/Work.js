@@ -142,7 +142,7 @@ class Work extends React.Component {
             <section className="cover">
                 <Link to="/obamalegacy">
                     <div className="cover__header">
-                        <CoverHeader project="Obama's Legacy" role="Art direction, explainer videos" />
+                        <CoverHeader project="Obama's Legacy" role="Explainer videos, art direction" />
                     </div>
                     <CoverObamaLegacy />
                 </Link>
