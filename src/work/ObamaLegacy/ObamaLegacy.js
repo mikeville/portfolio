@@ -151,13 +151,25 @@ render() {
               </div>
             </section>
             <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[2], e)}>
-              <div className="col-xs-12 col-md-6">
+              <div className="col-xs-12 col-md-7">
                 <img src={imgProcess2} alt="Brian McGee adjusting blocks"></img>
                 <img src={imgProcess1} alt="Grace Shin at the ready"></img>
                 <img src={imgProcess3} alt="Grace Shin and Brian McGee reviewing shots"></img>
               </div>
-              <div className="col-xs-12 col-md-6">
-                <img src={imgHbo} alt="Screenshot of HBO"></img>
+              <div className="col-xs-12 start-md-8 col-md-4">
+                <div className="browser-mock">
+                  <div className="browser-mock__chrome">
+                    <div className="browser-mock__chrome--left">
+                      <div className="browser-mock__chrome--button">
+                      </div>
+                    </div>
+                    <div className="browser-mock__chrome--middle">
+                    </div>
+                    <div className="browser-mock__chrome--right">
+                    </div>
+                  </div>
+                  <img src={imgHbo} alt="Screenshot of HBO"></img>
+                </div>
               </div>
             </section>
           </div>
