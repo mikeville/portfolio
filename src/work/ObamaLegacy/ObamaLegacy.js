@@ -19,6 +19,11 @@ import imgMilitary3 from './media/obama-military-thumb2b.gif'
 import imgCriminalJustice1 from './media/obama-criminal-justice2-main.gif' 
 import imgCriminalJustice2 from './media/obama-cj-thumb2b.gif' 
 import imgCriminalJustice3 from './media/obama-cj-thumb1b.gif' 
+import imgProcess1 from './media/obama-process1.jpg'
+import imgProcess2 from './media/obama-process2.jpg'
+import imgProcess3 from './media/obama-process3.jpg'
+import imgHbo from './media/obama-hbo_screengrab-201030.jpg'
+
 
 
 class ObamaLegacy extends React.Component {
@@ -66,12 +71,15 @@ render() {
           <div className="project__intro-wrapper">
             <div className="project__intro">
               <h1 className="project__title">Obama's Legacy</h1>
-              <h2 className="project__subtitle">Role goes here</h2>
+              <h2 className="project__subtitle">Explainer video, art direction</h2>
               <div className="container project__info">
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>
-                    This three-part series shows Obama's long-term impact on energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week in office.
+                      This three-part series shows Obama's long-term impact on energy, military strategy, and criminal justice. It aired on HBO over three nights during his final week in office.
+                    </p>
+                    <p>
+                      I storyboarded and art directed the series, with a ton of help on set from Grace Shin, Brian McGee, and Kris Cave.
                     </p>
                   </div>
                   <div className="col-xs-10 start-md-8 col-md-4 note">
@@ -85,8 +93,8 @@ render() {
                       Team
                     </p>
                     <ul className="credit-list">
-                      <li>Visuals: Kris Cave, Michael Deal, Andrew Macfarlane, Brian McGee, Kenton Powell, Grace Shin</li>  
-                      <li>Writing: Reid Cherlin, Taylor Dolven, Allison McCann, Isabella McKinley-Corbo.</li>  
+                      <li>Visuals: Andrew Macfarlane, Brian McGee, Grace Shin, Kenton Powell, Kris Cave, Michael Deal.</li>  
+                      <li>Writing: Allison McCann, Isabella McKinley-Corbo, Reid Cherlin, Taylor Dolven.</li>  
                     </ul>
                   </div>
                 </div>
@@ -127,7 +135,7 @@ render() {
               </div>
             </section>
             <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[2], e)}>
-            <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
+              <div className="col-xs-12 start-md-2 col-md-8 obama-thumb--cover">
                 <img src={imgCriminalJustice1} alt="Excerpts from Obama's Criminal Justice Legacy"></img>
               </div>
               <div className="col-xs-6 start-md-2 col-md-4">
@@ -140,6 +148,16 @@ render() {
                 <button>
                   Play video
                 </button>
+              </div>
+            </section>
+            <section className="row obama-section" onClick={(e) => this.showModal(this.state.episodes[2], e)}>
+              <div className="col-xs-12 col-md-6">
+                <img src={imgProcess2} alt="Brian McGee adjusting blocks"></img>
+                <img src={imgProcess1} alt="Grace Shin at the ready"></img>
+                <img src={imgProcess3} alt="Grace Shin and Brian McGee reviewing shots"></img>
+              </div>
+              <div className="col-xs-12 col-md-6">
+                <img src={imgHbo} alt="Screenshot of HBO"></img>
               </div>
             </section>
           </div>
