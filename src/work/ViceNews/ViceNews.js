@@ -36,7 +36,7 @@ class ViceNews extends React.Component {
         <div>
           <ProjectHeader />
             <div className="iframe-wrapper">
-              <iframe onLoad={this.resizeIframe} id="vicenews-iframe" className="project-iframe" src="https://mikedeal.org/portfolio/projects/vice/" title="Vice News design case study"></iframe>
+              <iframe onLoad={this.resizeIframe} id="vicenews-iframe" className="project-iframe" src="https://mikedeal.org/portfolio/projects/vice" title="Vice News design case study"></iframe>
             </div>
           {/* <ProjectFooter /> */}
         </div>
