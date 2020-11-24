@@ -187,7 +187,7 @@ class Vcb extends React.Component {
             url: "https://www.youtube.com/embed/d3ZrywI6RFE"
           },
           {
-            artist: "Johny Marr",
+            artist: "Johnny Marr",
             song: "The Tracers",
             image: imgJonnyMarr,
             url: "https://www.youtube.com/embed/yD2_pErDZp8"
