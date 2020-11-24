@@ -62,7 +62,7 @@ class Businessweek extends React.Component {
                 <div className="row">
                   <div className="col-md-3 note">
                     <p>
-                      A diagram showing the dangerous connections between the major financial on the eve of the collapse. Concentrations of longer arrows indicate more exposure to counterparty risk.
+                      A diagram showing the dangerous connections between major financial institutions on the eve of the collapse. Concentrations of longer arrows indicate more exposure to counterparty risk.
                     </p>
                   </div>
                   <div className="col-md-9">
