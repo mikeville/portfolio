@@ -1,5 +1,45 @@
 @import "../../variables.scss";
 
-.CoverTrusat {
+$color--trusat-blue-dark: #0A1121;
 
+.CoverTrusat {
+ 
+}
+
+.Trusat {
+    .trusat__section__title {
+        // TEMP
+        height: 10rem; 
+
+        display : flex;
+        align-items : center;
+        justify-content: center;
+
+        background-color: $color--trusat-blue-dark;
+        color: $color--background;
+        @include font--xxxlarge;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    .trusat__section__body {
+        padding-top: 4rem;
+    }
+
+    .trusat__subsection {
+
+    }
+
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        border: 1px solid green;
+    }
+
+    .trusat__video > div {
+        position: absolute; // Scaling will occur since parent is relative now
+      }
 }
