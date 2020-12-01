@@ -10,6 +10,7 @@ $color--trusat-blue-dark: #0A1121;
     .trusat__section__title {
         // TEMP
         height: 10rem; 
+        margin-bottom: 8rem;
 
         display : flex;
         align-items : center;
@@ -22,18 +23,20 @@ $color--trusat-blue-dark: #0A1121;
 
     h4 {
         font-weight: bold;
+        margin-bottom: 0.5rem;
     }
 
     .trusat__section__body {
-        padding-top: 4rem;
+        // padding-top: 4rem;
     }
 
     .trusat__subsection {
-
+        margin-bottom: 6rem;
     }
 
-    .trusat__subsubsection {
 
+    .trusat__subsubsection {
+        margin-bottom: 4rem;
     }
 
     .video-wrapper {
@@ -41,6 +44,10 @@ $color--trusat-blue-dark: #0A1121;
         padding-bottom: 56.25%;
         height: 0;
         border: 1px solid green;
+    }
+
+    .trusat__vid-screenshot {
+        margin-bottom: 2rem;
     }
 
     .trusat__video > div {

@@ -127,7 +127,7 @@ render() {
                   Explainer video
                 </h3>
                 <div className="container">
-                  <div className="row">
+                  <div className="row trusat__subsubsection">
                     <div className="col-md-4">
                       <p>
                         A quick orientation.
@@ -146,21 +146,23 @@ render() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row trusat__subsubsection">
                     <div className="col-md-12">
-                      Screenshots:
+                      <h4>
+                        Screenshots:
+                      </h4>
                     </div>
                     <div className="col-md-6">
-                      <img src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
                     </div>
                     <div className="col-md-6">
-                      <img src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
                     </div>
                     <div className="col-md-6">
-                      <img src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
                     </div>
                     <div className="col-md-6">
-                      <img src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
                     </div>
                   </div>
                 </div>
@@ -174,19 +176,21 @@ render() {
           </div>
           <div className="trusat__section__body">
             <div className="trusat__section-body container">
-              <div className="trusat__subsection">
+              <div className="trusat__subsubsection">
                 <h3 className="project__section-title">
                   <em>Pokemon Go</em> for satellites
                 </h3>
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                       <p>
                         TruSat Mobile’s purpose is to enable anyone with a smartphone to spot satlellites and update the TruSat catalog.                      </p>
                       <p>
                         It has the challenge+reward mechanics of a location-based game, with the citizen science mission to document observable events in nature.                      </p>
-                      <p>
-                        While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The product docs exist [here] as part of TruSat’s broader open source project.                      </p>
+                    </div>
+                    <div className="col-xs-10 col-md-3 start-md-9 note">
+                      While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The product docs exist [here] as part of TruSat’s broader open source project.        
+
                     </div>
                   </div>
                 </div>
@@ -194,7 +198,7 @@ render() {
               <div className="trusat__subsection">
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                       <h4>
                         If you can see stars, you can see satellites
                       </h4>
@@ -213,7 +217,7 @@ render() {
                     <div className="col-md-4">
                       <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
                       <p>
-                        Follow a sat's A.R. orbit track, then snap a picture to capture an observation.
+                        Watch as the sat follows the A.R. orbit track, then snap a picture to capture an observation.
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -229,10 +233,13 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4">
+                      <h4>
+                        Snap a photo
+                      </h4>
                       <p>
                         TruSat uses the data from your photos to update an independent, global record satellite positions. 
                       </p>
-                      <p>
+                      <p className="note">
                         How does it work? The low-light capabilities and astrophotography <a href="https://ai.googleblog.com/2019/11/astrophotography-with-night-sight-on.html" target="_blank">modes</a> in new smartphones enable TruSat to detect star constellations in your photos. This let's TruSat determine a satellite's position relative to the phone's GPS location. That's all the data it needs for one observation. TruSat then combines multiple observations across the planet to calculate the orbital trajectories of satellites
                       </p>
                     </div>
@@ -258,15 +265,20 @@ render() {
                       <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
                     </div>
                     <div className="col-md-4">
+                      <h4>
+                        Wide accessibility
+                      </h4>
                       <p>
                         Users without access to low-light-friendly phones or DSLR cameras can still capture valuable SSA data.
                       </p>
-                      <p>
-                        "Manual mode" uses the same gyroscope-assisted star map from the A.R. mode to show a satellite's orbit track, with the addition of "finish lines" drawn between two stars that the satellite will appear to pass between.
-                      </p>
-                      <p>
-                        Observers watch the sky as the satellite approaches the imaginary finish line between the two stars, then hit "capture" as the satellite crosses the line. TruSat uses this this time-based data in its orbital calculations.
-                      </p>
+                      <div className="note">
+                        <p>
+                          "Manual mode" uses the same gyroscope-assisted star map from the A.R. mode to show a satellite's orbit track, with the addition of "finish lines" drawn between two stars that the satellite will appear to pass between.
+                        </p>
+                        <p>
+                          Observers watch the sky as the satellite approaches the imaginary finish line between the two stars, then hit "capture" as the satellite crosses the line. TruSat uses this this time-based data in its orbital calculations.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -275,14 +287,11 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4">
+                      <h4>
+                        Join missions
+                      </h4>
                       <p>
                         TruSat points users to the highest priority satellites for SSA analysis.
-                      </p>
-                      <p>
-                        Some prioritization occurs algorithmically, based on factors like time since last observation.
-                      </p>
-                      <p>
-                        Other prioritization comes from SSA industry partners who can task the network with missions to focus efforts on specific satellites most in need of data.
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -290,11 +299,17 @@ render() {
                       <p>
                         Capture sats from the hit list of highest priorities to earn bigger bounties.
                       </p>
+                      <p className="note">
+                          Sats are prioritied algorithmically, based on factors like time since last observation.
+                        </p>
                     </div>
                     <div className="col-md-4">
                       <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Join SSA industry partners in missions to capture valuable data.
+                      </p>
+                      <p className="note">
+                        Partners can task the network to focus efforts on specific satellites most in need of data.
                       </p>
                     </div>
                   </div>
@@ -319,14 +334,14 @@ render() {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <p>
+                      <h4>
                         Satellites as collectibles
-                      </p>
+                      </h4>
                       <p>
                         Observers earn badges to prove they've captured satellites. Some satellites are consistently easier to spot, while others can go unseen for months. 
                       </p>
                       <p>
-                        Observers  with stronger reputation scores have greater influence over the system. Voting power in the decentralized governance of the network can be tied in part to a voter's track record of observations.
+                        Observers  with stronger accuracy scores have greater influence over the TruSat network, as voting power in the network's governance is determined mainly by an observer's record of observations.
                       </p>
                     </div>
                   </div>
@@ -341,10 +356,10 @@ render() {
           </div>
           <div className="trusat__section__body">
             <div className="trusat__section-body container">
-              <div className="trusat__subsection row">
+              <div className="trusat__subsubsection row">
                   <div className="col-md-6">
                     <p>
-                      TruSat Mobile’s purpose is to enable anyone with a smartphone to spot satlellites and update the TruSat catalog.
+                      In October of 2019, we launched the TruSat Catalog, providing backyard astronomers with data they can run in free desktop software to point their telescopes and camera rigs at the sky to collect new observations. 
                     </p>
                   </div>
               </div>
@@ -362,9 +377,6 @@ render() {
                       </p>
                       <p>
                         TruSat's catalog includes every publicly known object orbiting Earth (including classified satellites and space junk). It determines which satellites are the highest priorities in need of new observations.
-                      </p>
-                      <p>
-                        The catalog provides backyard astronomers with data they can run in free desktop software to point their telescopes and camera rigs at the sky to collect new observations. 
                       </p>
                     </div>
                     <div className="col-md-9">
@@ -446,21 +458,21 @@ render() {
           </div>
           <div className="trusat__section--research1">
             <div className="trusat__section-body container">
-              <div className="trusat__subsection row">
+              <div className="trusat__subsubsection row">
                 <div className="col-md-6">
                   <p>
-                    Read on to learn about the systemic issue at the heart of space junk—and our plan to fix it.                    </p>
+                    Read on to learn about the systemic issue at the heart of space junk and our plan to fix it.                    </p>
                 </div>
               </div>
               <div className="trusat__subsection">
                 <h3 className="project__section-title">
-                  A big problem
+                  Defining the problem
                 </h3>
                 <p>
                   The space around Earth is about to get very congested.
                 </p>
                 <div className="container">
-                  <div className="row trusat__subsection">
+                  <div className="row trusat__subsubsection">
                     <div className="col-md-8">
                       <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
                     </div>
@@ -470,7 +482,7 @@ render() {
                       </p>
                     </div>
                   </div>
-                  <div className="row trusat__subsection">
+                  <div className="row trusat__subsubsection">
                     <div className="col-md-8">
                       <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
                     </div>
@@ -480,7 +492,7 @@ render() {
                       </p>
                     </div>
                   </div>
-                  <div className="row trusat__subsection">
+                  <div className="row trusat__subsubsection">
                     <div className="col-md-4">
                       <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
                     </div>
@@ -611,7 +623,7 @@ render() {
 
 
             <div className="trusat__subsection container">
-              <div className="row">
+              <div className="trusat__subsubsection row">
                 <div className="col-md-6">
                   <h3 className="project__section-title">
                     Personas
@@ -624,7 +636,7 @@ render() {
                   </p>
                 </div>
               </div>
-              <div className="trusat__subsection row">
+              <div className="trusat__subsubsection row">
                 <div className="col-sm-12">
                   The three main sub-personas within the broader persona of tech-interested space enthusiasts:
                 </div>
@@ -658,6 +670,8 @@ render() {
                     Segmenting
                   </h3>
                 </div>
+              </div>
+              <div className="row trusat__subsubsection">
                 <div className="col-md-6">
                   <p>
                     To prioritize personas and use cases to focus on first, we considered our primary metrics to increase:
@@ -674,9 +688,9 @@ render() {
                   <img src={imgPersonaSpectra} alt="Diagram showing distribution of personas on dimensions of observers, observations, capacity to observe, and geographic diversity"></img>
                 </div>
               </div>
-              <div className="row">
+              <div className="row trusat__subsubsection">
                 <div className="col-md-3">
-                  <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                  <img src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
                 </div>
                 <div className="col-md-6">
                   <p>
@@ -684,7 +698,7 @@ render() {
                   </p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row trusat__subsubsection">
                 <div className="col-md-6">
                   <img src={imgPersonaPlan} alt="Diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
                 </div>
