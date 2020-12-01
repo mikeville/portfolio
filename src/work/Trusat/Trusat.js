@@ -19,6 +19,11 @@ import imgDiagramHypothesis3 from './media/trusat-diagram-hypothesis3.png'
 import imgDiagramCentralized from './media/trusat-diagram-centralized.png' 
 import imgDiagramDecentralized from './media/trusat-diagram-decentralized.png' 
 import imgDiagramSolution from './media/trusat-diagram-solution.png' 
+import imgPersonaDreamer from './media/trusat-persona-dreamer.png' 
+import imgPersonaWorker from './media/trusat-persona-worker.png' 
+import imgPersonaHobbyist from './media/trusat-persona-hobbyist.png' 
+import imgPersonaSpectra from './media/trusat-persona-spectra.png' 
+import imgPersonaPlan from './media/trusat-persona-plan.png' 
 
 
 class Trusat extends React.Component {
@@ -91,25 +96,25 @@ render() {
                     </div>
                     <div className="col-md-8">
                       <p>
-                        In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources [exploji].
+                      🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
                       </p>
                       <p>
-                        I led design on this new team. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
+                      ✨ I led design on this new team. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
                       </p>
                       <p>
-                        We focused on the high-priority issue of space sustainability, including the problem of space junk. The issue is is ripe with coordination challenges that a blochain is well-suited for, given its ability to foster cooperation between untrusting parties. We researched the incentives driving space situational awareness (SSA) to find systemic leverage points to target with software.
+                      🌍 We focused on the high-priority issue of space sustainability, including the problem of space junk. The issue is is ripe with coordination challenges that a blochain is well suited to, given its ability to foster cooperation between untrusting parties. We researched the incentives driving space situational awareness (SSA) to find systemic leverage points to target with software.
                       </p>
                       <p>
-                        The result is TruSat, a live record of satellite behavior.
+                      🛰 The result is <a href="https://trusat.org/" target="_blank">TruSat</a>, a citizen-powered record of satellite behavior.
                       </p>
                       <p>
-                        We first launched the TruSat Catalog to show backyard astronomers where to look in the sky to capture and submit fresh observations to the TruSat network.
+                      🔭 We first launched the <a href="https://trusat.org/catalog/priorities" target="_blank">TruSat Catalog</a> to show backyard astronomers where to look in the sky to capture and submit fresh observations to the TruSat network.
                       </p>
                       <p>
-                        We then began prototyping a location-based game to make the hobby of satellite tracking more accessible for space enthusiasts worldwide (think Pokemon Go for satellites). 
+                      📱 We then began prototyping a location-based game to make the hobby of satellite tracking more accessible to space enthusiasts worldwide (think Pokemon Go for satellites). 
                       </p>
                       <p>
-                        Below are designs from both apps, followed by a summary of the research driving our decisions.
+                      📓 Below are designs for both apps, followed by a summary of the research driving our decisions.
                       </p>
                     </div>
                   </div>
@@ -179,9 +184,9 @@ render() {
                       <p>
                         TruSat Mobile’s purpose is to enable anyone with a smartphone to spot satlellites and update the TruSat catalog.                      </p>
                       <p>
-                        It has the challenge+reward mechanics of a location-based game, with the citizen science mission of documenting real data of observable events.                      </p>
+                        It has the challenge+reward mechanics of a location-based game, with the citizen science mission to document observable events in nature.                      </p>
                       <p>
-                        While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The product docs exist [here] as part of the broader TruSat’s open source project                      </p>
+                        While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The product docs exist [here] as part of TruSat’s broader open source project.                      </p>
                     </div>
                   </div>
                 </div>
@@ -189,12 +194,12 @@ render() {
               <div className="trusat__subsection">
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-6">
                       <h4>
-                        Little title
+                        If you can see stars, you can see satellites
                       </h4>
                       <p>
-                        TruSat tells you exactly how, when, and where to spot satellites. Log observations with your phone's camera, and join a global community of citizen scientists helping to preserve our spacefaring future.
+                        TruSat shows you exactly how, when, and where to spot satellites. Log observations with your phone's camera, and join a global community of citizen scientists helping to preserve our spacefaring future.
                       </p>
                     </div>
                   </div>
@@ -439,7 +444,7 @@ render() {
           <div className="trusat__section__title">
             Research
           </div>
-          <div className="trusat__section__body">
+          <div className="trusat__section--research1">
             <div className="trusat__section-body container">
               <div className="trusat__subsection row">
                 <div className="col-md-6">
@@ -491,9 +496,6 @@ render() {
                 <h3 className="project__section-title">
                   The missing piece
                 </h3>
-                <p>
-                  The space around Earth is about to get very congested.
-                </p>
                 <div className="container project__image-stack">
                   <div className="row">
                     <div className="col-md-4">
@@ -540,6 +542,159 @@ render() {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="trusat__subsection container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <h3 className="project__section-title">
+                      Our hypothesis
+                    </h3>
+                    <p>
+                      If SSA data is decentralized, it can be trusted by all parties
+                    </p>
+                  </div>
+                </div>
+                <div className="trusat__subsection">
+                  <div className="row">
+                    <div className="col-md-8">
+                      <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
+                    </div>
+                    <div className="col-md-4">
+                      <p>
+                        Sustainable practices relying on centralized data sources require an unrealisitc degree of trust between untrusting institutions.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row trusat__subsection">
+                    <div className="col-md-8">
+                      <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
+                    </div>
+                    <div className="col-md-4">
+                      <p>
+                        Decentralized data requires zero trust between institutions. This is one of the fundamental concepts that makes Bitcoin possible—No single entity can manipulate the bitcoin ledger, so all entities can trust it as a record of ownership.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="trusat__subsection">
+                  <div className="row">
+                    <div className="col-md-12">
+                      With blockchain tech, we can create a record of satellite behavior that’s:
+                    </div>
+                    <div className="col-xs-2">Owned by no single entity</div>
+                    <div className="col-xs-2">Transparent</div>
+                    <div className="col-xs-2">Permissionless</div>
+                    <div className="col-xs-2">Tamper-proof</div>
+                    <div className="col-xs-2">Processed automatically</div>
+                    <div className="col-xs-2">Verifiable</div>
+                    <div className="start-md-4 col-md-8 note">
+                      Unlike other SSA data sources, a blockchain-based data network is trustable because there is NO central institution in control. Instead, participants can trust a set of rules that everyone has agreed to, and trust the network's algorithms to follow those rules. The system is open source, so anyone can propose changes or fork the code.
+                    </div>
+                  </div>
+                </div>
+                <div className="trusat__subsection">
+                  <div className="row">
+                    <div className="col-md-4">
+                      If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
+                    </div>
+                    <div className="col-md-8">
+                      <img src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="trusat__section--research2">
+
+
+
+            <div className="trusat__subsection container">
+              <div className="row">
+                <div className="col-md-6">
+                  <h3 className="project__section-title">
+                    Personas
+                  </h3>
+                  <p>
+                    We interviewed dozens of space enthusiasts across four continents  to prioritize personas, determine levels of access to local space industries, and identify barriers to participating in spsace activities.
+                  </p>
+                  <p>
+                    Georgia Rakusen carried out this user research, with support from Andrea Morales Coto and Katie Johnson.
+                  </p>
+                </div>
+              </div>
+              <div className="trusat__subsection row">
+                <div className="col-sm-12">
+                  The three main sub-personas within the broader persona of tech-interested space enthusiasts:
+                </div>
+                <div className="col-md-4">
+                  <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
+                  <h4>Space Dreamer</h4>
+                  <p>
+                  Interested in a career in space. Follows space-related social media accounts. Does not own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
+                  </p>
+                </div>
+                <div className="col-md-4">
+                  <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
+                  <h4>STEM Worker</h4>
+                  <p>
+                    Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
+                  </p>
+                </div>
+                <div className="col-md-4">
+                  <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                  <h4>Hobbyist</h4>
+                  <p>
+                  Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="trusat__subsection container">
+              <div className="row">
+                <div className="col-sm-12">
+                  <h3 className="project__section-title">
+                    Segmenting
+                  </h3>
+                </div>
+                <div className="col-md-6">
+                  <p>
+                    To prioritize personas and use cases to focus on first, we considered our primary metrics to increase:
+                    <br></br>
+                    1. Number of <em>observers</em>
+                    <br></br>
+                    2. Number of <em>observations</em>
+                  </p>
+                  <p>
+                  Increasing <em>observers</em> serves our mission to diversify, democratize, and decentralize space. Increasing <em>observations</em> is necessary to be an effective source of SSA data. Our long-term vision requires both, but we needed to prioritize one to start.
+                  </p>
+                </div>
+                <div className="col-md-6">
+                  <img src={imgPersonaSpectra} alt="Diagram showing distribution of personas on dimensions of observers, observations, capacity to observe, and geographic diversity"></img>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-3">
+                  <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                </div>
+                <div className="col-md-6">
+                  <p>
+                  By targeting the retired hobbyist persona first (given their capacity to overcome the UX hurdles in backyard satellite tracking), we can increase the network’s total observations by establishing more amateur ground stations with DIY photo rigs to capture high volumes of data
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+                  <img src={imgPersonaPlan} alt="Diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
+                </div>
+                <div className="col-md-6">
+                  <p>
+                    So we began building a ground station tool to both serve existing trackers (by automating their data collection process), and to seed the TruSat network with data sources.
+                  </p>
+                  <p>
+                    After proving the network’s viability through use of its ground station tools, we plan to launch a location-based game to help newcomers participate in the network (increasing observers), with hopes of converting some to power users with ground stations.
+                  </p>
                 </div>
               </div>
             </div>

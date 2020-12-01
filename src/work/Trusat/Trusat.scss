@@ -32,6 +32,10 @@ $color--trusat-blue-dark: #0A1121;
 
     }
 
+    .trusat__subsubsection {
+
+    }
+
     .video-wrapper {
         position: relative;
         padding-bottom: 56.25%;
@@ -42,4 +46,9 @@ $color--trusat-blue-dark: #0A1121;
     .trusat__video > div {
         position: absolute; // Scaling will occur since parent is relative now
       }
+
+    .trusat__avatar {
+        max-width: 240px;
+    }
+
 }
