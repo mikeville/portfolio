@@ -1,6 +1,7 @@
 @import "../../variables.scss";
 
 $color--trusat-blue-dark: #0A1121;
+$color--trusat-blue-medium: #112b49;
 
 .CoverTrusat {
  
@@ -10,7 +11,7 @@ $color--trusat-blue-dark: #0A1121;
     .trusat__section__title {
         // TEMP
         height: 10rem; 
-        margin-bottom: 8rem;
+
 
         display : flex;
         align-items : center;
@@ -23,11 +24,12 @@ $color--trusat-blue-dark: #0A1121;
 
     h4 {
         font-weight: bold;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
     }
 
     .trusat__section__body {
         // padding-top: 4rem;
+        padding-top: 6rem;
     }
 
     .trusat__subsection {
@@ -37,6 +39,10 @@ $color--trusat-blue-dark: #0A1121;
 
     .trusat__subsubsection {
         margin-bottom: 4rem;
+    }
+
+    .trusat__subsubsection--problem {
+        margin-bottom: 2rem;
     }
 
     .video-wrapper {
@@ -58,4 +64,31 @@ $color--trusat-blue-dark: #0A1121;
         max-width: 240px;
     }
 
+    .trusat__section--research .trusat__section__body {
+        padding-top: 0;
+    }
+
+    .trusat__section--blue {
+        color: white;
+        background-color: $color--trusat-blue-medium;
+        
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+
+    .trusat__section--research1 {
+        margin-bottom: 6rem;
+    }
+
+    .trusat__research__caption-offset--3 {
+        padding-top: 3rem;
+    }
+
+    .trusat__research__caption-offset--1 {
+        padding-top: 1rem;
+    }
+
+    .trusat__section--bottom {
+        margin-bottom: 0;
+    }
 }
