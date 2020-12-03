@@ -23,6 +23,10 @@ import imgPersonaDreamer from './media/trusat-persona-dreamer.png'
 import imgPersonaWorker from './media/trusat-persona-worker.png' 
 import imgPersonaHobbyist from './media/trusat-persona-hobbyist.png' 
 import imgPersonaSpectra from './media/trusat-persona-spectra.png' 
+import imgPersonaSpectrum1 from './media/trusat-persona-spectrum1.png' 
+import imgPersonaSpectrum2 from './media/trusat-persona-spectrum2.png' 
+import imgPersonaSpectrum3 from './media/trusat-persona-spectrum3.png' 
+import imgPersonaSpectrum4 from './media/trusat-persona-spectrum4.png' 
 import imgPersonaPlan from './media/trusat-persona-plan.png' 
 
 
@@ -195,7 +199,7 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--3">
+                      <div className="col-md-4 trusat__research__caption-offset--5">
                         <h4>
                         In the next decade, satellites will multiply by 25x.
                         </h4>
@@ -208,7 +212,7 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--3">
+                      <div className="col-md-4 trusat__research__caption-offset--5">
                        <h4>
                         Satellite collisions could trap humans on Earth.
                        </h4>
@@ -221,7 +225,7 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--3">
+                      <div className="col-md-4 trusat__research__caption-offset--5">
                         <h4>
                         Ensuring sustainable operations is very hard.
                         </h4>
@@ -238,7 +242,7 @@ render() {
                   </h3>
                   <div className="container project__image-stack">
                     <div className="row">
-                      <div className="col-md-4 trusat__research__caption-offset--1">
+                      <div className="col-md-4">
                         <p>
                           As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
                         </p>
@@ -270,18 +274,6 @@ render() {
                         <img src={imgDiagramHypothesis3} alt="Diagram section for trusted SSA data (this missing piece)"></img>
                       </div>
                     </div>
-                    <div className="row">
-                      <div className="start-md-4 col-md-8">
-                        <div className="note">
-                          <p>
-                            Governments and commercial data providers for SSA keep data private due to security and business interests. Even if they released more data, the world would have to trust it on good faith.
-                          </p>
-                          <p>
-                            If we have data that all parties can trust to be open and accurate, in-orbit behavior can be measured and regulated, raising costs for unsustainable operations. This would better align an operator's economic incentives with the long-term sustainability of space.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="trusat__subsection container">
@@ -295,7 +287,7 @@ render() {
                       </p>
                     </div>
                   </div>
-                  <div className="trusat__subsection">
+                  <div className="trusat__subsection trusat__research__caption-offset--1">
                     <div className="row">
                       <div className="col-md-8">
                         <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
@@ -323,32 +315,18 @@ render() {
                         <p className="note">
                           Instead of trusting one another, participants trust a set of agreed-upon rules enforced by automated contracts. This is one of the fundamental concepts that makes bitcoin possible&mdash;no single entity can manipulate the bitcoin ledger, so all entities can trust it as a record of ownership.
                         </p>
-                        <p className="note">
-                          
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="trusat__subsection">
-                    <div className="row">
-                      <div className="col-md-12">
-                        With blockchain tech, we can create a record of satellite behavior that’s:
-                      </div>
-                      <div className="col-xs-2">Owned by no single entity</div>
-                      <div className="col-xs-2">Transparent</div>
-                      <div className="col-xs-2">Permissionless</div>
-                      <div className="col-xs-2">Tamper-proof</div>
-                      <div className="col-xs-2">Processed automatically</div>
-                      <div className="col-xs-2">Verifiable</div>
-                      <div className="start-md-4 col-md-8 note">
-                        Unlike other SSA data sources, a blockchain-based data network is trustable because there is NO central institution in control. Instead, participants can trust a set of rules that everyone has agreed to, and trust the network's algorithms to follow those rules. The system is open source, so anyone can propose changes or fork the code.
                       </div>
                     </div>
                   </div>
                   <div className="trusat__subsection">
                     <div className="row">
                       <div className="col-md-4">
-                        If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
+                        <p>
+                          With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. This would better align an operator's economic incentives with the long-term sustainability of space.
+                        </p>
+                        <p>
+                          If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
+                        </p>
                       </div>
                       <div className="col-md-8">
                         <img src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
@@ -360,44 +338,52 @@ render() {
             </div>
             <div className="trusat__section--research2">
               <div className="trusat__subsection container">
-                <div className="trusat__subsubsection row">
-                  <div className="col-md-6">
-                    <h3 className="project__section-title">
+              <div className="row">
+                  <h3 className="project__section-title">
                       Personas
                     </h3>
-                    <p>
-                      We interviewed dozens of space enthusiasts across four continents  to prioritize personas, determine levels of access to local space industries, and identify barriers to participating in spsace activities.
-                    </p>
-                    <p>
-                      Georgia Rakusen carried out this user research, with support from Andrea Morales Coto and Katie Johnson.
-                    </p>
-                  </div>
                 </div>
-                <div className="trusat__subsubsection row">
-                  <div className="col-sm-12">
-                    The three main sub-personas within the broader persona of tech-interested space enthusiasts:
-                  </div>
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
-                    <h4>Space Dreamer</h4>
+                <div className="row">
+                  <div className="col-md-8">
                     <p>
-                    Interested in a career in space. Follows space-related social media accounts. Does not own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
+                      We interviewed dozens of space enthusiasts across four continents to determine personas. We discussed their motivations, along with their levels of access to local space-related industries and activities.
                     </p>
                   </div>
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
-                    <h4>STEM Worker</h4>
-                    <p>
-                      Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
-                    </p>
+                  <div className="col-xs-10 col-md-3 start-md-9 note">
+                  Georgia Rakusen carried out user research, with support from Andrea Morales Coto and Katie Johnson.
+                    </div>
+                </div>
+                <div className="trusat__subsubsection">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
+                    </div>
                   </div>
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
-                    <h4>Hobbyist</h4>
-                    <p>
-                    Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
-                    </p>
+                  <div className="row trusat__research__caption-offset--1 trusat__personas">
+                    <div className="col-md-4">
+                      <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
+                      <h4>Space Dreamer</h4>
+                      <p className="note">
+                      Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
+                      </p>
+                    </div>
+                    <div className="col-md-4">
+                      <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
+                      <h4>STEM Worker</h4>
+                      <p className="note">
+                        Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
+                      </p>
+                    </div>
+                    <div className="col-md-4">
+                      <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                      <h4>Hobbyist</h4>
+                      <p className="note">
+                      Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
+                      </p>
+                    </div>
                   </div>
+
+ 
                 </div>
               </div>
               <div className="trusat__subsection container">
@@ -411,14 +397,22 @@ render() {
                 <div className="row trusat__subsubsection">
                   <div className="col-md-6">
                     <p>
-                      To prioritize personas and use cases to focus on first, we considered our primary metrics to increase:
-                      <br></br>
-                      1. Number of <em>observers</em>
-                      <br></br>
-                      2. Number of <em>observations</em>
+                      To prioritize personas and use-cases, we considered our primary metrics to increase:
                     </p>
                     <p>
-                    Increasing <em>observers</em> serves our mission to diversify, democratize, and decentralize space. Increasing <em>observations</em> is necessary to be an effective source of SSA data. Our long-term vision requires both, but we needed to prioritize one to start.
+                      <ol>
+                        <li>
+                          <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
+                        </li>
+                        <li>
+                        <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
+                        </li>
+                      </ol>               
+                    </p>
+                    <p>
+                     Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
+                     Size of audience
+                     Potential observations per observer
                     </p>
                   </div>
                   <div className="col-md-6">
@@ -429,7 +423,7 @@ render() {
                   <div className="col-md-3">
                     <img src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
                   </div>
-                  <div className="col-md-6 trusat__research__caption-offset--3">
+                  <div className="col-md-6 trusat__research__caption-offset--5">
                     <p>
                     By targeting the retired hobbyist persona first (given their capacity to overcome the UX hurdles in backyard satellite tracking), we can increase the network’s total observations by establishing more amateur ground stations with DIY photo rigs to capture high volumes of data
                     </p>
