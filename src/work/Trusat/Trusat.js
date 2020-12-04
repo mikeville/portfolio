@@ -349,8 +349,8 @@ render() {
                       We interviewed dozens of space enthusiasts across four continents to determine personas. We discussed their motivations, along with their levels of access to local space-related industries and activities.
                     </p>
                   </div>
-                  <div className="col-xs-10 col-md-3 start-md-9 note">
-                  Georgia Rakusen carried out user research, with support from Andrea Morales Coto and Katie Johnson.
+                  <div className="col-xs-10 col-md-4 start-md-8 note">
+                  Georgia Rakusen carried out most of our user research, with support from Andrea Morales Coto and Katie Johnson.
                     </div>
                 </div>
                 <div className="trusat__subsubsection">
@@ -359,7 +359,7 @@ render() {
                       We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
                     </div>
                   </div>
-                  <div className="row trusat__research__caption-offset--1 trusat__personas">
+                  <div className="row trusat__subsubsection trusat__research__caption-offset--1 trusat__personas">
                     <div className="col-md-4">
                       <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
                       <h4>Space Dreamer</h4>
@@ -382,7 +382,60 @@ render() {
                       </p>
                     </div>
                   </div>
-
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="trusat__spectrum-group">
+                        <h4>
+                          Size of audience
+                        </h4>
+                        <img src={imgPersonaSpectrum1} alt="Graph showing distribution of personas across dimension of audience size"></img>
+                      </div>
+                      <div className="trusat__spectrum-group">
+                        <h4>
+                        Observations per observer
+                        </h4>
+                        <img src={imgPersonaSpectrum2} alt="Graph showing distribution of personas across dimension of observations per observer"></img>
+                      </div>
+                      <div className="trusat__spectrum-group">
+                        <h4>
+                          Time for hobbies, and access to equipment
+                        </h4>
+                        <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="trusat__spectrum-group">
+                        <h4>
+                          Geographic diversity
+                        </h4>
+                        <img src={imgPersonaSpectrum4} alt="Graph showing distribution of personas across dimension of geographic diversity"></img>
+                      </div>
+                      <div className="trusat__spectrum-group">
+                        <h4>
+                          Number of observations
+                        </h4>
+                        <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
+                      </div>
+                      <div>
+                          <p>
+                          To prioritize personas and use-cases, we considered our primary metrics to increase:
+                        </p>
+                        <p>
+                          <ol>
+                            <li>
+                              <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
+                            </li>
+                            <li>
+                            <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
+                            </li>
+                          </ol>               
+                        </p>
+                        <p>
+                        Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
  
                 </div>
               </div>
@@ -392,31 +445,6 @@ render() {
                     <h3 className="project__section-title">
                       Segmenting
                     </h3>
-                  </div>
-                </div>
-                <div className="row trusat__subsubsection">
-                  <div className="col-md-6">
-                    <p>
-                      To prioritize personas and use-cases, we considered our primary metrics to increase:
-                    </p>
-                    <p>
-                      <ol>
-                        <li>
-                          <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
-                        </li>
-                        <li>
-                        <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
-                        </li>
-                      </ol>               
-                    </p>
-                    <p>
-                     Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
-                     Size of audience
-                     Potential observations per observer
-                    </p>
-                  </div>
-                  <div className="col-md-6">
-                    <img src={imgPersonaSpectra} alt="Diagram showing distribution of personas on dimensions of observers, observations, capacity to observe, and geographic diversity"></img>
                   </div>
                 </div>
                 <div className="row trusat__subsubsection">
