@@ -11,14 +11,14 @@ import imgPlaceholder from './media/trusat-placeholder.png'
 import imgPlaceholder16x9 from './media/trusat-placeholder-16x9.png' 
 import imgPlaceholderDesktop from './media/trusat-placeholder-desktop.png' 
 
-import imgScreenshotLeaderboard from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_leaderboard.jpg' 
-import imgScreenshotPosat from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_proof of satellite.jpg'
-import imgScreenshotMission from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_mission.jpg'
-import imgScreenshotObject from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_object story.jpg'
-import imgScreenshotPriorities from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_priorities.jpg'
-import imgScreenshotCollection from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_collection.jpg'
-import imgScreenshotNotification from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_notification.jpg'
-import imgScreenshotManualMode from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_manual mode.jpg'
+import imgScreenshotLeaderboard from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_leaderboard.png' 
+import imgScreenshotPosat from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_proof-of-satellite.png'
+import imgScreenshotMission from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_mission.png'
+import imgScreenshotObject from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_object-story.png'
+import imgScreenshotPriorities from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_priorities.png'
+import imgScreenshotCollection from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_collection.png'
+import imgScreenshotNotification from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_notification.png'
+import imgScreenshotManualMode from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_manual-mode.png'
 import imgScreenshotCapture from './media/screenshots/trusat-GalaxyS10_Mock--cropped--200420-0014b.gif' 
 import imgScreenshotPlateSolving from './media/screenshots/trusat-GalaxyS10_Mock--plate_solving-b.gif' 
 
@@ -539,20 +539,20 @@ render() {
                   </div>
                   <div className="row">
                     <div className="col-md-4">
-                      <img src={imgScreenshotNotification} alt="TruSat mobile app screenshot"></img>
-                      <p>
+                      <img className="project__screenshot" src={imgScreenshotNotification} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
                         Receive an alert when an approaching sat is about to become visible to you.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
-                      <p>
+                      <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
                         Watch as the sat follows the A.R. orbit track, then snap a picture to capture an observation.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgScreenshotLeaderboard} alt="TruSat mobile app screenshot"></img>
-                      <p>
+                      <img className="project__screenshot" src={imgScreenshotLeaderboard} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
                         Now you "own" the sat...until another tracker captures it somewhere else on Earth.
                       </p>
                     </div>
@@ -574,14 +574,14 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
-                      <p>
+                      <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
                         TruSat detects the sat's position based on its back-drop of star constellations.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgScreenshotPosat} alt="TruSat mobile app screenshot"></img>
-                      <p>
+                      <img className="project__screenshot" src={imgScreenshotPosat} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
                         It combines observations from around the world to update the sat's trajectory.
                       </p>
                     </div>
@@ -592,7 +592,7 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4">
-                      <img src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
+                      <img className="project__screenshot" src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
                     </div>
                     <div className="col-md-4">
                       <h4>
@@ -613,55 +613,47 @@ render() {
                   </div>
                 </div>
               </div>
-              <div className="trusat__subsection">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <h4>
-                        Join missions
-                      </h4>
-                      <p>
-                        TruSat points users to the highest priority satellites for SSA analysis.
+              <div className="trusat__subsection container">
+                <div className="row">
+                  <div className="col-md-4">
+                    <h4>
+                      Join missions
+                    </h4>
+                    <p>
+                      TruSat points users to the highest priority satellites for SSA analysis.
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <img className="project__screenshot" src={imgScreenshotPriorities} alt="TruSat mobile app screenshot"></img>
+                    <p className="project__screenshot-caption">
+                      Capture sats from the hit list of highest priorities to earn bigger bounties.
+                    </p>
+                    <p className="note">
+                        Sats are prioritied algorithmically, based on factors like time since last observation.
                       </p>
-                    </div>
-                    <div className="col-md-4">
-                      <img src={imgScreenshotPriorities} alt="TruSat mobile app screenshot"></img>
-                      <p>
-                        Capture sats from the hit list of highest priorities to earn bigger bounties.
-                      </p>
-                      <p className="note">
-                          Sats are prioritied algorithmically, based on factors like time since last observation.
-                        </p>
-                    </div>
-                    <div className="col-md-4">
-                      <img src={imgScreenshotMission} alt="TruSat mobile app screenshot"></img>
-                      <p>
-                        Join SSA industry partners in missions to capture valuable data.
-                      </p>
-                      <p className="note">
-                        Partners can task the network to focus efforts on specific satellites most in need of data.
-                      </p>
-                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <img className="project__screenshot" src={imgScreenshotMission} alt="TruSat mobile app screenshot"></img>
+                    <p className="project__screenshot-caption">
+                      Join SSA industry partners in missions to capture valuable data.
+                    </p>
+                    <p className="note">
+                      Partners can task the network to focus efforts on specific satellites most in need of data.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="trusat__subsection">
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-8">
-                      <div className="row">
-                        <div className="col-md-6">
-                          <img src={imgScreenshotCollection} alt="TruSat mobile app screenshot"></img>
-                        </div>
-                        <div className="col-md-6">
-                          <img src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
-                        </div>
-                        <div className="col-md-12">
-                          <p>
-                            Every satellite is a technical achievement with its own backstory. Reading about these missions is a quick way for the Space Dreamer persona learn about the space industry.
-                          </p>
-                        </div>
-                      </div>
+                    <div className="col-md-4">
+                      <img className="project__screenshot" src={imgScreenshotCollection} alt="TruSat mobile app screenshot"></img>
+                    </div>
+                    <div className="col-md-4">
+                      <img className="project__screenshot" src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption">
+                        Every satellite is a technical achievement with its own backstory. The Space Dreamer persona clean learn about the space industry through these stories.
+                      </p>
                     </div>
                     <div className="col-md-4">
                       <h4>

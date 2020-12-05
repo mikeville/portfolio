@@ -149,3 +149,12 @@ $chromeHeight: 30px;
   margin: calc(#{$chromeHeight}/4);
 }
 
+
+// Other
+.zneg1 {
+  z-index: -1;
+}
+
+.z1 {
+  z-index: 1;
+}

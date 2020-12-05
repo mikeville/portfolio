@@ -77,4 +77,17 @@
         margin-top: -30px;
         width: 100%;
     }
+
+
+    // Make mobile screenshots match grid better 
+
+    .project__screenshot {
+        position: relative;
+        margin-left: -28%;
+        width: 140%;
+        margin-top: -5%;
+    }
+    .project__screenshot-caption {
+        margin-top: -20%;
+    }
 }
