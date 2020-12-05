@@ -2,8 +2,9 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ReactPlayer from "react-player/youtube"
 
-import './Trusat.scss';
+import BrowserChrome from "../../BrowserChrome"
 
+import './Trusat.scss';
 
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
@@ -702,12 +703,16 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-9">
-                      <img src={imgDesktopCatalog} alt="TruSat catalog screenshot"></img>
+                      <BrowserChrome>
+                        <img src={imgDesktopCatalog} alt="TruSat catalog screenshot"></img>
+                      </BrowserChrome>
                     </div>
                   </div>
                   <div className="row trusat__subsection">
                     <div className="col-md-9">
-                      <img src={imgDesktopObject} alt="TruSat object page screenshot"></img>
+                      <BrowserChrome>
+                        <img src={imgDesktopObject} alt="TruSat object page screenshot"></img>
+                      </BrowserChrome>
                     </div>
                     <div className="col-md-3">
                         <h4>
@@ -734,7 +739,9 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-9">
-                      <img src={imgDesktopProfile} alt="TruSat profile page screenshot"></img>
+                      <BrowserChrome>
+                        <img src={imgDesktopProfile} alt="TruSat profile page screenshot"></img>
+                      </BrowserChrome>
                     </div>
                   </div>
                 </div>
@@ -746,7 +753,9 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-9">
-                      <img src={imgDesktopLearningHub} alt="TruSat Learning Hub screenshot"></img>
+                      <BrowserChrome>
+                        <img src={imgDesktopLearningHub} alt="TruSat Learning Hub screenshot"></img>
+                      </BrowserChrome>
                     </div>
                     <div className="col-md-3">
                       <p>
@@ -759,8 +768,12 @@ render() {
               <div className="trusat__subsection">
                 <h3 className="project__section-title">
                   Landing page
+                <div className="trusat__research__caption-offset--1" >
+                </div>
                 </h3>
-                <img className="trusat__research__caption-offset--1" src={imgDesktopLandingPage} alt="TruSat landing page"></img>
+                <BrowserChrome>
+                  <img src={imgDesktopLandingPage} alt="TruSat landing page"></img>
+                </BrowserChrome>
               </div>
             </div>
           </div>
