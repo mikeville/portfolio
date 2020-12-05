@@ -158,7 +158,7 @@ render() {
                 <img src={imgProcess3} alt="Grace Shin and Brian McGee reviewing shots"></img>
               </div>
               <div className="col-xs-12 start-md-8 col-md-4">
-                <BrowserChrome>
+                <BrowserChrome medium="mobile">
                   <img src={imgHbo} alt="Screenshot of HBO"></img>
                 </BrowserChrome>
               </div>
