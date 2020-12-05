@@ -4,9 +4,7 @@ import "./BrowserChrome.scss";
 class BrowserChrome extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            medium: this.props.medium
-        }
+        this.state = {}
     }
 
 
@@ -14,7 +12,7 @@ class BrowserChrome extends React.Component {
 
 
         return (
-            <div className={`browser-mock browser-mock--${this.state.medium}`}>
+            <div className="browser-mock">
                 <div className="browser-mock__chrome">
                 <div className="browser-mock__chrome--left">
                     <div className="browser-mock__chrome--button">
