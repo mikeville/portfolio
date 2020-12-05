@@ -19,15 +19,17 @@ import imgDiagramHypothesis3 from './media/trusat-diagram-hypothesis3.png'
 import imgDiagramCentralized from './media/trusat-diagram-centralized.png' 
 import imgDiagramDecentralized from './media/trusat-diagram-decentralized.png' 
 import imgDiagramSolution from './media/trusat-diagram-solution.png' 
-import imgPersonaDreamer from './media/trusat-persona-dreamer.png' 
-import imgPersonaWorker from './media/trusat-persona-worker.png' 
-import imgPersonaHobbyist from './media/trusat-persona-hobbyist.png' 
-import imgPersonaSpectra from './media/trusat-persona-spectra.png' 
-import imgPersonaSpectrum1 from './media/trusat-persona-spectrum1.png' 
-import imgPersonaSpectrum2 from './media/trusat-persona-spectrum2.png' 
-import imgPersonaSpectrum3 from './media/trusat-persona-spectrum3.png' 
-import imgPersonaSpectrum4 from './media/trusat-persona-spectrum4.png' 
-import imgPersonaPlan from './media/trusat-persona-plan.png' 
+import imgPersonaDreamer from './media/trusat-user_research-diagrams-201204-08.png' 
+import imgPersonaWorker from './media/trusat-user_research-diagrams-201204-09.png' 
+import imgPersonaHobbyist from './media/trusat-user_research-diagrams-201204-10.png' 
+import imgPersonaSpectrum1 from './media/trusat-user_research-diagrams-201204-03.png' 
+import imgPersonaSpectrum2 from './media/trusat-user_research-diagrams-201204-04.png' 
+import imgPersonaSpectrum3 from './media/trusat-user_research-diagrams-201204-05.png' 
+import imgPersonaSpectrum4 from './media/trusat-user_research-diagrams-201204-06.png' 
+import imgPersonaSpectrum5 from './media/trusat-user_research-diagrams-201204-07.png' 
+import imgPersonaPlan0 from './media/trusat-user_research-diagrams-201204-11.png' 
+import imgPersonaPlan1 from './media/trusat-user_research-diagrams-201204-01.png' 
+import imgPersonaPlan2 from './media/trusat-user_research-diagrams-201204-02.png' 
 
 
 class Trusat extends React.Component {
@@ -74,6 +76,7 @@ render() {
                     <li>Product manager: Robert Keenan</li>  
                     <li>Lead frontend developer: John Gribbin</li>  
                     <li>Lead backend engineer: Kenan O'Neal</li>  
+                    <li>Illustrations: Louis Wes</li>  
                     <li>Benefactor: Joseph Lubin</li>  
                   </ul>
                 </div>
@@ -199,9 +202,9 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--5">
+                      <div className="col-md-4 trusat__research__caption-offset--4">
                         <h4>
-                        In the next decade, satellites will multiply by 25x.
+                        In the next decade, satellites will multiply by <span className="trusat__highlight">25x</span>.
                         </h4>
                         <p>
                           This will enable global internet access (which is awesome), but this pace of growth is outrunning our ability to prevent satellite collisions.
@@ -212,7 +215,7 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--5">
+                      <div className="col-md-4 trusat__research__caption-offset--4">
                        <h4>
                         Satellite collisions could trap humans on Earth.
                        </h4>
@@ -225,7 +228,7 @@ render() {
                       <div className="col-md-8">
                         <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
                       </div>
-                      <div className="col-md-4 trusat__research__caption-offset--5">
+                      <div className="col-md-4 trusat__research__caption-offset--4">
                         <h4>
                         Ensuring sustainable operations is very hard.
                         </h4>
@@ -255,7 +258,7 @@ render() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-md-4 trusat__research__caption-offset--1">
+                      <div className="col-md-4">
                         <p>
                           And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
                         </p>
@@ -265,7 +268,7 @@ render() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-md-4 trusat__research__caption-offset--1">
+                      <div className="col-md-4">
                         <p>
                           But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
                         </p>
@@ -338,7 +341,7 @@ render() {
             </div>
             <div className="trusat__section--research2">
               <div className="trusat__subsection container">
-              <div className="row">
+                <div className="row">
                   <h3 className="project__section-title">
                       Personas
                     </h3>
@@ -353,7 +356,7 @@ render() {
                   Georgia Rakusen carried out most of our user research, with support from Andrea Morales Coto and Katie Johnson.
                     </div>
                 </div>
-                <div className="trusat__subsubsection">
+                <div className="container">
                   <div className="row">
                     <div className="col-sm-8">
                       We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
@@ -383,38 +386,38 @@ render() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div className="trusat__spectrum-group">
                         <h4>
-                          Size of audience
+                          Geographic diversity
                         </h4>
                         <img src={imgPersonaSpectrum1} alt="Graph showing distribution of personas across dimension of audience size"></img>
                       </div>
                       <div className="trusat__spectrum-group">
                         <h4>
-                        Observations per observer
+                          Access to equipment
                         </h4>
                         <img src={imgPersonaSpectrum2} alt="Graph showing distribution of personas across dimension of observations per observer"></img>
                       </div>
                       <div className="trusat__spectrum-group">
                         <h4>
-                          Time for hobbies, and access to equipment
+                          Time budgeted for related hobbies
                         </h4>
                         <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5 start-md-6">
                       <div className="trusat__spectrum-group">
                         <h4>
-                          Geographic diversity
+                          Audience size
                         </h4>
                         <img src={imgPersonaSpectrum4} alt="Graph showing distribution of personas across dimension of geographic diversity"></img>
                       </div>
                       <div className="trusat__spectrum-group">
                         <h4>
-                          Number of observations
+                          Observations per observer
                         </h4>
-                        <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
+                        <img src={imgPersonaSpectrum5} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
                       </div>
                       <div>
                           <p>
@@ -436,38 +439,48 @@ render() {
                       </div>
                     </div>
                   </div>
- 
                 </div>
-              </div>
-              <div className="trusat__subsection container">
                 <div className="row">
-                  <div className="col-sm-12">
+                  <div className="col-md-6 trusat__research__caption-offset--4">
                     <h3 className="project__section-title">
                       Segmenting
                     </h3>
-                  </div>
-                </div>
-                <div className="row trusat__subsubsection">
-                  <div className="col-md-3">
-                    <img src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
-                  </div>
-                  <div className="col-md-6 trusat__research__caption-offset--5">
                     <p>
-                    By targeting the retired hobbyist persona first (given their capacity to overcome the UX hurdles in backyard satellite tracking), we can increase the network’s total observations by establishing more amateur ground stations with DIY photo rigs to capture high volumes of data
+                      By targeting the retired hobbyist persona first, we can leverage their experience, equipment access, and free time budgeted for related hobbies. Of our key personas, the hobbyist is most likely to establish amateur ground station (via DIY photo rigs and <a href="https://unistellaroptics.com/" target="_blank">smart telescopes</a>) to capture high volumes of data.
                     </p>
                   </div>
                 </div>
-                <div className="row trusat__subsubsection">
-                  <div className="col-md-6">
-                    <img src={imgPersonaPlan} alt="Diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
+                <div className="project__image-stack">
+                  <div className="row">
+                    <div className="col-md-9">
+                      <img src={imgPersonaPlan0} alt="Arrow for diagram below"></img>
+                    </div>
                   </div>
-                  <div className="col-md-6">
-                    <p>
-                      So we began building a ground station tool to both serve existing trackers (by automating their data collection process), and to seed the TruSat network with data sources.
-                    </p>
-                    <p>
-                      After proving the network’s viability through use of its ground station tools, we plan to launch a location-based game to help newcomers participate in the network (increasing observers), with hopes of converting some to power users with ground stations.
-                    </p>
+                  <div className="row">
+                    <div className="col-md-9">
+                      <img src={imgPersonaPlan1} alt="Top portion of diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
+                    </div>
+                    <div className="col-md-3">
+                      <h4>
+                        Ground station tool
+                      </h4>
+                      <p>
+                        So we began building a ground station tool to both serve existing trackers (by automating their data collection process), and to seed the TruSat network with data sources.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-9">
+                      <img src={imgPersonaPlan2} alt="Bottom portion of diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
+                    </div>
+                    <div className="col-md-3">
+                      <h4>
+                        Citizen-science game
+                      </h4>
+                      <p>
+                        After proving the network’s viability through use of its ground station tools, we plan to launch a location-based game to help newcomers participate in the hobby of satellite tracking, with hopes of converting some to power users with ground stations.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 
 $color--trusat-blue-dark: #0A1121;
 $color--trusat-blue-medium: #112b49;
+$color--trusat-salmon: #eb7e5f;
 
 .CoverTrusat {
  
@@ -30,6 +31,10 @@ $color--trusat-blue-medium: #112b49;
     h4 {
         font-weight: bold;
         margin-bottom: 0.75rem;
+    }
+
+    .trusat__highlight {
+        color: $color--trusat-salmon;
     }
 
     .trusat__section__body {
@@ -85,8 +90,8 @@ $color--trusat-blue-medium: #112b49;
         margin-bottom: 6rem;
     }
 
-    .trusat__research__caption-offset--5 {
-        padding-top: 5rem;
+    .trusat__research__caption-offset--4 {
+        padding-top: 4rem;
     }
 
     .trusat__research__caption-offset--1 {
