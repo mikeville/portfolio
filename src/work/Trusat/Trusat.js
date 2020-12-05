@@ -10,6 +10,19 @@ import ProjectFooter from '../../ProjectFooter';
 import imgPlaceholder from './media/trusat-placeholder.png' 
 import imgPlaceholder16x9 from './media/trusat-placeholder-16x9.png' 
 import imgPlaceholderDesktop from './media/trusat-placeholder-desktop.png' 
+
+import imgScreenshotLeaderboard from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_leaderboard.jpg' 
+import imgScreenshotPosat from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_proof of satellite.jpg'
+import imgScreenshotMission from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_mission.jpg'
+import imgScreenshotObject from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_object story.jpg'
+import imgScreenshotPriorities from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_priorities.jpg'
+import imgScreenshotCollection from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_collection.jpg'
+import imgScreenshotNotification from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_notification.jpg'
+import imgScreenshotManualMode from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_manual mode.jpg'
+import imgScreenshotCapture from './media/screenshots/trusat-GalaxyS10_Mock--cropped--200420-0014b.gif' 
+import imgScreenshotPlateSolving from './media/screenshots/trusat-GalaxyS10_Mock--plate_solving-b.gif' 
+
+
 import imgDiagramProblem1 from './media/trusat-diagram-problem1.png' 
 import imgDiagramProblem2 from './media/trusat-diagram-problem2.png' 
 import imgDiagramProblem3 from './media/trusat-diagram-problem3.png' 
@@ -526,19 +539,19 @@ render() {
                   </div>
                   <div className="row">
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotNotification} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Receive an alert when an approaching sat is about to become visible to you.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Watch as the sat follows the A.R. orbit track, then snap a picture to capture an observation.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotLeaderboard} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Now you "own" the sat...until another tracker captures it somewhere else on Earth.
                       </p>
@@ -561,13 +574,13 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
                       <p>
                         TruSat detects the sat's position based on its back-drop of star constellations.
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotPosat} alt="TruSat mobile app screenshot"></img>
                       <p>
                         It combines observations from around the world to update the sat's trajectory.
                       </p>
@@ -579,7 +592,7 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
                     </div>
                     <div className="col-md-4">
                       <h4>
@@ -612,7 +625,7 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotPriorities} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Capture sats from the hit list of highest priorities to earn bigger bounties.
                       </p>
@@ -621,7 +634,7 @@ render() {
                         </p>
                     </div>
                     <div className="col-md-4">
-                      <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                      <img src={imgScreenshotMission} alt="TruSat mobile app screenshot"></img>
                       <p>
                         Join SSA industry partners in missions to capture valuable data.
                       </p>
@@ -638,10 +651,10 @@ render() {
                     <div className="col-md-8">
                       <div className="row">
                         <div className="col-md-6">
-                          <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                          <img src={imgScreenshotCollection} alt="TruSat mobile app screenshot"></img>
                         </div>
                         <div className="col-md-6">
-                          <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
+                          <img src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
                         </div>
                         <div className="col-md-12">
                           <p>
