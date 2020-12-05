@@ -9,7 +9,12 @@ import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
 import imgPlaceholder from './media/trusat-placeholder.png' 
 import imgPlaceholder16x9 from './media/trusat-placeholder-16x9.png' 
-import imgPlaceholderDesktop from './media/trusat-placeholder-desktop.png' 
+
+import imgDesktopCatalog from './media/screenshots-desktop/trusat-current_app_catalog.jpg' 
+import imgDesktopObject from './media/screenshots-desktop/trusat-current_app_object.jpg' 
+import imgDesktopProfile from './media/screenshots-desktop/trusat-current_app_profile.jpg' 
+import imgDesktopLandingPage from './media/screenshots-desktop/trusat-landing_page.png' 
+import imgDesktopLearningHub from './media/screenshots-desktop/trusat-learning_hub-1200w.jpg' 
 
 import imgScreenshotLeaderboard from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_leaderboard.png' 
 import imgScreenshotPosat from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_proof-of-satellite.png'
@@ -563,7 +568,7 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4">
-                      <h4>
+                      <h4 className="trusat__research__caption-offset--1">
                         Snap a photo
                       </h4>
                       <p>
@@ -595,7 +600,7 @@ render() {
                       <img className="project__screenshot" src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
                     </div>
                     <div className="col-md-4">
-                      <h4>
+                      <h4 className="trusat__research__caption-offset--1">
                         Wide accessibility
                       </h4>
                       <p>
@@ -616,7 +621,7 @@ render() {
               <div className="trusat__subsection container">
                 <div className="row">
                   <div className="col-md-4">
-                    <h4>
+                    <h4 className="trusat__research__caption-offset--1">
                       Join missions
                     </h4>
                     <p>
@@ -656,7 +661,7 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <h4>
+                      <h4 className="trusat__research__caption-offset--1">
                         Satellites as collectibles
                       </h4>
                       <p>
@@ -697,12 +702,12 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-9">
-                      <img src={imgPlaceholderDesktop} alt="TruSat catalog screenshot"></img>
+                      <img src={imgDesktopCatalog} alt="TruSat catalog screenshot"></img>
                     </div>
                   </div>
                   <div className="row trusat__subsection">
                     <div className="col-md-9">
-                      <img src={imgPlaceholderDesktop} alt="TruSat object page screenshot"></img>
+                      <img src={imgDesktopObject} alt="TruSat object page screenshot"></img>
                     </div>
                     <div className="col-md-3">
                         <h4>
@@ -729,7 +734,7 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-9">
-                      <img src={imgPlaceholderDesktop} alt="TruSat profile page screenshot"></img>
+                      <img src={imgDesktopProfile} alt="TruSat profile page screenshot"></img>
                     </div>
                   </div>
                 </div>
@@ -741,7 +746,7 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-9">
-                      <img src={imgPlaceholderDesktop} alt="TruSat Learning Hub screenshot"></img>
+                      <img src={imgDesktopLearningHub} alt="TruSat Learning Hub screenshot"></img>
                     </div>
                     <div className="col-md-3">
                       <p>
@@ -755,12 +760,7 @@ render() {
                 <h3 className="project__section-title">
                   Landing page
                 </h3>
-                <div className="project__image-stack">
-                  <img src={imgPlaceholderDesktop} alt="TruSat landing page excerpt"></img>
-                  <img src={imgPlaceholderDesktop} alt="TruSat landing page excerpt"></img>
-                  <img src={imgPlaceholderDesktop} alt="TruSat landing page excerpt"></img>
-                  <img src={imgPlaceholderDesktop} alt="TruSat landing page excerpt"></img>
-                </div>
+                <img className="trusat__research__caption-offset--1" src={imgDesktopLandingPage} alt="TruSat landing page"></img>
               </div>
             </div>
           </div>
