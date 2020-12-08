@@ -8,8 +8,11 @@ import './Trusat.scss';
 
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
-import imgPlaceholder from './media/trusat-placeholder.png' 
-import imgPlaceholder16x9 from './media/trusat-placeholder-16x9.png' 
+
+import vidExplainerZoom from './media/explainer/trusat-explainer-zoom.mp4'
+import vidExplainerPlan from './media/explainer/trusat-explainer-plan.mp4'
+import vidExplainerCapture from './media/explainer/trusat-explainer-capture.mp4'
+import vidExplainerPosat from './media/explainer/trusat-explainer-posat.mp4'
 
 import imgDesktopCatalog from './media/screenshots-desktop/trusat-current_app_catalog.jpg' 
 import imgDesktopObject from './media/screenshots-desktop/trusat-current_app_object.jpg' 
@@ -89,7 +92,7 @@ render() {
                   </p>
                   <ul className="credit-list">
                     <li>Co-founder: Chris Lewicki</li>  
-                    <li>Co-founder &amp; legal counsel: Brian Israel</li>  
+                    <li>Co-founder, legal counsel: Brian Israel</li>  
                     <li>Lead designer: Mike Deal</li>  
                     <li>Community manager: Kim Macharia</li>  
                     <li>Product manager: Robert Keenan</li>  
@@ -116,12 +119,10 @@ render() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-4 note">
-                      <p>
-                        <img src={imgPlaceholder} alt="TruSat mobile app screenshot"></img>
-                      </p>
+                      <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
                     </div>
                     <div className="col-md-8">
-                      <p>
+                      <p className="trusat__research__caption-offset--1">
                       🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
                       </p>
                       <p>
@@ -156,7 +157,7 @@ render() {
                   <div className="row trusat__subsubsection">
                     <div className="col-md-4">
                       <p>
-                        A quick orientation.
+                        Watch for a quick orientation.
                       </p>
                       <p>
                         I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
@@ -175,20 +176,20 @@ render() {
                   <div className="row trusat__subsubsection">
                     <div className="col-md-12">
                       <h4>
-                        Screenshots:
+                        Excerpts:
                       </h4>
                     </div>
-                    <div className="col-md-6">
-                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                    <div className="col-md-6 trusat__research__caption-offset--1">
+                      <video src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                     </div>
                     <div className="col-md-6">
-                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <video src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                     </div>
                     <div className="col-md-6">
-                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <video className="trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                     </div>
                     <div className="col-md-6">
-                      <img className="trusat__vid-screenshot" src={imgPlaceholder16x9} alt="TruSat explainer video screenshot"></img>
+                      <video className="trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                     </div>
                   </div>
                 </div>
