@@ -1,6 +1,6 @@
 @import "../../variables.scss";
 
-$color--trusat-blue-dark: #0A1121;
+$color--trusat-blue-dark: #0d1220;
 $color--trusat-blue-medium: #112b49;
 $color--trusat-salmon: #eb7e5f;
 
@@ -29,7 +29,7 @@ $color--trusat-salmon: #eb7e5f;
     }
 
     .trusat__section__title--top {
-        
+
     }
 
     h4 {
@@ -91,6 +91,7 @@ $color--trusat-salmon: #eb7e5f;
     }
 
     .trusat__section--research1 {
+        margin-top: -0.5rem;
         margin-bottom: 6rem;
     }
 

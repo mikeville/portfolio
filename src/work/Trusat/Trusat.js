@@ -152,47 +152,52 @@ render() {
             </div>
             <div className="trusat__subsection">
               <div className="trusat__section-body container">
-                <h3 className="project__section-title">
-                  Explainer video
-                </h3>
-                <div className="container">
-                  <div className="row trusat__subsubsection">
-                    <div className="col-md-4">
-                      <p>
-                        Watch for a quick orientation.
-                      </p>
-                      <p>
-                        I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
-                      </p>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="video-wrapper">
-                        <ReactPlayer
-                            className="trusat__video"
-                            url="https://www.youtube.com/watch?v=H-J7zngl6xE&feature=emb_title"
-                            controls frameBorder="0"
-                          />
+                  <div className="row">
+                    <h3 className="col-sm-12 project__section-title">
+                      Explainer video
+                    </h3>
+                  </div>
+                <div className="col-sm-12">
+                  <div className="container">
+                    <div className="row trusat__subsubsection">
+                      <div className="col-md-4">
+                        <p>
+                          Watch for a quick orientation.
+                        </p>
+                        <p>
+                          I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
+                        </p>
+                      </div>
+                      <div className="col-md-8">
+                        <div className="video-wrapper">
+                          <ReactPlayer
+                              className="trusat__video"
+                              url="https://www.youtube.com/watch?v=H-J7zngl6xE&feature=emb_title"
+                              controls frameBorder="0"
+                              width="100%"
+                            />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="row trusat__subsubsection">
-                    <div className="col-md-12">
-                      <h4>
-                        Excerpts:
-                      </h4>
-                      <div className="trusat__research__caption-offset--1"></div>
-                    </div>
-                    <div className="col-md-6">
-                      <video src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                    </div>
-                    <div className="col-md-6">
-                      <video src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                    </div>
-                    <div className="col-md-6">
-                      <video className="trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                    </div>
-                    <div className="col-md-6">
-                      <video className="trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                    <div className="row trusat__subsubsection">
+                      <div className="col-md-12">
+                        <h4>
+                          Excerpts:
+                        </h4>
+                        <div className="trusat__research__caption-offset--1"></div>
+                      </div>
+                      <div className="col-md-6">
+                        <video className="video-snack" src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                      </div>
+                      <div className="col-md-6">
+                        <video className="video-snack" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                      </div>
+                      <div className="col-md-6">
+                        <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                      </div>
+                      <div className="col-md-6">
+                        <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -201,9 +206,7 @@ render() {
           </div>
         </section>
         <section className="trusat__section trusat__section--research">
-          <div className="trusat__section__title">
-            <TrusatCanvas format="sectionHeader" header="Research"/>
-          </div>
+          <TrusatCanvas format="sectionHeader" header="Research"/>
           <div className="trusat__section__body">
             <div className="trusat__section--research1 trusat__section--blue">
               <div className="container">
@@ -511,9 +514,7 @@ render() {
           </div>
         </section>
         <section className="trusat__section">
-          <div className="trusat__section__title">
-            <TrusatCanvas format="sectionHeader" header="Concept"/>
-          </div>
+          <TrusatCanvas format="sectionHeader" header="Concept"/>
           <div className="trusat__section__body">
             <div className="container">
               <div className="trusat__subsubsection">
@@ -683,15 +684,13 @@ render() {
           </div>
         </section>
         <section className="trusat__section">
-          <div className="trusat__section__title">
-            <TrusatCanvas format="sectionHeader" header="Launch"/>
-          </div>
+          <TrusatCanvas format="sectionHeader" header="Launch"/>
           <div className="trusat__section__body">
             <div className="container">
               <div className="trusat__subsubsection row">
                   <div className="col-md-6">
                     <p>
-                      In October of 2019, we launched TruSat's first app&mdash;<a href="https://trusat.org/catalog/priorities" target="_blank">The&nbsp;TruSat&nbsp;Catalog</a>&mdash;providing backyard astronomers with data they can run in free desktop software to point their telescopes and camera rigs at the sky to collect new observations. 
+                      In October of 2019, we launched the first phase of TruSat&mdash;<a href="https://trusat.org/catalog/priorities" target="_blank">The&nbsp;TruSat&nbsp;Catalog</a>&mdash;providing backyard astronomers with data they can run in free desktop software to point their telescopes and camera rigs at the sky to collect new observations. 
                     </p>
                   </div>
               </div>

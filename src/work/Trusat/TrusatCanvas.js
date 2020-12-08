@@ -98,7 +98,7 @@ class TrusatCanvas extends React.Component {
         };
       
         p.draw = () => {
-          p.background("#081122");
+          p.background("#0d1220");
 
 
           // draw header
@@ -133,13 +133,11 @@ class TrusatCanvas extends React.Component {
 
     render() {
         return (
-            <div className="CoverWhales">
-                <div className="cover__container">
-                    <div id="globe-canvas-container" ref={this.myRef}>
+          <div className="cover__container">
+              <div id="globe-canvas-container" ref={this.myRef}>
 
-                    </div>
-                </div>
-            </div>
+              </div>
+          </div>
         );
     };
 }
