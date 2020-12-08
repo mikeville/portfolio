@@ -180,8 +180,9 @@ render() {
                       <h4>
                         Excerpts:
                       </h4>
+                      <div className="trusat__research__caption-offset--1"></div>
                     </div>
-                    <div className="col-md-6 trusat__research__caption-offset--1">
+                    <div className="col-md-6">
                       <video src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                     </div>
                     <div className="col-md-6">

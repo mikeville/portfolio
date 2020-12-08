@@ -36,7 +36,7 @@ class TrusatCanvas extends React.Component {
         p.getHeight = (width) => {
           if (width < mobileBreakpoint) {
             // if user is on mobile
-            height = 450; // set height to 450px
+            // height = 450; // set height to 450px
           } else if (width*height > maxHeight) {
             height = maxHeight; // otherwise, make height proportional to width
           } else {
