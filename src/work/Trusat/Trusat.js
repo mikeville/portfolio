@@ -3,6 +3,8 @@ import {Helmet} from "react-helmet";
 import ReactPlayer from "react-player/youtube"
 
 import BrowserChrome from "../../BrowserChrome"
+import TrusatCanvasTest from "./TrusatCanvasTest"
+import TrusatCanvas from "./TrusatCanvas"
 
 import './Trusat.scss';
 
@@ -107,8 +109,8 @@ render() {
           </div>
         </div>
         <section className="trusat__section">
-          <div className="trusat__section__title">
-            Overview
+          <div className="trusat__section__title--top">
+            <TrusatCanvas />
           </div>
           <div className="trusat__section__body">
             <div className="trusat__section-body container">
