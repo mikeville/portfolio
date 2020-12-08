@@ -10,7 +10,12 @@ class TrusatCanvas extends React.Component {
         this.myRef = React.createRef();
     }
 
-    sketch = function(p) {
+    sketch = (p) => {
+        
+        if (this.props.format == "sectionHeader") {
+            console.log(this.props.format )
+        }
+
         var canvasDiv = document.getElementById("globe-canvas-container");
         var width = canvasDiv.offsetWidth; //Get width of container
       
@@ -61,12 +66,15 @@ class TrusatCanvas extends React.Component {
         return width/2;
         };
       
-        p.preload = () => {
-          imgEarth = p.loadImage(Globe, (img) => {
-            img.resize(0, imgEarthSize);
-          });
-        };
-      
+
+        if (this.props.format != "sectionHeader") {
+            p.preload = () => {
+                imgEarth = p.loadImage(Globe, (img) => {
+                  img.resize(0, imgEarthSize);
+                });
+              };      
+        }
+
         // If user changes window size, resize the canvas to match that of its container
         p.windowResized = () => {
           width = canvasDiv.offsetWidth;
@@ -91,18 +99,30 @@ class TrusatCanvas extends React.Component {
       
         p.draw = () => {
           p.background("#081122");
+
+
+          // draw header
+          p.textFont("Poppins");
+          p.textSize(72);
+          p.textAlign(p.CENTER, p.CENTER);
+          p.fill("white");
+          p.text(this.props.header, p.width/2, p.height/2);
       
           p.fill("white");
           p.noStroke();
       
           // position Earth image on canvas
           p.translate(p.getEarthPosition(width), p.getHeight(width) / 2);
-          p.image(imgEarth, imgEarth.width / -2, imgEarth.width / -2);
+
+          if (this.props.format != "sectionHeader") {
+            p.image(imgEarth, imgEarth.width / -2, imgEarth.width / -2);
+          }
       
           // draw sats
           for (let i = 0; i < randomPositions.length; i++) {
             p.makeSat(randomPositions[i]);
           }
+
         };      
 
     }

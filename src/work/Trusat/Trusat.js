@@ -202,7 +202,7 @@ render() {
         </section>
         <section className="trusat__section trusat__section--research">
           <div className="trusat__section__title">
-            Research
+            <TrusatCanvas format="sectionHeader" header="Research"/>
           </div>
           <div className="trusat__section__body">
             <div className="trusat__section--research1 trusat__section--blue">
@@ -512,7 +512,7 @@ render() {
         </section>
         <section className="trusat__section">
           <div className="trusat__section__title">
-            Game Concept
+            <TrusatCanvas format="sectionHeader" header="Concept"/>
           </div>
           <div className="trusat__section__body">
             <div className="container">
@@ -684,7 +684,7 @@ render() {
         </section>
         <section className="trusat__section">
           <div className="trusat__section__title">
-            Launch
+            <TrusatCanvas format="sectionHeader" header="Launch"/>
           </div>
           <div className="trusat__section__body">
             <div className="container">
