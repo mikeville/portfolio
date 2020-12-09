@@ -114,7 +114,7 @@ class Work extends React.Component {
                     <CoverWhales />
                 </Link>
                 <CoverCaption>
-                    A graphic notation system for transcribing humpback whale songs to reveal their musical structure. Published in <em><a href="http://opinionator.blogs.nytimes.com/2014/10/05/how-to-make-music-with-a-whale/" target="_blank">The New York Times</a></em> and <em>The Wire</em> magazine. Exhibited in <em>Baleinopolis</em>, Aquarium Tropical, Paris, .
+                    A graphic notation system for transcribing humpback whale songs to reveal their musical structure. Published in <em><a href="http://opinionator.blogs.nytimes.com/2014/10/05/how-to-make-music-with-a-whale/" target="_blank">The New York Times</a></em>, <em><a href="https://www.smithsonianmag.com/smart-news/what-whale-songs-look-sheet-music-180956813/" target="_blank">Smithsonian Magazine</a></em>, and <em>The Wire</em> magazine. Exhibited in <em>Baleinopolis</em>, Aquarium Tropical, Paris, .
                 </CoverCaption>
             </section>
             <section className="cover">
