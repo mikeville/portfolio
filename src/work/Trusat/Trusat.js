@@ -75,36 +75,36 @@ render() {
       <ProjectHeader />
       <div className="project__body">
         <div className="project__intro-wrapper container">
-          <div className="project__intro">
-            <h1 className="project__title">TruSat</h1>
-            <h2 className="project__subtitle">Creative direction, product design</h2>
-            <div className="container project__info">
-              <div className="row">
-                <div className="col-md-7 body-copy">
-                  <p>
-                    <a href="https://trusat.org/" target="_blank">TruSat</a> is a citizen-powerd satellite catalog, enabling backyard astronomers to help improve the transparency and sustainability of space operations. I was responsible for the product’s design and brand, while contributing to its strategy and development.
-                  </p>
-                  <p>
-                    Below is a product design case study.
-                  </p>
-                </div>
-                <div className="col-xs-10 col-md-3 start-md-9 note">
-                  <p className="note__title">
-                    Team
-                  </p>
-                  <ul className="credit-list">
-                    <li>Co-founder: Chris Lewicki</li>  
-                    <li>Co-founder, legal counsel: Brian Israel</li>  
-                    <li>Lead designer: Mike Deal</li>  
-                    <li>Community manager: Kim Macharia</li>  
-                    <li>Product manager: Robert Keenan</li>  
-                    <li>Lead frontend developer: John Gribbin</li>  
-                    <li>Lead backend engineer: Kenan O'Neal</li>  
-                    <li>Illustrations: Louis Wes</li>  
-                    <li>Benefactor: Joseph Lubin</li>  
-                  </ul>
-                </div>
-              </div>
+          <div className="row">
+            <div className="col-xs-12">
+              <h1 className="project__title">TruSat</h1>
+              <h2 className="project__subtitle">Creative direction, product design</h2>
+            </div>
+          </div>
+          <div className="project__info row">
+            <div className="col-md-7 body-copy">
+              <p>
+                <a href="https://trusat.org/" target="_blank">TruSat</a> is a citizen-powerd satellite catalog, enabling backyard astronomers to help improve the transparency and sustainability of space operations. I was responsible for the product’s design and brand, while contributing to its strategy and development.
+              </p>
+              <p>
+                Below is a product design case study.
+              </p>
+            </div>
+            <div className="col-xs-10 col-md-3 start-md-9 note">
+              <p className="note__title">
+                Team
+              </p>
+              <ul className="credit-list">
+                <li>Co-founder: Chris Lewicki</li>  
+                <li>Co-founder, legal counsel: Brian Israel</li>  
+                <li>Lead designer: Mike Deal</li>  
+                <li>Community manager: Kim Macharia</li>  
+                <li>Product manager: Robert Keenan</li>  
+                <li>Lead frontend developer: John Gribbin</li>  
+                <li>Lead backend engineer: Kenan O'Neal</li>  
+                <li>Illustrations: Louis Wes</li>  
+                <li>Benefactor: Joseph Lubin</li>  
+              </ul>
             </div>
           </div>
         </div>
@@ -112,42 +112,38 @@ render() {
           <div className="trusat__section__title--top">
             <TrusatCanvas />
           </div>
-          <div className="trusat__section__body">
-            <div className="trusat__section-body container">
-              <div className="trusat__subsection">
+          <div className="trusat__section__body container">
+            <div className="trusat__subsection row">
+              <div class="col-xs-12">
                 <h3 className="project__section-title">
                   Backstory
                 </h3>
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-4 note">
-                      <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
-                    </div>
-                    <div className="col-md-8">
-                      <p className="trusat__research__caption-offset--1">
-                      🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
-                      </p>
-                      <p>
-                      ✨ I led design on this new team. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
-                      </p>
-                      <p>
-                      🌍 We focused on the high-priority issue of space sustainability, including the problem of space junk. The issue is is ripe with coordination challenges that a blochain is well suited to, given its ability to foster cooperation between untrusting parties. We researched the incentives driving space situational awareness (SSA) to find systemic leverage points to target with software.
-                      </p>
-                      <p>
-                      🛰 The result is <a href="https://trusat.org/" target="_blank">TruSat</a>, a citizen-powered record of satellite behavior.
-                      </p>
-                      <p>
-                      🔭 We first launched the <a href="https://trusat.org/catalog/priorities" target="_blank">TruSat Catalog</a> to show backyard astronomers where to look in the sky to capture and submit fresh observations to the TruSat network.
-                      </p>
-                      <p>
-                      📱 We then began prototyping a location-based game to make the hobby of satellite tracking more accessible to space enthusiasts worldwide (think Pokemon Go for satellites). 
-                      </p>
-                      <p>
-                      📓 Below are designs for both apps, followed by a summary of the research driving our decisions.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              </div>
+              <div className="col-md-4 note">
+                <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
+              </div>
+              <div className="col-md-8">
+                <p className="trusat__research__caption-offset--1">
+                🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
+                </p>
+                <p>
+                ✨ I led design on this new team. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
+                </p>
+                <p>
+                🌍 We focused on the high-priority issue of space sustainability, including the problem of space junk. The issue is is ripe with coordination challenges that a blochain is well suited to, given its ability to foster cooperation between untrusting parties. We researched the incentives driving space situational awareness (SSA) to find systemic leverage points to target with software.
+                </p>
+                <p>
+                🛰 The result is <a href="https://trusat.org/" target="_blank">TruSat</a>, a citizen-powered record of satellite behavior.
+                </p>
+                <p>
+                🔭 We first launched the <a href="https://trusat.org/catalog/priorities" target="_blank">TruSat Catalog</a> to show backyard astronomers where to look in the sky to capture and submit fresh observations to the TruSat network.
+                </p>
+                <p>
+                📱 We then began prototyping a location-based game to make the hobby of satellite tracking more accessible to space enthusiasts worldwide (think Pokemon Go for satellites). 
+                </p>
+                <p>
+                📓 Below are designs for both apps, followed by a summary of the research driving our decisions.
+                </p>
               </div>
             </div>
             <div className="trusat__subsection">
