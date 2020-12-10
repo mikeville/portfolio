@@ -82,13 +82,23 @@
 
     // Make mobile screenshots match grid better 
 
+        
     .project__screenshot {
-        position: relative;
-        margin-left: -28%;
-        width: 140%;
-        margin-top: -5%;
-    }
-    .project__screenshot-caption {
-        margin-top: -20%;
-    }
+        @media (min-width: $screen_viewport_sm) { 
+            position: relative;
+            margin-left: -28%;
+            width: 140%;
+            margin-top: -5%;
+        }
+     }
+        .project__screenshot-caption {
+            margin-top: -15%;
+            margin-bottom: 10%;
+
+            @media (min-width: $screen_viewport_sm) { 
+                margin-top: -20%;
+                margin-bottom: 0;
+            }
+        }
+
 }
