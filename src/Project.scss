@@ -13,7 +13,8 @@
         margin-bottom: 1rem;
     }
 
-    .project__image-stack img {
+    .project__image-stack > img, 
+    .project__image-stack > * img {
         margin-bottom: 0;
         display: block;
     }
