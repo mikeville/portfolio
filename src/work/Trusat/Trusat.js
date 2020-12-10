@@ -257,39 +257,54 @@ render() {
                     </h3>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-md-4">
-                    <p>
-                      As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
-                    </p>
-                    <p className="note">
-                      *tk link to standards here
-                    </p>
+                <div className="hide-on-mobile">
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p>
+                        As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
+                      </p>
+                      <p className="note">
+                        *tk link to standards here
+                      </p>
+                    </div>
+                    <div className="col-md-8">
+                      <img src={imgDiagramHypothesis1} alt="Diagram section for SSA standards"></img>
+                    </div>
                   </div>
-                  <div className="col-md-8">
-                    <img src={imgDiagramHypothesis1} alt="Diagram section for SSA standards"></img>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p>
+                        And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
+                      </p>
+                    </div>
+                    <div className="col-md-8">
+                      <img src={imgDiagramHypothesis2} alt="Diagram section for SSA analysis capabilities"></img>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p>
+                        But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                      </p>
+                    </div>
+                    <div className="col-md-8">
+                      <img src={imgDiagramHypothesis3} alt="Diagram section for trusted SSA data (this missing piece)"></img>
+                    </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-md-4">
-                    <p>
-                      And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
-                    </p>
-                  </div>
-                  <div className="col-md-8">
-                    <img src={imgDiagramHypothesis2} alt="Diagram section for SSA analysis capabilities"></img>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-4">
-                    <p>
-                      But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
-                    </p>
-                  </div>
-                  <div className="col-md-8">
-                    <img src={imgDiagramHypothesis3} alt="Diagram section for trusted SSA data (this missing piece)"></img>
+                <div className="hide-on-desktop">
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p>
+                        As a planet, we have international <strong>standards</strong>* for sustainable practices in space.                         And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
+                      </p>
+                      <p>
+                        But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                      </p>
+                    </div>
                   </div>
                 </div>
+              
               </div>
               <div className="trusat__subsection container">
                 <div className="row">
@@ -303,29 +318,23 @@ render() {
                   </div>
                 </div>
                 <div className="trusat__subsection project__offset--1">
-                  <div className="row">
-                    <div className="col-md-8">
+                  <div className="row row--swap-3-4">
+                    <div className="col-md-8 col--swap">
                       <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
                     </div>
-                    <div className="col-md-4">
-                      <h4>
-                        Centralized
-                      </h4>
+                    <div className="col-md-4 col--swap ">
                       <p>
-                        Sustainable practices require an unrealistic degree of trust between untrusting institutions.
+                        With <strong>centralized</strong> data sources, sustainable practices require an unrealistic degree of trust between untrusting institutions.
                       </p>
                     </div>
                   </div>
-                  <div className="row trusat__subsection">
-                    <div className="col-md-8">
+                  <div className="row  row--swap-3-4 trusat__subsection">
+                    <div className="col-md-8 col--swap">
                       <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
                     </div>
-                    <div className="col-md-4">
-                      <h4>
-                        Decentralized
-                      </h4>
+                    <div className="col-md-4 col--swap">
                       <p>
-                        Sustainability requires <em>zero</em> trust between institutions. 
+                        With <strong>decentralized</strong> data sources, sustainability requires <em>zero</em> trust between institutions. 
                       </p>
                       <p className="note">
                         Instead of trusting one another, participants trust a set of agreed-upon rules enforced by automated contracts. This is one of the fundamental concepts that makes bitcoin possible&mdash;no single entity can manipulate the bitcoin ledger, so all entities can trust it as a record of ownership.
@@ -336,11 +345,14 @@ render() {
                 <div className="trusat__subsection">
                   <div className="row">
                     <div className="col-md-4">
-                      <p>
-                        With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. This would better align an operator's economic incentives with the long-term sustainability of space.
-                      </p>
+                      <h4>
+                        Solution
+                      </h4>
                       <p>
                         If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
+                      </p>
+                      <p>
+                        With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. <em>This would better align an operator's economic incentives with the long-term sustainability of space.</em>
                       </p>
                     </div>
                     <div className="col-md-8">

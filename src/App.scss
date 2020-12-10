@@ -44,8 +44,15 @@ p .note,
 .hide-on-mobile {
   display: none;
 
-  @media (min-width: $screen_viewport_sm) {
+  @media (min-width: $screen_viewport_md) {
     display: block;
+  }
+}
+.hide-on-desktop {
+  display: block;
+
+  @media (min-width: $screen_viewport_md) {
+    display: none;
   }
 }
 
