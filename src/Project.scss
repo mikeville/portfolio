@@ -91,14 +91,38 @@
             margin-top: -5%;
         }
      }
-        .project__screenshot-caption {
-            margin-top: -15%;
-            margin-bottom: 10%;
+    
+     .project__screenshot-caption {
+        margin-top: -15%;
+        margin-bottom: 10%;
 
-            @media (min-width: $screen_viewport_sm) { 
-                margin-top: -20%;
-                margin-bottom: 0;
-            }
+        @media (min-width: $screen_viewport_sm) { 
+            margin-top: -20%;
+            margin-bottom: 0;
         }
+    }
+
+    .project__screenshot-caption--mobile {
+        @media (max-width: $screen_viewport_sm) { 
+            margin-top: -15%;
+        }  
+    }
+
+
+
+    // Offsets
+
+    .project__offset--4 {
+        padding-top: 4rem;
+    }
+
+    .project__offset--2 {
+        padding-top: 2rem;;
+    }
+
+    .project__offset--1 {
+        padding-top: 1rem;
+    }
+
 
 }

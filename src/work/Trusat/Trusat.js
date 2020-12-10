@@ -123,7 +123,7 @@ render() {
                 <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
               </div>
               <div className="col-md-8">
-                <p className="trusat__research__caption-offset--1">
+                <p className="project__offset--1 project__screenshot-caption--mobile">
                 🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
                 </p>
                 <p>
@@ -151,7 +151,7 @@ render() {
                   <h3 className="project__section-title">
                     Explainer video
                   </h3>
-                  <div className="spacer trusat__research__caption-offset--1">
+                  <div className="spacer project__offset--1">
 
                   </div>
                 </div>
@@ -177,7 +177,7 @@ render() {
                   <h4>
                     Excerpts:
                   </h4>
-                  <div className="trusat__research__caption-offset--1"></div>
+                  <div className="project__offset--1"></div>
                 </div>
                 <div className="col-md-6">
                   <video className="video-snack" src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
@@ -186,10 +186,10 @@ render() {
                   <video className="video-snack" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
                 <div className="col-md-6">
-                  <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <video className="video-snack project__offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
                 <div className="col-md-6">
-                  <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <video className="video-snack project__offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ render() {
                   <div className="col-md-8">
                     <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
                   </div>
-                  <div className="col-md-4 trusat__research__caption-offset--4">
+                  <div className="col-md-4 project__offset--4">
                     <h4>
                     In the next decade, satellites will multiply by <span className="trusat__highlight">25x</span>.
                     </h4>
@@ -226,7 +226,7 @@ render() {
                   <div className="col-md-8">
                     <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
                   </div>
-                  <div className="col-md-4 trusat__research__caption-offset--4">
+                  <div className="col-md-4 project__offset--4">
                     <h4>
                     Satellite collisions could trap humans on Earth.
                     </h4>
@@ -239,7 +239,7 @@ render() {
                   <div className="col-md-8">
                     <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
                   </div>
-                  <div className="col-md-4 trusat__research__caption-offset--4">
+                  <div className="col-md-4 project__offset--4">
                     <h4>
                     Ensuring sustainable operations is very hard.
                     </h4>
@@ -302,7 +302,7 @@ render() {
                     </p>
                   </div>
                 </div>
-                <div className="trusat__subsection trusat__research__caption-offset--1">
+                <div className="trusat__subsection project__offset--1">
                   <div className="row">
                     <div className="col-md-8">
                       <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
@@ -372,7 +372,7 @@ render() {
                     We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
                   </div>
                 </div>
-                <div className="row trusat__subsubsection trusat__research__caption-offset--1 trusat__personas">
+                <div className="row trusat__subsubsection project__offset--1 trusat__personas">
                   <div className="col-md-4">
                     <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
                     <h4>Space Dreamer</h4>
@@ -450,7 +450,7 @@ render() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-md-6 trusat__research__caption-offset--4">
+                  <div className="col-md-6 project__offset--4">
                     <h3 className="project__section-title">
                       Segmenting
                     </h3>
@@ -549,7 +549,7 @@ render() {
               </div>
               <div className="row trusat__subsection">
                 <div className="col-md-4">
-                  <h4 className="trusat__research__caption-offset--1">
+                  <h4 className="project__offset--1">
                     Snap a photo
                   </h4>
                   <p>
@@ -577,7 +577,7 @@ render() {
                   <img className="project__screenshot" src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
                 </div>
                 <div className="col-md-4">
-                  <h4 className="trusat__research__caption-offset--1">
+                  <h4 className="project__offset--1">
                     Wide accessibility
                   </h4>
                   <p>
@@ -595,7 +595,7 @@ render() {
               </div>
               <div className="row trusat__subsection">
                 <div className="col-md-4">
-                  <h4 className="trusat__research__caption-offset--1">
+                  <h4 className="project__offset--1">
                     Join missions
                   </h4>
                   <p>
@@ -632,7 +632,7 @@ render() {
                   </p>
                 </div>
                 <div className="col-md-4">
-                  <h4 className="trusat__research__caption-offset--1">
+                  <h4 className="project__offset--1">
                     Satellites as collectibles
                   </h4>
                   <p>
@@ -733,7 +733,7 @@ render() {
                     Landing page
                   </h3>
                 </div>
-                <div className="col-xs-12 trusat__research__caption-offset--1">
+                <div className="col-xs-12 project__offset--1">
                   <BrowserChrome>
                     <img src={imgDesktopLandingPage} alt="TruSat landing page"></img>
                   </BrowserChrome>
