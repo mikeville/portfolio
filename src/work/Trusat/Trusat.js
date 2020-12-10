@@ -146,58 +146,51 @@ render() {
                 </p>
               </div>
             </div>
-            <div className="trusat__subsection">
-              <div className="trusat__section-body container">
-                  <div className="row">
-                    <h3 className="col-sm-12 project__section-title">
-                      Explainer video
-                    </h3>
-                  </div>
-                <div className="col-sm-12">
-                  <div className="container">
-                    <div className="row trusat__subsubsection">
-                      <div className="col-md-4">
-                        <p>
-                          Watch for a quick orientation.
-                        </p>
-                        <p>
-                          I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
-                        </p>
-                      </div>
-                      <div className="col-md-8">
-                        <div className="video-wrapper">
-                          <ReactPlayer
-                              className="trusat__video"
-                              url="https://www.youtube.com/watch?v=H-J7zngl6xE&feature=emb_title"
-                              controls frameBorder="0"
-                              width="100%"
-                            />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row trusat__subsubsection">
-                      <div className="col-md-12">
-                        <h4>
-                          Excerpts:
-                        </h4>
-                        <div className="trusat__research__caption-offset--1"></div>
-                      </div>
-                      <div className="col-md-6">
-                        <video className="video-snack" src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                      </div>
-                      <div className="col-md-6">
-                        <video className="video-snack" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                      </div>
-                      <div className="col-md-6">
-                        <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                      </div>
-                      <div className="col-md-6">
-                        <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
-                      </div>
-                    </div>
+            <div className="trusat__subsection row">
+                <div className="col-xs-12">
+                  <h3 className="project__section-title">
+                    Explainer video
+                  </h3>
+                  <div className="spacer trusat__research__caption-offset--1">
+
                   </div>
                 </div>
-              </div>
+                <div className="col-md-4">
+                  <p>
+                    Watch for a quick orientation.
+                  </p>
+                  <p>
+                    I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
+                  </p>
+                </div>
+                <div className="col-md-8 trusat__subsubsection">
+                  <div className="video-wrapper">
+                    <ReactPlayer
+                        className="trusat__video"
+                        url="https://www.youtube.com/watch?v=H-J7zngl6xE&feature=emb_title"
+                        controls frameBorder="0"
+                        width="100%"
+                      />
+                  </div>
+                </div>
+                <div className="col-md-12">
+                  <h4>
+                    Excerpts:
+                  </h4>
+                  <div className="trusat__research__caption-offset--1"></div>
+                </div>
+                <div className="col-md-6">
+                  <video className="video-snack" src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                </div>
+                <div className="col-md-6">
+                  <video className="video-snack" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                </div>
+                <div className="col-md-6">
+                  <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                </div>
+                <div className="col-md-6">
+                  <video className="video-snack trusat__research__caption-offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                </div>
             </div>
           </div>
         </section>
@@ -205,157 +198,153 @@ render() {
           <TrusatCanvas format="sectionHeader" header="Research"/>
           <div className="trusat__section__body">
             <div className="trusat__section--research1 trusat__section--blue">
-              <div className="container">
-                {/* <div className="trusat__subsubsection row">
-                  <div className="col-md-6">
+              <div className="trusat__subsection container">
+                <div className="row">
+                  <div className="col-xs-12">
+                    <h3 className="project__section-title">
+                      Defining the problem
+                    </h3>
                     <p>
-                      Read on to learn about the systemic issue at the heart of space junk and our plan to fix it.                    </p>
-                  </div>
-                </div> */}
-                <div className="trusat__subsection">
-                  <h3 className="project__section-title">
-                    Defining the problem
-                  </h3>
-                  <p>
-                    The space around Earth is about to get very congested.
-                  </p>
-                  <div className="container">
-                    <div className="row trusat__subsubsection--problem">
-                      <div className="col-md-8">
-                        <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
-                      </div>
-                      <div className="col-md-4 trusat__research__caption-offset--4">
-                        <h4>
-                        In the next decade, satellites will multiply by <span className="trusat__highlight">25x</span>.
-                        </h4>
-                        <p>
-                          This will enable global internet access (which is awesome), but this pace of growth is outrunning our ability to prevent satellite collisions.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="row trusat__subsubsection--problem">
-                      <div className="col-md-8">
-                        <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
-                      </div>
-                      <div className="col-md-4 trusat__research__caption-offset--4">
-                       <h4>
-                        Satellite collisions could trap humans on Earth.
-                       </h4>
-                        <p>
-                          A chain reaction of collisions could trigger an exponentially thickening cage of debris. This is called the Kessler syndrome.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="row trusat__subsubsection--problem">
-                      <div className="col-md-8">
-                        <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
-                      </div>
-                      <div className="col-md-4 trusat__research__caption-offset--4">
-                        <h4>
-                        Ensuring sustainable operations is very hard.
-                        </h4>
-                        <p>
-                          It costs satellite operators more in the short-term to follow sustainability measures. And there's little regulatory penalty if they don't. It's one big tragedy of the commons.
-                        </p>
-                      </div>
-                    </div>
+                      The space around Earth is about to get very congested.
+                    </p>
                   </div>
                 </div>
-                <div className="trusat__subsection">
-                  <h3 className="project__section-title">
-                    The missing piece
-                  </h3>
-                  <div className="container project__image-stack">
-                    <div className="row">
-                      <div className="col-md-4">
-                        <p>
-                          As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
-                        </p>
-                        <p className="note">
-                          *tk link to standards here
-                        </p>
-                      </div>
-                      <div className="col-md-8">
-                        <img src={imgDiagramHypothesis1} alt="Diagram section for SSA standards"></img>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-4">
-                        <p>
-                          And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
-                        </p>
-                      </div>
-                      <div className="col-md-8">
-                        <img src={imgDiagramHypothesis2} alt="Diagram section for SSA analysis capabilities"></img>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-4">
-                        <p>
-                          But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
-                        </p>
-                      </div>
-                      <div className="col-md-8">
-                        <img src={imgDiagramHypothesis3} alt="Diagram section for trusted SSA data (this missing piece)"></img>
-                      </div>
-                    </div>
+                <div className="row trusat__subsubsection--problem">
+                  <div className="col-md-8">
+                    <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
+                  </div>
+                  <div className="col-md-4 trusat__research__caption-offset--4">
+                    <h4>
+                    In the next decade, satellites will multiply by <span className="trusat__highlight">25x</span>.
+                    </h4>
+                    <p>
+                      This will enable global internet access (which is awesome), but this pace of growth is outrunning our ability to prevent satellite collisions.
+                    </p>
                   </div>
                 </div>
-                <div className="trusat__subsection container">
+                <div className="row trusat__subsubsection--problem">
+                  <div className="col-md-8">
+                    <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
+                  </div>
+                  <div className="col-md-4 trusat__research__caption-offset--4">
+                    <h4>
+                    Satellite collisions could trap humans on Earth.
+                    </h4>
+                    <p>
+                      A chain reaction of collisions could trigger an exponentially thickening cage of debris. This is called the Kessler syndrome.
+                    </p>
+                  </div>
+                </div>
+                <div className="row trusat__subsubsection--problem">
+                  <div className="col-md-8">
+                    <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
+                  </div>
+                  <div className="col-md-4 trusat__research__caption-offset--4">
+                    <h4>
+                    Ensuring sustainable operations is very hard.
+                    </h4>
+                    <p>
+                      It costs satellite operators more in the short-term to follow sustainability measures. And there's little regulatory penalty if they don't. It's one big tragedy of the commons.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="trusat__subsection container project__image-stack">
+                <div className="row">
+                  <div className="col-xs-12">
+                    <h3 className="project__section-title">
+                      The missing piece
+                    </h3>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-4">
+                    <p>
+                      As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
+                    </p>
+                    <p className="note">
+                      *tk link to standards here
+                    </p>
+                  </div>
+                  <div className="col-md-8">
+                    <img src={imgDiagramHypothesis1} alt="Diagram section for SSA standards"></img>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-4">
+                    <p>
+                      And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
+                    </p>
+                  </div>
+                  <div className="col-md-8">
+                    <img src={imgDiagramHypothesis2} alt="Diagram section for SSA analysis capabilities"></img>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-4">
+                    <p>
+                      But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                    </p>
+                  </div>
+                  <div className="col-md-8">
+                    <img src={imgDiagramHypothesis3} alt="Diagram section for trusted SSA data (this missing piece)"></img>
+                  </div>
+                </div>
+              </div>
+              <div className="trusat__subsection container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <h3 className="project__section-title">
+                      Our hypothesis
+                    </h3>
+                    <p>
+                      If SSA data is decentralized, it can be trusted by all parties
+                    </p>
+                  </div>
+                </div>
+                <div className="trusat__subsection trusat__research__caption-offset--1">
                   <div className="row">
-                    <div className="col-sm-12">
-                      <h3 className="project__section-title">
-                        Our hypothesis
-                      </h3>
+                    <div className="col-md-8">
+                      <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
+                    </div>
+                    <div className="col-md-4">
+                      <h4>
+                        Centralized
+                      </h4>
                       <p>
-                        If SSA data is decentralized, it can be trusted by all parties
+                        Sustainable practices require an unrealistic degree of trust between untrusting institutions.
                       </p>
                     </div>
                   </div>
-                  <div className="trusat__subsection trusat__research__caption-offset--1">
-                    <div className="row">
-                      <div className="col-md-8">
-                        <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
-                      </div>
-                      <div className="col-md-4">
-                        <h4>
-                          Centralized
-                        </h4>
-                        <p>
-                          Sustainable practices require an unrealistic degree of trust between untrusting institutions.
-                        </p>
-                      </div>
+                  <div className="row trusat__subsection">
+                    <div className="col-md-8">
+                      <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
                     </div>
-                    <div className="row trusat__subsection">
-                      <div className="col-md-8">
-                        <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
-                      </div>
-                      <div className="col-md-4">
-                        <h4>
-                          Decentralized
-                        </h4>
-                        <p>
-                          Sustainability requires <em>zero</em> trust between institutions. 
-                        </p>
-                        <p className="note">
-                          Instead of trusting one another, participants trust a set of agreed-upon rules enforced by automated contracts. This is one of the fundamental concepts that makes bitcoin possible&mdash;no single entity can manipulate the bitcoin ledger, so all entities can trust it as a record of ownership.
-                        </p>
-                      </div>
+                    <div className="col-md-4">
+                      <h4>
+                        Decentralized
+                      </h4>
+                      <p>
+                        Sustainability requires <em>zero</em> trust between institutions. 
+                      </p>
+                      <p className="note">
+                        Instead of trusting one another, participants trust a set of agreed-upon rules enforced by automated contracts. This is one of the fundamental concepts that makes bitcoin possible&mdash;no single entity can manipulate the bitcoin ledger, so all entities can trust it as a record of ownership.
+                      </p>
                     </div>
                   </div>
-                  <div className="trusat__subsection">
-                    <div className="row">
-                      <div className="col-md-4">
-                        <p>
-                          With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. This would better align an operator's economic incentives with the long-term sustainability of space.
-                        </p>
-                        <p>
-                          If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
-                        </p>
-                      </div>
-                      <div className="col-md-8">
-                        <img src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
-                      </div>
+                </div>
+                <div className="trusat__subsection">
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p>
+                        With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. This would better align an operator's economic incentives with the long-term sustainability of space.
+                      </p>
+                      <p>
+                        If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
+                      </p>
+                    </div>
+                    <div className="col-md-8">
+                      <img src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
                     </div>
                   </div>
                 </div>
@@ -378,87 +367,85 @@ render() {
                   Georgia Rakusen carried out most of our user research, with support from Andrea Morales Coto and Katie Johnson.
                     </div>
                 </div>
-                <div className="container">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
+                <div className="row">
+                  <div className="col-sm-8">
+                    We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
+                  </div>
+                </div>
+                <div className="row trusat__subsubsection trusat__research__caption-offset--1 trusat__personas">
+                  <div className="col-md-4">
+                    <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
+                    <h4>Space Dreamer</h4>
+                    <p className="note">
+                    Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
+                    <h4>STEM Worker</h4>
+                    <p className="note">
+                      Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                    <h4>Hobbyist</h4>
+                    <p className="note">
+                    Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
+                    </p>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-5">
+                    <div className="trusat__spectrum-group">
+                      <h4>
+                        Geographic diversity
+                      </h4>
+                      <img src={imgPersonaSpectrum1} alt="Graph showing distribution of personas across dimension of audience size"></img>
+                    </div>
+                    <div className="trusat__spectrum-group">
+                      <h4>
+                        Access to equipment
+                      </h4>
+                      <img src={imgPersonaSpectrum2} alt="Graph showing distribution of personas across dimension of observations per observer"></img>
+                    </div>
+                    <div className="trusat__spectrum-group">
+                      <h4>
+                        Time budgeted for related hobbies
+                      </h4>
+                      <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
                     </div>
                   </div>
-                  <div className="row trusat__subsubsection trusat__research__caption-offset--1 trusat__personas">
-                    <div className="col-md-4">
-                      <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
-                      <h4>Space Dreamer</h4>
-                      <p className="note">
-                      Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
-                      </p>
+                  <div className="col-md-5 start-md-6">
+                    <div className="trusat__spectrum-group">
+                      <h4>
+                        Audience size
+                      </h4>
+                      <img src={imgPersonaSpectrum4} alt="Graph showing distribution of personas across dimension of geographic diversity"></img>
                     </div>
-                    <div className="col-md-4">
-                      <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
-                      <h4>STEM Worker</h4>
-                      <p className="note">
-                        Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
-                      </p>
+                    <div className="trusat__spectrum-group">
+                      <h4>
+                        Observations per observer
+                      </h4>
+                      <img src={imgPersonaSpectrum5} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
                     </div>
-                    <div className="col-md-4">
-                      <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
-                      <h4>Hobbyist</h4>
-                      <p className="note">
-                      Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-5">
-                      <div className="trusat__spectrum-group">
-                        <h4>
-                          Geographic diversity
-                        </h4>
-                        <img src={imgPersonaSpectrum1} alt="Graph showing distribution of personas across dimension of audience size"></img>
-                      </div>
-                      <div className="trusat__spectrum-group">
-                        <h4>
-                          Access to equipment
-                        </h4>
-                        <img src={imgPersonaSpectrum2} alt="Graph showing distribution of personas across dimension of observations per observer"></img>
-                      </div>
-                      <div className="trusat__spectrum-group">
-                        <h4>
-                          Time budgeted for related hobbies
-                        </h4>
-                        <img src={imgPersonaSpectrum3} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
-                      </div>
-                    </div>
-                    <div className="col-md-5 start-md-6">
-                      <div className="trusat__spectrum-group">
-                        <h4>
-                          Audience size
-                        </h4>
-                        <img src={imgPersonaSpectrum4} alt="Graph showing distribution of personas across dimension of geographic diversity"></img>
-                      </div>
-                      <div className="trusat__spectrum-group">
-                        <h4>
-                          Observations per observer
-                        </h4>
-                        <img src={imgPersonaSpectrum5} alt="Graph showing distribution of personas across dimension of time, experience, and access to equipment"></img>
-                      </div>
-                      <div>
-                          <p>
-                          To prioritize personas and use-cases, we considered our primary metrics to increase:
-                        </p>
+                    <div>
                         <p>
-                          <ol>
-                            <li>
-                              <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
-                            </li>
-                            <li>
-                            <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
-                            </li>
-                          </ol>               
-                        </p>
-                        <p>
-                        Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
-                        </p>
-                      </div>
+                        To prioritize personas and use-cases, we considered our primary metrics to increase:
+                      </p>
+                      <p>
+                        <ol>
+                          <li>
+                            <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
+                          </li>
+                          <li>
+                          <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
+                          </li>
+                        </ol>               
+                      </p>
+                      <p>
+                      Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
+                      </p>
                     </div>
                   </div>
                 </div>
