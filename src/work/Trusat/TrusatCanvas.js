@@ -12,10 +12,6 @@ class TrusatCanvas extends React.Component {
 
     sketch = (p) => {
         
-        if (this.props.format == "sectionHeader") {
-            console.log(this.props.format )
-        }
-
         var canvasDiv = document.getElementById("globe-canvas-container");
         var width = canvasDiv.offsetWidth; //Get width of container
       
@@ -41,7 +37,8 @@ class TrusatCanvas extends React.Component {
         p.getHeight = (width) => {
           if (width < mobileBreakpoint) {
             // if user is on mobile
-            // height = 450; // set height to 450px
+            height = 600;
+
           } else if (width*height > maxHeight) {
             height = maxHeight; // otherwise, make height proportional to width
           } else {

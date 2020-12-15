@@ -128,7 +128,7 @@ render() {
                 </h3>
               </div>
               <div className="col-md-4 note">
-                <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
+                <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
               </div>
               <div className="col-md-8">
                 <p className="project__offset--1 project__screenshot-caption--mobile">
@@ -527,7 +527,7 @@ render() {
                       <img src={imgPersonaPlan2} alt="Bottom portion of diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
                     </div>
                     <div className="col-md-3">
-                      <h4>
+                      <h4 className="project__offset--1">
                         Citizen-science game
                       </h4>
                       <p>
