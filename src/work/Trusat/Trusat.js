@@ -19,7 +19,7 @@ import vidExplainerPosat from './media/explainer/trusat-explainer-posat.mp4'
 import imgDesktopCatalog from './media/screenshots-desktop/trusat-current_app_catalog.jpg' 
 import imgDesktopObject from './media/screenshots-desktop/trusat-current_app_object.jpg' 
 import imgDesktopProfile from './media/screenshots-desktop/trusat-current_app_profile.jpg' 
-import imgDesktopLandingPage from './media/screenshots-desktop/trusat-landing_page.png' 
+import imgDesktopLandingPage from './media/screenshots-desktop/trusat-landing_page.jpg' 
 import imgDesktopLearningHub from './media/screenshots-desktop/trusat-learning_hub-1200w.jpg' 
 
 import imgScreenshotLeaderboard from './media/screenshots/trusat-GalaxyS10_Mock--cropped2_leaderboard.png' 
@@ -34,26 +34,34 @@ import imgScreenshotCapture from './media/screenshots/trusat-GalaxyS10_Mock--cro
 import imgScreenshotPlateSolving from './media/screenshots/trusat-GalaxyS10_Mock--plate_solving-b.gif' 
 
 
-import imgDiagramProblem1 from './media/trusat-diagram-problem1.png' 
-import imgDiagramProblem2 from './media/trusat-diagram-problem2.png' 
-import imgDiagramProblem3 from './media/trusat-diagram-problem3.png' 
-import imgDiagramHypothesis1 from './media/trusat-diagram-hypothesis1.png' 
-import imgDiagramHypothesis2 from './media/trusat-diagram-hypothesis2.png' 
-import imgDiagramHypothesis3 from './media/trusat-diagram-hypothesis3.png' 
-import imgDiagramCentralized from './media/trusat-diagram-centralized.png' 
-import imgDiagramDecentralized from './media/trusat-diagram-decentralized.png' 
-import imgDiagramSolution from './media/trusat-diagram-solution.png' 
-import imgPersonaDreamer from './media/trusat-user_research-diagrams-201204-08.png' 
-import imgPersonaWorker from './media/trusat-user_research-diagrams-201204-09.png' 
-import imgPersonaHobbyist from './media/trusat-user_research-diagrams-201204-10.png' 
-import imgPersonaSpectrum1 from './media/trusat-user_research-diagrams-201204-03.png' 
-import imgPersonaSpectrum2 from './media/trusat-user_research-diagrams-201204-04.png' 
-import imgPersonaSpectrum3 from './media/trusat-user_research-diagrams-201204-05.png' 
-import imgPersonaSpectrum4 from './media/trusat-user_research-diagrams-201204-06.png' 
-import imgPersonaSpectrum5 from './media/trusat-user_research-diagrams-201204-07.png' 
-import imgPersonaPlan0 from './media/trusat-user_research-diagrams-201204-11.png' 
-import imgPersonaPlan1 from './media/trusat-user_research-diagrams-201204-01.png' 
-import imgPersonaPlan2 from './media/trusat-user_research-diagrams-201204-02.png' 
+import imgDiagramProblem1 from './media/trusat-concept-diagrams-201201-14.jpg' 
+import imgDiagramProblem1Mobile from './media/trusat-user_research-diagrams-201204-13.jpg' 
+import imgDiagramProblem2 from './media/trusat-concept-diagrams-201201-15.jpg' 
+import imgDiagramProblem2Mobile from './media/trusat-user_research-diagrams-201204-14.jpg' 
+import imgDiagramProblem3 from './media/trusat-concept-diagrams-201201-16.jpg' 
+import imgDiagramProblem3Mobile from './media/trusat-user_research-diagrams-201204-15.jpg' 
+import imgDiagramHypothesis1 from './media/trusat-concept-diagrams-201201-17.jpg' 
+import imgDiagramHypothesis2 from './media/trusat-concept-diagrams-201201-18.jpg' 
+import imgDiagramHypothesis3 from './media/trusat-concept-diagrams-201201-19.jpg' 
+import imgDiagramHypothesisMobile from './media/trusat-concept-diagrams-201201-25.jpg' 
+import imgDiagramCentralized from './media/trusat-concept-diagrams-201201-20.jpg' 
+import imgDiagramCentralizedMobile from './media/trusat-concept-diagrams-201201-23.jpg' 
+import imgDiagramDecentralized from './media/trusat-concept-diagrams-201201-21.jpg' 
+import imgDiagramDecentralizedMobile from './media/trusat-concept-diagrams-201201-24.jpg' 
+import imgDiagramSolution from './media/trusat-concept-diagrams-201201-22.jpg' 
+import imgDiagramSolutionMobile from './media/trusat-concept-diagrams-201201-26.jpg' 
+import imgPersonaDreamer from './media/trusat-user_research-diagrams-201204-08.jpg' 
+import imgPersonaWorker from './media/trusat-user_research-diagrams-201204-09.jpg' 
+import imgPersonaHobbyist from './media/trusat-user_research-diagrams-201204-10.jpg' 
+import imgPersonaSpectrum1 from './media/trusat-user_research-diagrams-201204-03.jpg' 
+import imgPersonaSpectrum2 from './media/trusat-user_research-diagrams-201204-04.jpg' 
+import imgPersonaSpectrum3 from './media/trusat-user_research-diagrams-201204-05.jpg' 
+import imgPersonaSpectrum4 from './media/trusat-user_research-diagrams-201204-06.jpg' 
+import imgPersonaSpectrum5 from './media/trusat-user_research-diagrams-201204-07.jpg' 
+import imgPersonaPlan0 from './media/trusat-user_research-diagrams-201204-11.jpg' 
+import imgPersonaPlan1 from './media/trusat-user_research-diagrams-201204-01.jpg' 
+import imgPersonaPlan2 from './media/trusat-user_research-diagrams-201204-02.jpg' 
+import imgPersonaPlanMobile from './media/trusat-user_research-diagrams-201204-12.jpg' 
 
 
 class Trusat extends React.Component {
@@ -114,7 +122,7 @@ render() {
           </div>
           <div className="trusat__section__body container">
             <div className="trusat__subsection row">
-              <div class="col-xs-12">
+              <div className="col-xs-12">
                 <h3 className="project__section-title">
                   Backstory
                 </h3>
@@ -211,7 +219,8 @@ render() {
                 </div>
                 <div className="row trusat__subsubsection--problem">
                   <div className="col-md-8">
-                    <img src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
+                    <img className="hide-on-mobile" src={imgDiagramProblem1} alt="Diagram of 25x increase"></img>
+                    <img className="hide-on-desktop" src={imgDiagramProblem1Mobile} alt="Diagram of 25x increase"></img>
                   </div>
                   <div className="col-md-4 project__offset--4">
                     <h4>
@@ -224,7 +233,8 @@ render() {
                 </div>
                 <div className="row trusat__subsubsection--problem">
                   <div className="col-md-8">
-                    <img src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
+                    <img className="hide-on-mobile" src={imgDiagramProblem2} alt="Diagram of Kessler syndrome"></img>
+                    <img className="hide-on-desktop" src={imgDiagramProblem2Mobile} alt="Diagram of Kessler syndrome"></img>
                   </div>
                   <div className="col-md-4 project__offset--4">
                     <h4>
@@ -237,7 +247,8 @@ render() {
                 </div>
                 <div className="row trusat__subsubsection--problem">
                   <div className="col-md-8">
-                    <img src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
+                    <img className="hide-on-mobile" src={imgDiagramProblem3} alt="Diagram of international coordination challenges"></img>
+                    <img className="hide-on-desktop" src={imgDiagramProblem3Mobile} alt="Diagram of international coordination challenges"></img>
                   </div>
                   <div className="col-md-4 project__offset--4">
                     <h4>
@@ -293,18 +304,20 @@ render() {
                   </div>
                 </div>
                 <div className="hide-on-desktop">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <p>
-                        As a planet, we have international <strong>standards</strong>* for sustainable practices in space.                         And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
-                      </p>
-                      <p>
-                        But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
-                      </p>
-                    </div>
-                  </div>
+                  <img src={imgDiagramHypothesisMobile} alt="Diagram section for trusted SSA data (this missing piece)"></img>
+                  <p>
+                    As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
+                  </p>
+                  <p className="note">
+                    *tk link to standards here
+                  </p>
+                  <p>
+                    And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
+                  </p>
+                  <p>
+                    But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                  </p>
                 </div>
-              
               </div>
               <div className="trusat__subsection container">
                 <div className="row">
@@ -320,7 +333,8 @@ render() {
                 <div className="trusat__subsection project__offset--1">
                   <div className="row row--swap--1-2">
                     <div className="col-md-8 col--swap">
-                      <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
+                      <img className="hide-on-mobile" src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
+                      <img className="hide-on-desktop" src={imgDiagramCentralizedMobile} alt="Diagram of centralized SSA data"></img>
                     </div>
                     <div className="col-md-4 col--swap ">
                       <p>
@@ -330,7 +344,8 @@ render() {
                   </div>
                   <div className="row  row--swap--1-2 trusat__subsection">
                     <div className="col-md-8 col--swap">
-                      <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
+                      <img className="hide-on-mobile" src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
+                      <img className="hide-on-desktop" src={imgDiagramDecentralizedMobile} alt="Diagram of decentralized SSA data"></img>
                     </div>
                     <div className="col-md-4 col--swap">
                       <p>
@@ -356,7 +371,8 @@ render() {
                       </p>
                     </div>
                     <div className="col-md-8">
-                      <img src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
+                      <img className="hide-on-mobile" src={imgDiagramSolution} alt="Diagram of TruSat solution"></img>
+                      <img className="hide-on-desktop" src={imgDiagramSolutionMobile} alt="Diagram of TruSat solution"></img>
                     </div>
                   </div>
                 </div>
@@ -463,16 +479,14 @@ render() {
                         <p>
                         To prioritize personas and use-cases, we considered our primary metrics to increase:
                       </p>
-                      <p>
-                        <ol>
-                          <li>
-                            <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
-                          </li>
-                          <li>
-                          <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
-                          </li>
-                        </ol>               
-                      </p>
+                      <ol>
+                        <li>
+                          <strong>Number of <em>observers</em></strong>&mdash;to serve our mission to diversify, democratize, and decentralize space.
+                        </li>
+                        <li>
+                        <strong>Number of <em>observations</em></strong>&mdash;to be an effective source of SSA data.
+                        </li>
+                      </ol>               
                       <p>
                       Our long-term vision requires increasing both, but we needed to prioritize the needs of one audience first.
                       </p>
@@ -489,7 +503,7 @@ render() {
                     </p>
                   </div>
                 </div>
-                <div className="project__image-stack">
+                <div className="project__image-stack hide-on-mobile">
                   <div className="row">
                     <div className="col-md-9">
                       <img src={imgPersonaPlan0} alt="Arrow for diagram below"></img>
@@ -521,6 +535,9 @@ render() {
                       </p>
                     </div>
                   </div>
+                </div>
+                <div className="hide-on-desktop">
+                  <img src={imgPersonaPlanMobile} alt="Diagram showing segmenting of each persona into two two apps: one for a broader audience and one for power users"></img>
                 </div>
               </div>
             </div>
@@ -663,9 +680,14 @@ render() {
                     </div>
                     <div className="col-md-6 project__offset--neg3-mobile">
                       <img className="project__screenshot" src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
-                      <p className="project__screenshot-caption" note>
-                        Every satellite is a technical achievement with its own backstory. The Space Dreamer persona clean learn about the space industry through these stories.
-                      </p>
+                      <div className="project__screenshot-caption">
+                        <p>
+                          Every satellite is a technical achievement with its own backstory. 
+                        </p>
+                        <p className="note">
+                          The Space Dreamer persona clean learn about the space industry through these stories.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
