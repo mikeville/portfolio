@@ -127,7 +127,7 @@ render() {
                 🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
                 </p>
                 <p>
-                ✨ I led design on this new team. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
+                ✨ I led design on this new team at ConsenSys. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
                 </p>
                 <p>
                 🌍 We focused on the high-priority issue of space sustainability, including the problem of space junk. The issue is is ripe with coordination challenges that a blochain is well suited to, given its ability to foster cooperation between untrusting parties. We researched the incentives driving space situational awareness (SSA) to find systemic leverage points to target with software.
@@ -183,13 +183,13 @@ render() {
                   <video className="video-snack" src={vidExplainerZoom} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
                 <div className="col-md-6">
-                  <video className="video-snack" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <video className="video-snack project__offset--1--mobile" src={vidExplainerPlan} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
                 <div className="col-md-6">
-                  <video className="video-snack project__offset--2" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <video className="video-snack project__offset--2 project__offset--1--mobile" src={vidExplainerCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
                 <div className="col-md-6">
-                  <video className="video-snack project__offset--2" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <video className="video-snack project__offset--2 project__offset--1--mobile" src={vidExplainerPosat} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                 </div>
             </div>
           </div>
@@ -318,7 +318,7 @@ render() {
                   </div>
                 </div>
                 <div className="trusat__subsection project__offset--1">
-                  <div className="row row--swap-3-4">
+                  <div className="row row--swap--1-2">
                     <div className="col-md-8 col--swap">
                       <img src={imgDiagramCentralized} alt="Diagram of centralized SSA data"></img>
                     </div>
@@ -328,7 +328,7 @@ render() {
                       </p>
                     </div>
                   </div>
-                  <div className="row  row--swap-3-4 trusat__subsection">
+                  <div className="row  row--swap--1-2 trusat__subsection">
                     <div className="col-md-8 col--swap">
                       <img src={imgDiagramDecentralized} alt="Diagram of decentralized SSA data"></img>
                     </div>
@@ -385,26 +385,44 @@ render() {
                   </div>
                 </div>
                 <div className="row trusat__subsubsection project__offset--1 trusat__personas">
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
-                    <h4>Space Dreamer</h4>
-                    <p className="note">
-                    Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
-                    </p>
+                  <div className="col-md-4 trusat__avatar">
+                    <div className="row row--swap--1-2">
+                      <div className="col-xs-12 col--swap">
+                        <img src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
+                      </div>
+                      <div className="col-xs-12 col--swap">
+                        <h4>Space Dreamer</h4>
+                        <p className="note">
+                          Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
-                    <h4>STEM Worker</h4>
-                    <p className="note">
-                      Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
-                    </p>
+                  <div className="col-md-4 trusat__avatar">
+                    <div className="row row--swap--1-2">
+                      <div className="col-xs-12 col--swap">
+                        <img src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
+                      </div>
+                      <div className="col-xs-12 col--swap">
+                        <h4>STEM Worker</h4>
+                        <p className="note">
+                          Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-md-4">
-                    <img className="trusat__avatar" src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
-                    <h4>Hobbyist</h4>
-                    <p className="note">
-                    Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
-                    </p>
+                  <div className="col-md-4 trusat__avatar">
+                    <div className="row row--swap--1-2">
+                      <div className="col-xs-12 col--swap">
+                        <img src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
+                      </div>
+                      <div className="col-xs-12 col--swap">
+                        <h4>Hobbyist</h4>
+                        <p className="note">
+                          Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="row">

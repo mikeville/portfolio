@@ -75,6 +75,23 @@ $color--trusat-salmon: #eb7e5f;
       }
 
     .trusat__avatar {
+        @media (max-width: $screen_viewport_md) { 
+            text-align: center;
+            margin-bottom: 2rem;
+            &:first-child {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .trusat__avatar h4, 
+    .trusat__avatar p {
+        @media (max-width: $screen_viewport_md) { 
+            text-align: left;
+        }
+    }
+
+    .trusat__avatar img {
         max-width: 240px;
     }
 

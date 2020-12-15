@@ -124,5 +124,10 @@
         padding-top: 1rem;
     }
 
+    .project__offset--1--mobile {
+        @media (max-width: $screen_viewport_md) { 
+            padding-top: 1rem;
+        }
+    }
 
 }

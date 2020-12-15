@@ -69,7 +69,7 @@ $grid_arr: (
 }
 
 // swaps
-.row--swap-3-4 {
+.row--swap--1-2 {
     @media (max-width: $screen_viewport_md) { 
         .col--swap:nth-child(1) { order: 2 !important; }
         .col--swap:nth-child(2) { order: 1 !important; }
