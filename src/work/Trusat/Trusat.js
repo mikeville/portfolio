@@ -712,16 +712,16 @@ render() {
                   </BrowserChrome>
                 </div>
               </div>
-              <div className="trusat__subsection row">
-                  <div className="col-md-9">
+              <div className="trusat__subsection row row--swap--1-2">
+                  <div className="col-md-9 col--swap">
                     <BrowserChrome>
                       <img src={imgDesktopObject} alt="TruSat object page screenshot"></img>
                     </BrowserChrome>
                   </div>
-                  <div className="col-md-3">
-                      <h4>
-                        Objects
-                      </h4>
+                  <div className="col-md-3 col--swap">
+                    <h4>
+                      Objects
+                    </h4>
                     <p>
                       Observers can learn the backstories of the satellites they capture.
                     </p>
@@ -748,21 +748,25 @@ render() {
                     </BrowserChrome>
                   </div>
                 </div>
-                <div className="trusat__subsection row">
-                  <div className="col-xs-12">
-                    <h3 className="project__section-title">
-                      Learning Hub
-                    </h3>
+                <div className="trusat__subsection">
+                  <div className="row">
+                    <div className="col-xs-12">
+                      <h3 className="project__section-title">
+                        Learning Hub
+                      </h3>
+                    </div>
                   </div>
-                  <div className="col-md-9">
-                    <BrowserChrome>
-                      <img src={imgDesktopLearningHub} alt="TruSat Learning Hub screenshot"></img>
-                    </BrowserChrome>
-                  </div>
-                  <div className="col-md-3">
-                    <p>
-                      A common denominator in all our personas is a desire to learn, so we're continuously updating TruSat's documentation with new instructional materials and learning modules.
-                    </p>
+                  <div className="row row--swap--1-2">
+                    <div className="col-md-9 col--swap">
+                      <BrowserChrome>
+                        <img src={imgDesktopLearningHub} alt="TruSat Learning Hub screenshot"></img>
+                      </BrowserChrome>
+                    </div>
+                    <div className="col-md-3 col--swap">
+                      <p>
+                        A common denominator in all our personas is a desire to learn, so we're continuously updating TruSat's documentation with new instructional materials and learning modules.
+                      </p>
+                    </div>
                   </div>
                 </div>
               <div className="trusat__subsection row">
@@ -794,7 +798,7 @@ render() {
                   Follow TruSat on Github and Discord to join the discussion and contribute to the catalog.
                 </p>
                 <p>
-                Special thanks to Joseph Lubin for funding the project 
+                  🙏 Special thanks to Joseph Lubin for funding this project. 
                 </p>
               </div>
             </div>
