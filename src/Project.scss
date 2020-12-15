@@ -129,5 +129,10 @@
             padding-top: 1rem;
         }
     }
+    .project__offset--neg3-mobile {
+        @media (max-width: $screen_viewport_md) { 
+            margin-top: -3rem;
+        }  
+    }
 
 }

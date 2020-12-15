@@ -31,8 +31,10 @@ p {
   margin-bottom: 0.75rem;
 }
 
+.note,
 p .note,
 .note p {
+  display: block;
   margin-bottom: 0.5rem;
 }
 

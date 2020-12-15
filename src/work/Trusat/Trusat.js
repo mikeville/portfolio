@@ -380,17 +380,17 @@ render() {
                     </div>
                 </div>
                 <div className="row">
-                  <div className="col-sm-8">
+                  <div className="col-sm-8 project__offset--1--mobile">
                     We determined three main sub-personas within the broader audience of space enthusiasts interested in technology:
                   </div>
                 </div>
                 <div className="row trusat__subsubsection project__offset--1 trusat__personas">
                   <div className="col-md-4 trusat__avatar">
-                    <div className="row row--swap--1-2">
-                      <div className="col-xs-12 col--swap">
+                    <div className="row">
+                      <div className="col-md-12 col-xs-4">
                         <img src={imgPersonaDreamer} alt="Persona avatar for space dreamers"></img>
                       </div>
-                      <div className="col-xs-12 col--swap">
+                      <div className="col-md-12 col-xs-8">
                         <h4>Space Dreamer</h4>
                         <p className="note">
                           Interested in a career in space. Follows space-related social media accounts. Doesn't own relevant equipment. May have participated in a citizen-science project before. Has never seen a satellite.
@@ -399,11 +399,11 @@ render() {
                     </div>
                   </div>
                   <div className="col-md-4 trusat__avatar">
-                    <div className="row row--swap--1-2">
-                      <div className="col-xs-12 col--swap">
+                    <div className="row">
+                      <div className="col-md-12 col-xs-4">
                         <img src={imgPersonaWorker} alt="Persona avatar for STEM workers"></img>
                       </div>
-                      <div className="col-xs-12 col--swap">
+                      <div className="col-md-12 col-xs-8">
                         <h4>STEM Worker</h4>
                         <p className="note">
                           Working in a STEM-related career. Has little spare time. May have technical acumen to use free sat-tracking software. Has seen satellites and/or used satellite-finding apps.
@@ -412,11 +412,11 @@ render() {
                     </div>
                   </div>
                   <div className="col-md-4 trusat__avatar">
-                    <div className="row row--swap--1-2">
-                      <div className="col-xs-12 col--swap">
+                    <div className="row">
+                      <div className="col-md-12 col-xs-4">
                         <img src={imgPersonaHobbyist} alt="Persona avatar for hobbyists"></img>
                       </div>
-                      <div className="col-xs-12 col--swap">
+                      <div className="col-md-12 col-xs-8">
                         <h4>Hobbyist</h4>
                         <p className="note">
                           Looking for a new technical hobby. Has a DSLR and/or telescope. Is comfortable tinkering with hardware. Able to use some free sat-tracking software. May be retired with spare time.
@@ -602,11 +602,11 @@ render() {
                   </p>
                 </div>
               </div>
-              <div className="row trusat__subsection">
-                <div className="col-md-4">
+              <div className="row row--swap--1-2 trusat__subsection">
+                <div className="col-md-4 col--swap">
                   <img className="project__screenshot" src={imgScreenshotManualMode} alt="TruSat mobile app screenshot"></img>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col--swap">
                   <h4 className="project__offset--1">
                     Wide accessibility
                   </h4>
@@ -634,34 +634,42 @@ render() {
                 </div>
                 <div className="col-md-4">
                   <img className="project__screenshot" src={imgScreenshotPriorities} alt="TruSat mobile app screenshot"></img>
-                  <p className="project__screenshot-caption">
-                    Capture sats from the hit list of highest priorities to earn bigger bounties.
-                  </p>
-                  <p className="note">
+                  <div className="project__screenshot-caption">
+                    <p>
+                      Capture sats from the hit list of highest priorities to earn bigger bounties.
+                    </p>
+                    <p className="note">
                       Sats are prioritied algorithmically, based on factors like time since last observation.
                     </p>
+                  </div>
                 </div>
                 <div className="col-md-4">
                   <img className="project__screenshot" src={imgScreenshotMission} alt="TruSat mobile app screenshot"></img>
-                  <p className="project__screenshot-caption">
-                    Join SSA industry partners in missions to capture valuable data.
-                  </p>
-                  <p className="note">
-                    Partners can task the network to focus efforts on specific satellites most in need of data.
-                  </p>
+                  <div className="project__screenshot-caption">
+                    <p>
+                      Join SSA industry partners in missions to capture valuable data.
+                    </p>
+                    <p className="note">
+                      Partners can task the network to focus efforts on specific satellites most in need of data.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="row trusat__subsection">
-                <div className="col-md-4">
-                  <img className="project__screenshot" src={imgScreenshotCollection} alt="TruSat mobile app screenshot"></img>
+              <div className="row row--swap--1-2 trusat__subsection">
+                <div className="col-md-8 col--swap">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <img className="project__screenshot" src={imgScreenshotCollection} alt="TruSat mobile app screenshot"></img>
+                    </div>
+                    <div className="col-md-6 project__offset--neg3-mobile">
+                      <img className="project__screenshot" src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
+                      <p className="project__screenshot-caption" note>
+                        Every satellite is a technical achievement with its own backstory. The Space Dreamer persona clean learn about the space industry through these stories.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="col-md-4">
-                  <img className="project__screenshot" src={imgScreenshotObject} alt="TruSat mobile app screenshot"></img>
-                  <p className="project__screenshot-caption">
-                    Every satellite is a technical achievement with its own backstory. The Space Dreamer persona clean learn about the space industry through these stories.
-                  </p>
-                </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col--swap">
                   <h4 className="project__offset--1">
                     Satellites as collectibles
                   </h4>
