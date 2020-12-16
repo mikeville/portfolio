@@ -2,6 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 
 import ReactPlayer from "react-player/youtube"
+import BrowserChrome from "../../BrowserChrome"
 
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
@@ -157,19 +158,9 @@ render() {
                 <img src={imgProcess3} alt="Grace Shin and Brian McGee reviewing shots"></img>
               </div>
               <div className="col-xs-12 start-md-8 col-md-4">
-                <div className="browser-mock">
-                  <div className="browser-mock__chrome">
-                    <div className="browser-mock__chrome--left">
-                      <div className="browser-mock__chrome--button">
-                      </div>
-                    </div>
-                    <div className="browser-mock__chrome--middle">
-                    </div>
-                    <div className="browser-mock__chrome--right">
-                    </div>
-                  </div>
+                <BrowserChrome>
                   <img src={imgHbo} alt="Screenshot of HBO"></img>
-                </div>
+                </BrowserChrome>
               </div>
             </section>
           </div>

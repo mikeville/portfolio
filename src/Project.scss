@@ -13,6 +13,12 @@
         margin-bottom: 1rem;
     }
 
+    .project__image-stack > img, 
+    .project__image-stack > * img {
+        margin-bottom: 0;
+        display: block;
+    }
+
     .project__intro-wrapper {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -72,4 +78,61 @@
         margin-top: -30px;
         width: 100%;
     }
+
+
+    // Make mobile screenshots match grid better 
+
+        
+    .project__screenshot {
+        @media (min-width: $screen_viewport_sm) { 
+            position: relative;
+            margin-left: -28%;
+            width: 140%;
+            margin-top: -5%;
+        }
+     }
+    
+     .project__screenshot-caption {
+        margin-top: -15%;
+        margin-bottom: 10%;
+
+        @media (min-width: $screen_viewport_sm) { 
+            margin-top: -20%;
+            margin-bottom: 0;
+        }
+    }
+
+    .project__screenshot-caption--mobile {
+        @media (max-width: $screen_viewport_sm) { 
+            margin-top: -15%;
+        }  
+    }
+
+
+
+    // Offsets
+
+    .project__offset--4 {
+        padding-top: 4rem;
+    }
+
+    .project__offset--2 {
+        padding-top: 2rem;;
+    }
+
+    .project__offset--1 {
+        padding-top: 1rem;
+    }
+
+    .project__offset--1--mobile {
+        @media (max-width: $screen_viewport_md) { 
+            padding-top: 1rem;
+        }
+    }
+    .project__offset--neg3-mobile {
+        @media (max-width: $screen_viewport_md) { 
+            margin-top: -3rem;
+        }  
+    }
+
 }

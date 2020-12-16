@@ -52,12 +52,12 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <a href="https://trusat.org/" target="_blank">
+                <Link to="/trusat">
                     <div className="cover__header">
                         <CoverHeader project="TruSat" role="Creative direction, product design" />
                     </div>
                     <CoverTrusat />
-                </a>
+                </Link>
                 <CoverCaption>
                     I designed and launched TruSat with the ConsenSys Space team. TruSat is a volunteer-led project to promote space sustainability via an independent catalog of satellite positions.
                 </CoverCaption>

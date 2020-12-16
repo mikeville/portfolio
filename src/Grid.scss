@@ -21,9 +21,9 @@ $grid_arr: (
     grid-template-columns: repeat(12, 1fr);
     width:100%;
 
-    column-gap: 20px; //change property from "column-gap" to "grid-gap" if you want vertical margin between rows
-    @media (min-width: $screen_viewport_sm) { column-gap: calc(#{$grid_gutter} * 1.5); }
-    @media (min-width: $screen_viewport_md) { column-gap: calc(#{$grid_gutter} * 2) !important; }
+    column-gap: $grid_gutter; //change property from "column-gap" to "grid-gap" if you want vertical margin between rows
+    @media (min-width: $screen_viewport_sm) { column-gap: calc(#{$grid_gutter}); }
+    @media (min-width: $screen_viewport_md) { column-gap: calc(#{$grid_gutter}) !important; }
 }
 
 [class^="col-"], [class*=" col-"] { grid-column-start: span 12; }
@@ -33,7 +33,7 @@ $grid_arr: (
         @for $i from 1 through 12 {
             @for $y from 1 through 12 {
                 // Differs from bootstrap from the point that it specifies the index of a column to start
-                // example: col-start-6 col-4 (start at col 6 columns and occupy 4 columns
+                // example: start-6 col-4 (start at col 6 columns and occupy 4 columns
                 $combined : $i + $y;
                 @if($combined <= 12) {
                     .start-#{$label}-#{$y}.col-#{$label}-#{$i} {
@@ -66,4 +66,12 @@ $grid_arr: (
 // prevent margin effect on nested grids
 .container .container {
     width: 100%;
+}
+
+// swaps
+.row--swap--1-2 {
+    @media (max-width: $screen_viewport_md) { 
+        .col--swap:nth-child(1) { order: 2 !important; }
+        .col--swap:nth-child(2) { order: 1 !important; }
+    }
 }
