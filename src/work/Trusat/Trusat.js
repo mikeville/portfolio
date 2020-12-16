@@ -132,7 +132,7 @@ render() {
               </div>
               <div className="col-md-8">
                 <p className="project__offset--1 project__screenshot-caption--mobile">
-                🤯 In late 2018, the blockchain venture firm ConsenSys acquired the asteroid mining company Planetary Resources.
+                🤯 In late 2018, the blockchain venture firm <a href="https://consensys.net/" target="_blank">ConsenSys</a> acquired the asteroid mining company Planetary Resources.
                 </p>
                 <p>
                 ✨ I led design on this new team at ConsenSys. Our mission was to find applications for blockchain in the space industry to diversify, democratize, and decentralize space endeavors.
@@ -168,7 +168,7 @@ render() {
                     Watch for a quick orientation.
                   </p>
                   <p>
-                    I scripted, storyboarded, and art directed this video, and the amazing Louis Wes illustrated and animated it. Music and sound by Jennifer Pague.
+                    I scripted, storyboarded, and art directed this video, and the amazing <a href="https://louiswes.com/" target="_blank">Louis Wes</a> illustrated and animated it. Music and sound by sonic guru <a href="https://www.instagram.com/jenniferpaguesounds/?hl=en" target="_blank">Jennifer Pague</a>.
                   </p>
                 </div>
                 <div className="col-md-8 trusat__subsubsection">
@@ -275,7 +275,7 @@ render() {
                         As a planet, we have international <strong>standards</strong>* for sustainable practices in space. 
                       </p>
                       <p className="note">
-                        *tk link to standards here
+                        *<a href="https://www.unoosa.org/res/oosadoc/data/documents/2018/aac_1052018crp/aac_1052018crp_20_0_html/AC105_2018_CRP20E.pdf" target="_blank">Guidelines for the Long-term Sustainability of Outer Space</a> and the <a href="https://www.weforum.org/projects/space-sustainability-rating" target="_blank">Space Sustainability Rating</a>
                       </p>
                     </div>
                     <div className="col-md-8">
@@ -295,7 +295,7 @@ render() {
                   <div className="row">
                     <div className="col-md-4">
                       <p>
-                        But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                        But the <strong className="trusat__highlight">data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
                       </p>
                     </div>
                     <div className="col-md-8">
@@ -315,7 +315,7 @@ render() {
                     And we have the capacity to <strong>analyze</strong> in-orbit behavior against these standards.
                   </p>
                   <p>
-                    But the <strong>data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
+                    But the <strong className="trusat__highlight">data</strong> needed to measure compliance is locked away. Without trusted SSA data, there’s no accountability. Without accountability, there’s no sustainability.
                   </p>
                 </div>
               </div>
@@ -367,7 +367,10 @@ render() {
                         If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
                       </p>
                       <p>
-                        With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. <em>This would better align an operator's economic incentives with the long-term sustainability of space.</em>
+                        With trusted data, in-orbit behavior can be better regulated, raising costs for unsustainable operations. 
+                      </p>
+                      <p>
+                        <em>This would better align an operator's economic incentives with the long-term sustainability of space activities.</em>
                       </p>
                     </div>
                     <div className="col-md-8">
@@ -392,7 +395,7 @@ render() {
                     </p>
                   </div>
                   <div className="col-xs-10 col-md-4 start-md-8 note">
-                  Georgia Rakusen carried out most of our user research, with support from Andrea Morales Coto and Katie Johnson.
+                    Our user research was led by <a href="https://www.linkedin.com/in/georgiarakusen/?originalSubdomain=uk" target="_blank">Georgia Rakusen</a> and <a href="https://andreamoralescoto.com/about/" target="_blank">Andrea Morales Coto</a>.
                     </div>
                 </div>
                 <div className="row">
@@ -559,8 +562,8 @@ render() {
                   <p>
                     It has the challenge+reward mechanics of a location-based game, with the citizen science mission to document observable events in nature.                      </p>
                 </div>
-                <div className="col-xs-10 col-md-3 start-md-9 note">
-                  While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The product docs exist [here] as part of TruSat’s broader open source project.        
+                <div className="col-xs-10 col-md-4 note">
+                  While this case study includes mockups of this game, our team ceased development when COVID-19 hit, and the game was never launched. The <a href="https://learn.trusat.org/docs/roadmap" target="_blank">product docs</a> live on within TruSat’s broader open source project.        
 
                 </div>
               </div>
@@ -814,13 +817,13 @@ render() {
                   Next steps  
                 </h3>
                 <p>
-                  While the project may no longer be funded, it lives on in the open source community. 
+                  While the project may no longer be funded, it lives on with the support of volunteers in the open source community. 
                 </p>
                 <p>
-                  Follow TruSat on Github and Discord to join the discussion and contribute to the catalog.
+                  Follow TruSat on <a href="https://github.com/TruSat" target="_blank">Github</a> and learn how to get involved <a href="https://learn.trusat.org/docs/participate" target="_blank">here</a>.
                 </p>
                 <p>
-                  🙏 Special thanks to Joseph Lubin for funding this project. 
+                  🙏🏼 Many thanks to everyone who has contributed.
                 </p>
               </div>
             </div>

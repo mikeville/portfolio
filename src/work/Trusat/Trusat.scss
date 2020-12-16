@@ -105,6 +105,13 @@ $color--trusat-salmon: #eb7e5f;
         
         padding-top: 6rem;
         padding-bottom: 1rem;
+
+        a,
+        a:active,
+        a:visited,
+        a:hover {
+            color: white;
+        }
     }
 
     .trusat__section--research1 {
