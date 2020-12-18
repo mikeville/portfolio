@@ -588,9 +588,11 @@ render() {
                     Receive an alert when an approaching sat is about to become visible to you.
                   </p>
                 </div>
-                <div className="col-md-4">
-                  <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
-                  <p className="project__screenshot-caption">
+                <div className="col-md-4 loader-content-container">
+                  {/* <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img> */}
+                  <Loader />
+                  <video className="video-snack project__screenshot zneg1 loader-content video-with-line trusat__video-screenshot" src={vidCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <p className="project__screenshot-caption trusat__video-screenshot-caption">
                     Watch as the sat follows the A.R. orbit track, then snap a picture to capture an observation.
                   </p>
                 </div>

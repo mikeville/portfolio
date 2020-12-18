@@ -156,4 +156,15 @@ $color--trusat-salmon: #eb7e5f;
     .trusat__spectrum-group {
         margin-bottom: 1rem;
     }
+
+    .trusat__video-screenshot {
+        margin-bottom: 1rem;
+        @media (max-width: $screen_viewport_md) { 
+            // margin-bottom: 3rem;
+        }
+    }
+
+    .trusat__video-screenshot-caption {
+        position: absolute;
+    }
 }
