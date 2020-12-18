@@ -5,7 +5,9 @@ import './Loader.scss';
 function Loader() {
     return (
         <div className="Loader">
-            <div className="ripple">
+            <div className="loader-container">
+                <div className="ripple">
+                </div>
             </div>
         </div>
     )

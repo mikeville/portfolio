@@ -1,11 +1,23 @@
+.loader-content-container {
+    position: relative;
+}
+
 .Loader {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    
     .ripple {
+        margin: 0 auto;
+
         width: 2rem;
         height: 2rem;
-        margin: 2rem;
         border-radius: 50%;
-        border: 0.3rem solid white;
-        transform: translate(50%);
+        border: 0.3rem solid grey;
         animation: 0.75s ripple ease-out infinite;
       }
 
@@ -21,4 +33,3 @@
         }
     }
 }
-      

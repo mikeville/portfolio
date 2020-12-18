@@ -5,11 +5,14 @@ import ReactPlayer from "react-player/youtube"
 import BrowserChrome from "../../BrowserChrome"
 import TrusatCanvasTest from "./TrusatCanvasTest"
 import TrusatCanvas from "./TrusatCanvas"
+import Loader from "../../Loader"
 
 import './Trusat.scss';
 
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
+
+import vidCapture from './media/trusat-Phone4vbr-1020w-stretched.mp4'
 
 import vidExplainerZoom from './media/explainer/trusat-explainer-zoom.mp4'
 import vidExplainerPlan from './media/explainer/trusat-explainer-plan.mp4'
@@ -127,8 +130,9 @@ render() {
                   Backstory
                 </h3>
               </div>
-              <div className="col-md-4 note">
-                <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
+              <div className="col-md-4 note loader-content-container">
+                <Loader />
+                <video className="video-snack project__screenshot zneg1 loader-content video-with-line" src={vidCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
               </div>
               <div className="col-md-8">
                 <p className="project__offset--1 project__screenshot-caption--mobile">
