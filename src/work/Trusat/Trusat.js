@@ -5,11 +5,15 @@ import ReactPlayer from "react-player/youtube"
 import BrowserChrome from "../../BrowserChrome"
 import TrusatCanvasTest from "./TrusatCanvasTest"
 import TrusatCanvas from "./TrusatCanvas"
+import Loader from "../../Loader"
 
 import './Trusat.scss';
 
 import ProjectHeader from '../../ProjectHeader';
 import ProjectFooter from '../../ProjectFooter';
+
+import vidCapture from './media/trusat-Phone4vbr-1020w-stretched.mp4'
+import vidStarMatch from './media/trusat-Phone--star_match_2.mp4'
 
 import vidExplainerZoom from './media/explainer/trusat-explainer-zoom.mp4'
 import vidExplainerPlan from './media/explainer/trusat-explainer-plan.mp4'
@@ -127,8 +131,9 @@ render() {
                   Backstory
                 </h3>
               </div>
-              <div className="col-md-4 note">
-                <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
+              <div className="col-md-4 note loader-content-container">
+                <Loader />
+                <video className="video-snack project__screenshot zneg1 loader-content video-with-line" src={vidCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
               </div>
               <div className="col-md-8">
                 <p className="project__offset--1 project__screenshot-caption--mobile">
@@ -361,7 +366,7 @@ render() {
                   <div className="row">
                     <div className="col-md-4">
                       <h4>
-                        Solution
+                        Proposed solution
                       </h4>
                       <p>
                         If we build software that enables citizen scientists across the planet to spot satellites, we can crowdsource a decentralized, trusted SSA data source.
@@ -581,19 +586,20 @@ render() {
                 <div className="col-md-4">
                   <img className="project__screenshot" src={imgScreenshotNotification} alt="TruSat mobile app screenshot"></img>
                   <p className="project__screenshot-caption">
-                    Receive an alert when an approaching sat is about to become visible to you.
+                    Receive an alert when an approaching satellite is about to become visible to you.
                   </p>
                 </div>
-                <div className="col-md-4">
-                  <img className="project__screenshot zneg1" src={imgScreenshotCapture} alt="TruSat mobile app screenshot"></img>
-                  <p className="project__screenshot-caption">
-                    Watch as the sat follows the A.R. orbit track, then snap a picture to capture an observation.
+                <div className="col-md-4 loader-content-container">
+                  <Loader />
+                  <video className="video-snack project__screenshot zneg1 loader-content video-with-line trusat__video-screenshot" src={vidCapture} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
+                  <p className="project__screenshot-caption trusat__video-screenshot-caption">
+                    Watch as the satellite follows the A.R. orbit track, then snap a picture to capture an observation.
                   </p>
                 </div>
                 <div className="col-md-4">
                   <img className="project__screenshot" src={imgScreenshotLeaderboard} alt="TruSat mobile app screenshot"></img>
                   <p className="project__screenshot-caption">
-                    Now you "own" the sat...until another tracker captures it somewhere else on Earth.
+                    Now you "own" the satellite...until another tracker captures it somewhere else on Earth.
                   </p>
                 </div>
               </div>
@@ -609,16 +615,17 @@ render() {
                     How does it work? The low-light capabilities and astrophotography <a href="https://ai.googleblog.com/2019/11/astrophotography-with-night-sight-on.html" target="_blank">modes</a> in new smartphones enable TruSat to detect star constellations in your photos. This let's TruSat determine a satellite's position relative to the phone's GPS location. That's all the data it needs for one observation. TruSat then combines multiple observations across the planet to calculate the orbital trajectories of satellites
                   </p>
                 </div>
-                <div className="col-md-4">
-                  <img className="project__screenshot zneg1" src={imgScreenshotPlateSolving} alt="TruSat mobile app screenshot"></img>
+                <div className="col-md-4 loader-content-container">
+                  <Loader />
+                  <video className="video-snack project__screenshot zneg1 loader-content video-with-line trusat__video-screenshot" src={vidStarMatch} muted preload="metadata" autoPlay="autoPlay" loop="loop"></video>
                   <p className="project__screenshot-caption">
-                    TruSat detects the sat's position based on its back-drop of star constellations.
+                    TruSat detects the satellite's position based on its back-drop of star constellations.
                   </p>
                 </div>
                 <div className="col-md-4">
                   <img className="project__screenshot" src={imgScreenshotPosat} alt="TruSat mobile app screenshot"></img>
                   <p className="project__screenshot-caption">
-                    It combines observations from around the world to update the sat's trajectory.
+                    It combines observations from around the world to update the satellite's trajectory.
                   </p>
                 </div>
               </div>

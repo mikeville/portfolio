@@ -84,7 +84,7 @@
 
         
     .project__screenshot {
-        @media (min-width: $screen_viewport_sm) { 
+        @media (min-width: $screen_viewport_md) { 
             position: relative;
             margin-left: -28%;
             width: 140%;
@@ -96,8 +96,8 @@
         margin-top: -15%;
         margin-bottom: 10%;
 
-        @media (min-width: $screen_viewport_sm) { 
-            margin-top: -20%;
+        @media (min-width: $screen_viewport_md) { 
+            margin-top: -22%;
             margin-bottom: 0;
         }
     }
