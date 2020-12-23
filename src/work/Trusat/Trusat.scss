@@ -5,6 +5,24 @@ $color--trusat-blue-medium: #112b49;
 $color--trusat-salmon: #eb7e5f;
 
 .CoverTrusat {
+
+    margin-top: -1.25rem;
+
+    .trusat__cover-offsetter {
+        @media (min-width: $screen_viewport_md) { 
+            width: 105%;
+        }
+    }
+
+    .trusat__cover-caption-spacer {
+        margin-top: -3rem;
+        margin-bottom: 1rem;
+
+        @media (min-width: $screen_viewport_md) { 
+            margin-top: -5rem;
+            margin-bottom: 0;
+        }
+    }
  
 }
 

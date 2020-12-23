@@ -45,6 +45,11 @@
     .temp-caption {
         padding-top: 0.8rem;
         @include font--small;
+        position: relative;
+    }
+
+    .temp-caption__caption {
+        // position: absolute;
     }
 
     .temp-caption a {

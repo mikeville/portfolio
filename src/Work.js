@@ -27,10 +27,7 @@ const ReactLazyPreload = importStatement =>  {
     Component.preload = importStatement;
     return Component;
 }
-
 const TrusatOverview = ReactLazyPreload(() => import('./work/Trusat/TrusatOverview'));
-
-
 TrusatOverview.preload();
 
 
