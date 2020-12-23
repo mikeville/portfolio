@@ -7,7 +7,7 @@ import TrusatCanvas from "./TrusatCanvas"
 
 import './Trusat.scss';
 
-import vidCapture from './media/trusat-Phone4vbr-1020w-stretched.mp4'
+import vidCapture from './media/trusat-Phone3vbr-1020w-shortened.mp4'
 import vidStarMatch from './media/trusat-Phone--star_match_2.mp4'
 
 import imgDesktopCatalog from './media/screenshots-desktop/trusat-current_app_catalog.jpg' 

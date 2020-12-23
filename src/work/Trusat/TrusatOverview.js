@@ -7,7 +7,7 @@ import Loader from "../../Loader"
 import './Trusat.scss';
 
 
-import vidCapture from './media/trusat-Phone4vbr-1020w-stretched.mp4'
+import vidCapture from './media/trusat-Phone3vbr-1020w-shortened.mp4'
 
 import vidExplainerZoom from './media/explainer/trusat-explainer-zoom.mp4'
 import vidExplainerPlan from './media/explainer/trusat-explainer-plan.mp4'
