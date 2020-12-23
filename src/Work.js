@@ -21,7 +21,17 @@ import CoverUmbro from './work/Umbro/CoverUmbro';
 import CoverGoogleCreativeLab from './work/GoogleCreativeLab/CoverGoogleCreativeLab';
 import CoverBusinessweek from './work/Businessweek/CoverBusinessweek';
 
+// special preloads
+const ReactLazyPreload = importStatement =>  {
+    const Component = React.lazy(importStatement);
+    Component.preload = importStatement;
+    return Component;
+}
 
+const TrusatOverview = ReactLazyPreload(() => import('./work/Trusat/TrusatOverview'));
+
+
+TrusatOverview.preload();
 
 
 class Work extends React.Component {
@@ -30,8 +40,6 @@ class Work extends React.Component {
         this.state = {}
         this.handleTestClick = this.handleTestClick.bind(this);
     }
-
-    //test
 
     handleTestClick() {
         console.log("hello click worked")

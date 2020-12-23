@@ -10,7 +10,6 @@ import ProjectFooter from '../../ProjectFooter';
 
 
 import TrusatOverview from "./TrusatOverview"
-// const TrusatOverview = React.lazy(() => import('./TrusatOverview'));
 
 
 const TrusatResearch = React.lazy(() => import('./TrusatResearch'));
