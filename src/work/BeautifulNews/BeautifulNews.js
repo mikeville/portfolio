@@ -55,13 +55,10 @@ function BeautifulNews() {
                 <div className="row">
                   <div className="col-md-7 body-copy">
                     <p>
-                      I designed 30+ graphics for the <a href="beautifulnews" target="_blank">Beautiful News</a> project. The series highlights positive macro trends beyond the headlines of our daily doomscrolling.
+                      I designed 30+ graphics for the <a href="https://informationisbeautiful.net/beautifulnews/" target="_blank">Beautiful News</a> project. The series highlights positive macro trends beyond the headlines of our daily doomscrolling.
                     </p>
                   </div>
                   <div className="col-xs-10 col-md-4 start-md-8 note">
-                  <p className="note__title">
-                    Team
-                  </p>
                     <ul className="credit-list">
                       <li>
                         Director: <a href="http://davidmccandless.com/" target="_blank">David McCandless</a>
@@ -70,8 +67,8 @@ function BeautifulNews() {
                         Researcher: <a href="http://www.stephaniestarling.com/" target="_blank">Stephanie Starling</a>
                       </li>
                       <li>
-                        Thank you <a href="http://www.fabiobergamaschi.com/" target="_blank">Fabio Bergamaschi</a>, <a href="https://www.behance.net/anca-m" target="_blank">Anca Mateescu</a>, <a href="https://twitter.com/rhodri?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Rhodri Marsden
-</a>, and Kathryn Ariel for all your help.
+                        Thanks also to <a href="http://www.fabiobergamaschi.com/" target="_blank">Fabio Bergamaschi</a>, <a href="https://twitter.com/rhodri?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Rhodri Marsden
+</a>, Kathryn Ariel, and <a href="https://www.behance.net/anca-m" target="_blank">Anca Mateescu</a>.
                       </li>
                     </ul>
                   </div>
