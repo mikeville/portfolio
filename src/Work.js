@@ -42,6 +42,11 @@ class Work extends React.Component {
         console.log("hello click worked")
     }
 
+      
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
     return (
         <div className="Work">
@@ -68,12 +73,12 @@ class Work extends React.Component {
                 </CoverCaption>
             </section>
             <section className="cover">
-                <a href="https://informationisbeautiful.net/beautifulnews/"  target="_blank">
+                <Link to="/beautifulnews">
                     <div className="cover__header">
                         <CoverHeader project="Beautiful News" role="Data stories" />
                     </div>
                     <CoverBeautifulNews />
-                </a>
+                </Link>
                 <CoverCaption>
                     Various graphics highlighting positive trends across our planet.
                 </CoverCaption>
