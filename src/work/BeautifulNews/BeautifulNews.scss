@@ -28,7 +28,15 @@ $color-bnews-bg: #2a2a2e;
         }
 
         img {
-            margin-bottom: 6px;
+            margin-bottom: -2px;
+
+            @media (max-width: $screen_viewport_md) { 
+            margin-bottom: 1.25rem;
+            }
         }
+    }
+
+    .project__body {
+        margin-bottom: 5rem;
     }
 }
