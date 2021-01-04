@@ -3,4 +3,7 @@ publish = "build/"
 command = "CI=false && yarn build"
 build = "build"
 
-[[redirects]]   from = "/*"   to = "/index.html"   status = 200
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
