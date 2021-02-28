@@ -18,7 +18,7 @@ function Home() {
         <div className="row">
           <div className="col-md-6">
             <h3>
-              Design director for products and stories 
+              Design director for products and stories, <br className="hide-till-desktop"></br>heading design at <a href="https://superrare.co/" target="_blank">SuperRare</a> 
             </h3>
           </div>
           <div className="col-md-6 home__header__about-link-container">

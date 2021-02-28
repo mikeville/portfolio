@@ -93,10 +93,13 @@ class About extends React.Component {
                         </div>
                         <div className="col-xs-12 col-md-10 about__section__content">
                             <p>
-                            Ahoy! I'm a Seattle-born, Brooklyn-based design director searching for new ways to spread info and ideas that increase our well being.
+                            Ahoy. I'm a Seattle-born, Brooklyn-based design director looking for new ways to connect people and spread ideas.
                             </p>
                             <p>
-                            I have 11 years of experience serving a range of audiences and organizations. I design holistically—balancing user needs with business goals, and merging product with brand to create useful tools with impactful stories. I love working with others to solve complex puzzles in uncharted waters. Long live the funk.
+                            I have 12 years of experience serving a range of audiences and organizations. I design holistically across product and brand to create useful tools with impactful stories. I love collaborating on complex puzzles in uncharted waters. 
+                            </p>
+                            <p>
+                            I currently head design at <a href="https://superrare.co/" target="_blank">SuperRare</a>. I'm always down to chat about audio+visual collaborations. Long live the funk.
                             </p>
                         </div>
                     </div>
@@ -157,7 +160,7 @@ class About extends React.Component {
                                 <ul className="col-sm-4">
                                     <li>Medium</li>
                                     <li>Pinterest</li>
-                                    <li>SuperRare</li>
+                                    <li>Google</li>
                                 </ul>
                                 <ul className="col-sm-4">
                                     <li>Newsweek</li>

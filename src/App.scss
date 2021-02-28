@@ -50,6 +50,13 @@ p .note,
     display: block;
   }
 }
+.hide-till-desktop {
+  display: none;
+
+  @media (min-width: $screen_viewport_lg) {
+    display: block;
+  }
+}
 .hide-on-desktop {
   display: block;
 
