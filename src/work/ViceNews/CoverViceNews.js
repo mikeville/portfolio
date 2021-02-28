@@ -4,6 +4,7 @@ import './ViceNews.scss';
 import '../../Work.scss'; 
 // ---------
 import coverVideo from './media/yg-vn_site-170809-1246-cover_comp_1-05br.mp4' 
+import BrowserChrome from "../../BrowserChrome"
 
 
 class CoverViceNews extends React.Component {
@@ -14,12 +15,14 @@ class CoverViceNews extends React.Component {
 
     render() {
         return (
-            <div className="CoverProject">
+            <div className="CoverProject CoverViceNews">
                 <div className="container">
-                    <video className="cover__video" muted preload="metadata" playsInline autoPlay="autoplay" loop="loop">
-                        <source src={coverVideo}></source>
-                        Your browser does not support the video tag.
-                    </video>
+                    <BrowserChrome>
+                        <video className="cover__video" muted preload="metadata" playsInline autoPlay="autoplay" loop="loop">
+                            <source src={coverVideo}></source>
+                            Your browser does not support the video tag.
+                        </video>
+                    </BrowserChrome>
                 </div>
             </div>
         );
