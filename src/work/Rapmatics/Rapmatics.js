@@ -9,7 +9,7 @@ import './Rapmatics.scss';
 import imgCanIKickIt from './media/rapmatic--animated--can-i-kick-it.gif' 
 import imgGiveItToMe from './media/rapmatic--give-it-to-me-800.gif' 
 import imgSoWhatchaWant from './media/rapmatic--watchoo-want-800.gif' 
-import imgPartyUp from './media/rapmatic--party-up-800.gif' 
+import imgPartyUp from './media/rapmatic--party-up-800.01b72abd--2021update2.gif' 
 import imgTheWorldIsYours from './media/rapmatic--the-world-is-yours-800.gif' 
 import imgWorkIt from './media/rapmatic--animated--work-it.gif' 
 import imgIzzo from './media/rapmatic--animated--hova.gif' 
